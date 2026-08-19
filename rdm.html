@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.33">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Research data management – RC training</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-1f0350de2ecdad20e55f10b05729bb57.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">RC training</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./getting-started"> 
+<span class="menu-text">Getting started</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./programming"> 
+<span class="menu-text">Programming</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-domains" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Domains</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-domains">    
+        <li>
+    <a class="dropdown-item" href="./domains/bioinfo">
+ <span class="dropdown-text">Bioinformatics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./domains/dh">
+ <span class="dropdown-text">Digital humanities</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./domains/md">
+ <span class="dropdown-text">Molecular dynamics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./domains/astro">
+ <span class="dropdown-text">Astrophysics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./domains/geo">
+ <span class="dropdown-text">Earth sciences and GIS</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-tools" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Tools</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-tools">    
+        <li>
+    <a class="dropdown-item" href="./tools/visualization">
+ <span class="dropdown-text">Visualization</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./tools/virtual">
+ <span class="dropdown-text">Cloud and containers</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./tools/scheduling">
+ <span class="dropdown-text">Scheduling</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./tools/rdm">
+ <span class="dropdown-text">Data management</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./tools/ml">
+ <span class="dropdown-text">Machine learning</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./tools/pp">
+ <span class="dropdown-text">Probabilistic programming</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./tools/cyber">
+ <span class="dropdown-text">Cybersecurity</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./courses"> 
+<span class="menu-text">Courses</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./events"> 
+<span class="menu-text">Events</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="./contact"> <i class="bi bi-envelope" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/WGSeminarSeries"> <i class="bi bi-youtube" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Research data management</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<!-- [Table of Contents](#table-of-contents): -->
+<!-- &nbsp; -->
+<!-- [<em>"Distributed file storage with git-annex"</em>](#annex) -->
+<!-- • [<em>"DataFrames on steroids with Polars"</em>](#polars) -->
+<!-- • [<em>"Lossy data compression"</em>](#lossy) -->
+<!-- • [<em>"Version control for data science and machine learning with DVC"</em>](#dvc) -->
+<!-- • [<em>"Managing large hierarchical datasets with PyTables"</em>](#pytables) -->
+<!-- • [<em>"Distributed datasets with DataLad"</em>](#distributed-datasets-with-datalad) -->
+<!-- • [<em>"How to create and access MySQL and PostgreSQL databases on DRI systems"</em>](#sql) -->
+<!-- • [<em>"Data management with DataLad"</em>](#datalad) -->
+<!-- • [<em>"Hiding large numbers of files in container overlays"</em>](#manyFilesInOverlays) -->
+<!-- • [<em>"Linking databases to code repositories with Throughput"</em>](#throughput) -->
+<!-- • [<em>"Automating your backups in Linux and MacOS""</em>](#backups) -->
+<!-- • [<em>"Working with multidimensional datasets in xarray"</em>](#xarray) -->
+<!-- • [<em>"File access control approaches and best practices"</em>](#acl) -->
+<!-- • [<em>"Managing many files with Disk ARchiver (DAR)"</em>](#dar) -->
+<!-- • [<em>"Research Data Management Tools, Platforms, and Best Practices for Canadian Researchers"</em>](#rdmToolsPlatforms) -->
+<section id="webinars" class="level2">
+<h2 class="anchored" data-anchor-id="webinars">Webinars</h2>
+<p>Click on each webinar for its recording and materials.</p>
+<!-- <details> -->
+<!-- <summary style="line-height: 0.6; margin: 0; padding: 2px 0;"> -->
+<!-- <span style="font-size: 1.2em;">title</span> (date) -->
+<!-- </summary> -->
+<!-- <br> -->
+<!-- <p> -->
+<!-- paragraph 1 -->
+<!-- </p><p> -->
+<!-- paragraph 2 -->
+<!-- </p> -->
+<!-- <ul> -->
+<!--    <li>Speaker: </li> -->
+<!--    <li><a href="" target="_blank">PDF slides</a></li> -->
+<!-- </ul> -->
+<!-- <div class="video-container" data-url="https://www.youtube.com/embed/videoIDstring"></div> -->
+<!-- <br> -->
+<!-- </details> -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">RIP pandas, welcome Polars</span> (2026-Apr-07)
+</summary>
+<br>
+<p>
+DataFrames first appeared in the statistical S, then R programming languages. They were ported to Python in 2008 with the pandas library. There is now a new and much better library for Python DataFrames: Polars. There are no downsides to using it instead of pandas, beside the effort of changing habits. For new users who don’t have habits yet, there are just no downsides. Yet, all Python intro courses still teach pandas.
+</p>
+<p>
+In this webinar, I will not teach Polars and its syntax. Instead I will demo why it is better than pandas with a series of examples. Ultimately, my goal is to help shift the culture towards a wider adoption of Polars instead of pandas for DataFrames in Python.
+</p>
+<ul>
+<li>
+Speaker: Marie-Hélène Burle
+</li>
+<li>
+<a href="https://mint.westdri.ca/python/wb_polars2_slides" target="_blank">Online slides</a> and the <a href="https://mint.westdri.ca/python/wb_polars2" target="_blank">webinar page</a>
+</li>
+<li>
+<a href="https://mint.westdri.ca/python/hpc_polars" target="_blank">Our Polars DataFrames course</a>
+</li>
+<li>
+<a href="https://mint.westdri.ca/python/gpu_cudf" target="_blank">Our upcoming course on using Polars on a GPU</a>
+</li>
+<li>
+<a href="https://docs.pola.rs" target="_blank">Polars official documentation</a>
+</li>
+</ul>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/Z0YeoRVs1D8" width="100%" height="500px" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Globus-cli for file transfer</span> (2025-Oct-14)
+</summary>
+<br>
+<p>
+Globus is a widely used platform for secure, reliable, and high-performance data transfer across research systems. While the web interface is intuitive and remains our primary recommendation for most users, the command-line interface (CLI) offers advanced capabilities for automation, scripting, and managing large-scale workflows. In this webinar, we will present the globus-cli tool, show how to authenticate and configure your environment, and demonstrate key commands for transferring, monitoring, and managing files between endpoints. You will also learn tips for integrating globus-cli into scripts for repeatable and efficient data movement.
+</p>
+<ul>
+<li>
+Speaker: Alex Razoumov
+</li>
+<li>
+<a href="https://folio.vastcloud.org/globus" target="_blank">Online notes</a>
+</li>
+</ul>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/gZuDmPush7M" width="100%" height="500px" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Workflow hacks for large datasets in HPC</span> (2025-May-20)
+</summary>
+<br>
+<p>
+In this webinar, I briefly highlight some of the previously covered tools for working with large datasets: (1) Lossy 3D data compression can reduce the size of 3D datasets by up to 100X with no visible artifacts, making it ideal for storage and archival. (2) In-situ visualization enables interactive rendering of large in-memory arrays without the need to store them to disk. (3) Distributed storage of large datasets helps manage vast amounts of data across multiple locations. (4) DAR is a modern, high-performance alternative to TAR that offers indexing, differential archives, and faster extraction.
+</p>
+<ul>
+<li>
+Speaker: Alex Razoumov
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/datasetHacks202505.pdf" target="_blank">PDF slides</a>
+</li>
+</ul>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/wLC28MIs-ak" width="100%" height="500px" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Introduction to Globus</span> (2025-Apr-08)
+</summary>
+<br>
+<p>
+Globus is a data management service that enables seamless file transfers between endpoints—computers connected to the Globus file transfer network. It has become the standard in research and high-performance computing for efficiently moving large datasets, especially when transferring data to or from institutions that already provide a Globus endpoint.
+</p>
+<p>
+In this session, we provide an overview of Globus, including a demonstration of how to use this service via the Globus web interface and command line (CLI), as well as how to automate certain Globus tasks.
+</p>
+<ul>
+<li>
+Speakers: Ben Lai and Michael Tang
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/introGlobus202504.pdf" target="_blank">PDF slides</a>
+</li>
+<li>
+<a href="https://docs.globus.org/cli" target="_blank">Globus Command Line Interface (CLI) documentation</a>
+</li>
+</ul>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/lwrd7HV4QV4" width="100%" height="500px" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<a name="annex"></a>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Distributed file storage with git-annex</span> (2024-Nov-26)
+</summary>
+<br>
+<p>
+git-annex is a file synchronization tool designed to simplify the management of large (typically data-oriented) files under version control. Unlike Git, git-annex does not track file contents but rather facilitates the organization of data across multiple locations, both online and offline, enabling the creation of multiple copies for backup and redundancy, ensuring data safety and organization. In the past, we have taught webinars on tools built upon git-annex, such as DataLad. In these tools the core functionality is typically provided by git-annex, so we believe it is crucial to understand how to effectively organize data using git-annex itself, without the distraction of additional features. Personally, I have been utilizing git-annex for several years to manage my extensive collection of archived files across multiple drives stored on a shelf. git-annex provides built-in redundancy, ensuring that each individual repository or drive is aware of the location of all files on other drives, eliminating the need to power them on just to find a file. git-annex also offers online capabilities, allowing file synchronization across multiple filesystems and clusters to help you manage your research data.
+</p>
+<ul>
+<li>
+Speaker: Alex Razoumov
+</li>
+<li>
+<a href="https://wgpages.netlify.app/annex" target="_blank">Online notes</a>
+</li>
+</ul>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/951fYUHkX5A" width="100%" height="500px" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<a name="polars"></a>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">DataFrames on steroids with Polars</span> (2024-May-14)
+</summary>
+<br>
+<p>
+Polars is a modern open-source and very fast DataFrame framework for Python, Rust, JS, R, and Ruby. In this webinar, I will demo Polars for Python and show how much faster it is compared to pandas while remaining just as convenient.
+</p>
+<ul>
+<li>
+Speaker: Marie-Hélène Burle
+</li>
+<li>
+<a href="https://mint.westdri.ca/python/wb_polars_slides#/title-slide" target="_blank">Online slides</a>
+</li>
+</ul>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/U5Gl_X6Z7Lk" width="100%" height="500px" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<a name="lossy"></a>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Lossy data compression</span> (2024-Apr-23)
+</summary>
+<br>
+<p>
+You might be familiar with gzip / bzip2 / zip tools that can compress all types of files without losing data. With typical 3D research datasets, these tools reduce your file sizes by ~30-50% – in some cases more, depending on the nature of your data. Popular scientific data formats such as NetCDF and HDF5 also support built-in lossless compression most commonly implemented via zlib or szip libraries. On the other hand, we have all used lossy compression for audio, video and images. Lossy compression can be applied to multidimensional scientific datasets as well, with far better compression ratio than with lossless compression, as you really are disposing of some of the less important bits. In general, with 3D scalar fields you can expect a compression ratio of approximately 20:1 or even 30:1, without any visible degradation. This is especially fantastic for archiving the results of multidimensional simulations, as you can store your data in much less space than its original footprint. In this webinar we cover two different approaches to lossy 3D data compression. We focus on file (rather than in-memory) compression, with long-term data storage in mind.
+</p>
+<ul>
+<li>
+Speaker: Alex Razoumov
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/lossy20240423.pdf" target="_blank">PDF slides</a>
+</li>
+</ul>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/dMSBFH62R3c" width="100%" height="500px" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<a name="dvc"></a>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Version control for data science and ML with DVC</span> (2023-Dec-12)
+</summary>
+<br>
+<p>
+Data version control (DVC) is an open-source tool that brings all the versioning and collaboration capabilities you use on your code with Git to your data and machine learning workflow. If you use datasets in your work, it makes it easy to track their evolution. If you are in the field of machine learning, it additionally allows you to track your models, manage your pipelines from parameters to metrics, collaborate on your experiments, and integrate with the continuous integration tool for machine learning projects CML. This webinar shows how to get started with DVC, first in the simple case where you just want to put your data under version control, then in the more complex situation where you want to manage your machine learning workflow in a more organized and reproducible fashion.
+</p>
+<ul>
+<li>
+Speaker: Marie-Hélène Burle
+</li>
+<li>
+<a href="https://mint.westdri.ca/ai/wb_dvc" target="_blank">Online slides</a>
+</li>
+</ul>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/2MQVF78FRKs" width="100%" height="500px" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<a name="pytables"></a>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Managing large hierarchical datasets with PyTables</span> (2023-May-23)
+</summary>
+<br>
+<p>
+PyTables is a free and open-source Python library for managing large hierarchical datasets. It is built on top of NumPy and the HDF5 scientific dataset library and it focuses both on performance and interactive analysis of very large datasets. For large data streams (think multi-dimensional arrays or billions of records), it outperforms databases in terms of speed, memory usage, and I/O bandwidth. That said, PyTables is not a replacement for traditional relational databases because it does not support broad relationships between dataset variables. PyTables can even be used to organize a workflow with many (thousands to millions) of small files, as you can create a PyTables database of nodes that can be used like regular opened files in Python. This lets you store a large number of arbitrary files in a PyTables database with on-the-fly compression, making it very efficient for handling huge amounts of data.
+</p>
+<ul>
+<li>
+Speaker: Alex Razoumov
+</li>
+<li>
+<a href="https://wgpages.netlify.app/pytables" target="_blank">Online notes</a>
+</li>
+</ul>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/iFzKWIgZEds" width="100%" height="500px" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Distributed datasets with DataLad</span> (2023-Mar-28)
+</summary>
+<br>
+<p>
+This webinar provides a more beginner-oriented tutorial to version control of large data files with DataLad. We start with a textbook introduction to DalaLad showing its main features on top of Git and git-annex. Next we demonstrate several simple but useful workflows. Please note that not everything fit into the 50-min presentation, but the notes below contain everything.
+</p><li>
+two users on a shared cluster filesystem working with the same dataset stored in <code>/project</code>,
+</li>
+<li>
+one user, one dataset spread over multiple drives, with data redundancy,
+</li>
+<li>
+publishing a dataset on GitHub with annexed files in a special private remote,
+</li>
+<li>
+publishing a dataset on GitHub with publicly-accessible annexed files on the Alliance’s Nextcloud, and
+</li>
+<li>
+managing multiple Git repositories under one dataset.
+</li>
+<p></p>
+<ul>
+<li>
+Speaker: Alex Razoumov
+</li>
+<li>
+<a href="https://wgpages.netlify.app/datalad" target="_blank">Online notes</a>
+</li>
+</ul>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/itXkNB9Pq30" width="100%" height="500px" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<a name="sql"></a>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Create and access MySQL / PostgreSQL databases on DRI systems</span> (2023-Feb-28)
+</summary>
+<br>
+<ul>
+<li>
+Speaker: Gemma Hoad
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/databases20230228.pdf" target="_blank">PDF slides</a>
+</li>
+</ul>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/3uHSXXQwJpQ" width="100%" height="500px" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<a name="datalad"></a>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Data management with DataLad</span> (2023-Feb-14)
+</summary>
+<br>
+<p>
+This talk is a brief introduction to version controlling data and data processing workflows. Three illustrative use cases – taken from neuroimaging, geophysics, and workflows for analyzing housing data respectively – are used to provide an introduction to the main concepts of git-based file management, collaboration, and analysis.
+</p>
+<ul>
+<li>
+Speaker: Ian Percel
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/datalad_for_hpc_1_1.pdf" target="_blank">PDF slides</a>
+</li>
+</ul>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/IZGlxfdRRno" width="100%" height="500px" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<a name="manyFilesInOverlays"></a>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Hiding large numbers of files in container overlays</span> (2023-Jan-17)
+</summary>
+<br>
+<p>
+Many unoptimized HPC cluster workflows result in writing large numbers of files to distributed filesystems which can create significant problems for the performance of these shared filesystems. One of the ways to alleviate this is to organize write operations inside a persistent overlay directory attached to an immutable read-only container with your scientific software. These output files will be stored separately from the base container image, and to the host filesystem an overlay appears as a single large file. In this presentation, we demo running parallel OpenFOAM simulations where all output goes into overlay images, and the total number of files on the host filesystem is reduced from several million to several dozen or less. The same approach can be used in post-processing and visualization, where you can read simulation data from multiple overlays both in serial and in parallel. In this webinar we walk you through all stages of creating and using overlays. We assume no prior knowledge of the container technology.
+</p>
+<ul>
+<li>
+Speaker: Alex Razoumov
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/overlays20230117.pdf" target="_blank">PDF slides</a>
+</li>
+</ul>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/XGFE0gddMX4" width="100%" height="500px" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<a name="throughput"></a>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Linking databases to code repositories with Throughput</span> (2021-Mar-03)
+</summary>
+<br>
+<ul>
+<li>
+Speaker: Simon Goring
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/throughput20210303.pdf" target="_blank">PDF slides</a>
+</li>
+<li>
+<a href="https://throughput-ec.github.io/throughput_docs" target="_blank">Throughput DB documentation</a>
+</li>
+</ul>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/WVFfRV2X0HI" width="100%" height="500px" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<a name="backups"></a>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Automating your backups in Linux and MacOS</span> (2021-Feb-17)
+</summary>
+<br>
+<p>
+In this presentation I cover two fantastic multi-platform, open-source backup tools (<code>dar</code> and <code>borg</code>) that I’ve been using for many years. I combine them both into a single bash function that keeps multiple copies of your data, switch between two methods for redundancy, with a simple option for an off-site backup on a remote Linux server, and provide a simple mechanism for restoring your data. Both tools support incremental backup, compression, encryption, and – equally important – write to a sensible number of archive files that you can easily move around, e.g., to switch to a new backup drive, or to use a low-capacity USB drive for an incremental backup of a much larger filesystem.
+</p>
+<ul>
+<li>
+Speaker: Alex Razoumov
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/backup202102.pdf" target="_blank">PDF slides</a>
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/functions202102.sh" target="_blank">Bash script</a> with all function definitions
+</li>
+</ul>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/VF-gijhrcYE" width="100%" height="500px" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<a name="xarray"></a>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Working with multidimensional datasets in xarray</span> (2020-Sep-30)
+</summary>
+<br>
+<ul>
+<li>
+Speaker: Alex Razoumov
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/xarray20200930.pdf" target="_blank">PDF slides</a>
+</li>
+</ul>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/xdrcMi_FB8Q" width="100%" height="500px" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<a name="acl"></a>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">File access control approaches and best practices</span> (2019-Oct-30)
+</summary>
+<br>
+<ul>
+<li>
+Speaker: Sergiy Stepanenko
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/acl20191030.pdf" target="_blank">PDF slides</a>
+</li>
+</ul>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/h-iZ2Cz9OTA" width="100%" height="500px" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<a name="dar"></a>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Managing many files with Disk ARchiver (DAR)</span> (2019-May-01)
+</summary>
+<br>
+<p>
+Large parallel filesystems found on HPC clusters – such as /home, /scratch and /project – have one weak spot: they were not designed for storing large numbers of small files. Due to this limitation, we always advise our users to reduce the number of files stored in their directories, either by instrumenting their code to write fewer larger files, or by using an archive tool such as the classic Unix utility <code>tar</code> to pack their files into archives. There is a little-known, but incredibly useful open-source tool called <code>dar</code> that was developed as a faster, modern replacement to <code>tar</code>. DAR stands for <code>disk archive</code> and supports file indexing, differential and incremental backups, Linux file Access Control Lists (ACL), compression, symmetric and public key encryption, remote archives, and has many other nice features. In this webinar we go through several use cases for <code>dar</code> both on Compute Canada clusters and on your own laptop with a bash shell. We show you how to manage directories with many files, how to backup and restore your data, and other workflows.
+</p>
+<ul>
+<li>
+Speaker: Alex Razoumov
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/dar20190501.zip" target="_blank">ZIP file</a> with slides and bash functions
+</li>
+</ul>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/AeZSPa4aMnk" width="100%" height="500px" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<a name="rdmToolsPlatforms"></a>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">RDM tools, platforms, and best practices for Canadian researchers</span> (2019-Mar-20)
+</summary>
+<br>
+<ul>
+<li>
+Speaker: Alex Garnett and Adam McKenzie
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/rdm20190320.pdf" target="_blank">PDF slides</a>
+</li>
+</ul>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/ZMl6bZT7ZU0" width="100%" height="500px" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <br>
+</details>
+<p><br></p>
+
+<div class="d-flex justify-content-end my-4">
+  <button class="btn btn-outline-secondary btn-sm" onclick="collapseAllDetails()">
+    <i class="bi bi-arrows-collapse"></i> Collapse All Sections
+  </button>
+</div>
+<!-- button to collapse all sections in this page -->
+<script>
+function collapseAllDetails() {
+  document.querySelectorAll('details').forEach(d => d.open = false);
+}
+</script>
+<!-- embed a video forcing a high-resolution thumbnail preview -->
+<script>
+document.querySelectorAll('details').forEach(details => {
+  details.addEventListener('toggle', () => {
+    if (details.open) {
+      const container = details.querySelector('.video-container');
+      if (container && !container.querySelector('iframe')) {
+        const url = container.getAttribute('data-url');
+        container.innerHTML = `<iframe src="${url}" width="100%" height="500px" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+      }
+    }
+  });
+});
+</script>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/WestDRI\.github\.io\/training\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

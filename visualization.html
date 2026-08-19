@@ -1,0 +1,1418 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.33">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Visualization resources – RC training</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-1f0350de2ecdad20e55f10b05729bb57.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">RC training</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./getting-started"> 
+<span class="menu-text">Getting started</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./programming"> 
+<span class="menu-text">Programming</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-domains" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Domains</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-domains">    
+        <li>
+    <a class="dropdown-item" href="./domains/bioinfo">
+ <span class="dropdown-text">Bioinformatics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./domains/dh">
+ <span class="dropdown-text">Digital humanities</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./domains/md">
+ <span class="dropdown-text">Molecular dynamics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./domains/astro">
+ <span class="dropdown-text">Astrophysics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./domains/geo">
+ <span class="dropdown-text">Earth sciences and GIS</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-tools" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Tools</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-tools">    
+        <li>
+    <a class="dropdown-item" href="./tools/visualization">
+ <span class="dropdown-text">Visualization</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./tools/virtual">
+ <span class="dropdown-text">Cloud and containers</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./tools/scheduling">
+ <span class="dropdown-text">Scheduling</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./tools/rdm">
+ <span class="dropdown-text">Data management</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./tools/ml">
+ <span class="dropdown-text">Machine learning</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./tools/pp">
+ <span class="dropdown-text">Probabilistic programming</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./tools/cyber">
+ <span class="dropdown-text">Cybersecurity</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./courses"> 
+<span class="menu-text">Courses</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./events"> 
+<span class="menu-text">Events</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="./contact"> <i class="bi bi-envelope" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/WGSeminarSeries"> <i class="bi bi-youtube" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Visualization resources</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>For full documentation, please check the <a href="https://docs.alliancecan.ca/wiki/Visualization" target="_blank">Visualization section</a> in Alliance’s technical wiki.</p>
+<section id="workshops" class="level2">
+<h2 class="anchored" data-anchor-id="workshops">Workshops</h2>
+<ul>
+<li>ParaView full-day workshop slides (last updated October 2025):
+<ul>
+<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/paraviewWorkshop1.pdf" target="_blank">Part 1</a> (62 pages)</li>
+<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/paraviewWorkshop2.pdf" target="_blank">Part 2</a> (59 pages)</li>
+</ul></li>
+<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/visitWorkshop.pdf" target="_blank">VisIt full-day workshop slides</a> (129 pages, last updated May 2017)</li>
+<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/dhsi.pdf" target="_blank">“3D visualization for the humanities” slides</a> (82 pages, last updated June 2023)</li>
+<li><a href="https://acenet-arc.github.io/paraview-introduction/" target="_blank">ACENET’s Paraview Introduction</a> by Angus Creech <!-- repo https://github.com/acenet-arc/paraview-introduction/tree/master/_episodes --></li>
+</ul>
+</section>
+<section id="webinars" class="level2">
+<h2 class="anchored" data-anchor-id="webinars">Webinars</h2>
+<!-- <details> -->
+<!-- <summary style="line-height: 0.6; margin: 0; padding: 2px 0;"> -->
+<!-- <span style="font-size: 1.2em;">title</span> (date) -->
+<!-- </summary> -->
+<!-- <br> -->
+<!-- <p> -->
+<!-- paragraph 1 -->
+<!-- </p><p> -->
+<!-- paragraph 2 -->
+<!-- </p> -->
+<!-- <ul> -->
+<!--    <li>Speaker: </li> -->
+<!--    <li><a href="" target="_blank">PDF slides</a></li> -->
+<!-- </ul> -->
+<!-- <div class="video-container" data-url="https://www.youtube.com/embed/videoIDstring"></div> -->
+<!-- <br> -->
+<!-- </details> -->
+<p>Click on each webinar for its recording and materials.</p>
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Two paths to Python dashboards: Shiny vs Dash</span> (2026-May-19)
+</summary>
+<br>
+<p>
+Interactive dashboards are a powerful way to explore data, communicate results, and build web applications directly from Python. Two popular frameworks for this purpose are Python Shiny and Plotly Dash, each offering different approaches to building reactive interfaces and interactive visualizations.
+</p>
+<p>
+In this webinar, we compare these two frameworks through a small set of practical examples. Rather than providing a comprehensive feature-by-feature review, we implement the same simple dashboards in both frameworks and examine how their design philosophies translate into code structure and reactivity models, and how similar functionality can be implemented in each framework.
+</p>
+<ul>
+<li>
+Speakers: Marie-Hélène Burle and Alex Razoumov
+</li>
+<li>
+<a href="https://folio.vastcloud.org/winterseries" target="_blank">Winter visualization series</a>
+</li>
+<li>
+Part 1: <a href="https://folio.vastcloud.org/plotly1/plotly-04-dash.html" target="_blank">Interactive apps with Dash</a>
+</li>
+<li>
+Part 2: <a href="https://mint.westdri.ca/python/wb_shiny" target="_blank">Shiny dashboards</a>
+</li>
+<li>
+Shinylive examples (Python code running inside the browser via WebAssembly):
+</li>
+<ul>
+<li>
+<a href="https://lasso-dashboard.netlify.app" target="_blank">Lasso selection</a>
+</li>
+<li>
+<a href="https://3d-contour-dashboard.netlify.app" target="_blank">3D contours through a NetCDF dataset</a>
+</li>
+<li>
+<a href="https://data-collection-dashboard.netlify.app" target="_blank">data collection dashboard</a> (will freeze when you try to save results: no local file)
+</li>
+<li>
+and the <a href="https://github.com/WestDRI/dashboards" target="_blank">source code</a> for these examples
+</li>
+</ul>
+</ul>
+<!--  -->
+<div class="video-container" data-url="https://www.youtube.com/embed/exp1b6HQjlI">
+
+</div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Creating interactive online visualizations with Trame</span> (2025-Nov-18)
+</summary>
+<br>
+<p>
+Trame is an open-source framework that lets researchers build interactive web applications and dashboards for data visualization, leveraging Python and popular visualization frameworks like VTK and ParaView. In this webinar, we introduce the core concepts of Trame, demonstrate how to create interactive visualizations, and show how to put them online for easy sharing. This session is ideal for researchers and data scientists who want to transform their static visualizations into interactive, shareable experiences without needing extensive web development expertise.
+</p>
+<ul>
+<li>
+Speaker: Alex Razoumov
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/trame20251118.pdf" target="_blank">PDF slides</a>
+</li>
+</ul>
+<!--  -->
+<div class="video-container" data-url="https://www.youtube.com/embed/0yfzutsNnjI">
+
+</div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<a name="imagemagick"></a>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Command-line image processing with ImageMagick</span> (2024-Jan-09)
+</summary>
+<br>
+<p>
+ImageMagick is an open-source tool for manipulating images. You can use it to convert images between different formats, including JPEG, PNG, PDF, AVIF, TIFF and many others. ImageMagick can also resize, rotate, crop, and transform images, adjust colours, apply special effects, and draw basic shapes. First released in 1990, ImageMagick has grown to include hundreds of features. It runs on Linux, Mac, Windows, and is also available on the Alliance clusters. In this webinar I will try to help you navigate ImageMagick’s myriad of functions by showing some command-line workflows most common in scientific research.
+</p>
+<ul>
+<li>
+Speaker: Alex Razoumov
+</li>
+<li>
+<a href="https://wgpages.netlify.app/imagemagick" target="_blank">Online notes</a>
+</li>
+</ul>
+<!--  -->
+<div class="video-container" data-url="https://www.youtube.com/embed/8n16CuJZJ4c">
+
+</div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Text analysis in 3D</span> (2023-Nov-28)
+</summary>
+<br>
+<p>
+3D visualization is used surprisingly little to visualize data and connections in digital humanities, despite the fact that the 3rd dimension can provide many benefits, from decluttering your plot to encoding one of the variables. In this webinar I present a workflow to analyze a text corpus consisting of works from multiple authors, and visualize the differences between their vocabularies in 3D. I complement this visualization with 3D graphs to link similar texts. Throughout this webinar I am using only open-source tools – Python and several 3rd-party Python libraries, ParaView, and VTK, and show 3D visualizations that can easily scale to millions of texts and can work for any input language.
+</p>
+<ul>
+<li>
+Speaker: Alex Razoumov
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/texts20231128.pdf" target="_blank">PDF slides</a>
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/texts20231128.zip" target="_blank">All scripts</a>from the presentation (ZIP file)
+</li>
+</ul>
+<!--  -->
+<div class="video-container" data-url="https://www.youtube.com/embed/8kZaCbDvzcU">
+
+</div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<a name="cinema"></a>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Image-based approach to large-scale visualization</span> (2023-Oct-17)
+</summary>
+<br>
+<p>
+Cinema is an interactive image-based approach to data analysis and visualization targeting very large datasets that are difficult to visualize interactively due to their size. In Cinema you can store your visualization as a prerecorded database of images created, for instance, by a script that you run as a batch job on an HPC cluster. Once this database is built, you can import it into a Cinema-enabled environment to explore the visualization interactively as if you were rendering it live. The technique works equally well for simulation and experimental data. It potentially reduces data movement and storage since you don’t store the original multidimensional datasets, but only the 2D images that you want to see. Optionally, you can use Cinema with ParaView Catalyst to render the images in-situ, right in your simulation software.
+</p>
+<ul>
+<li>
+Speaker: Alex Razoumov
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/cinema20231017.pdf" target="_blank">PDF slides</a>
+</li>
+</ul>
+<!--  -->
+<div class="video-container" data-url="https://www.youtube.com/embed/m9f7fUBAoPk">
+
+</div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Launching 2023 <i>Visualize This</i> contest</span> (2023-Sep-19)
+</summary>
+<br>
+<p>
+This fall we are running a Canada-wide <a href="https://visualizethis.netlify.app" target="_blank">scientific visualization Contest</a>. The contest is targeting early-career researchers from Canadian universities, but anyone can participate irrespective of their affiliation or career stage. Participants can work on one of two geospatial datasets, one from a simulation of a storm in Eastern Canada, and the other from a compilation of the normalized difference vegetation index (NDVI) data over BC throughout 2022.
+</p>
+<p>
+In this webinar I go through both datasets, show how to load them into standalone Python and into ParaView and several possible techniques for visualizing these data, including manipulating variables via the Programmable Filter.
+</p>
+<ul>
+<li>
+Speaker: Alex Razoumov
+</li>
+<li>
+<a href="https://visualizethis.netlify.app/webinar" target="_blank">Online notes</a>
+</li>
+</ul>
+<!--  -->
+<div class="video-container" data-url="https://www.youtube.com/embed/MIlMQ3mcVW4">
+
+</div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Data visualization in Julia with the Makie ecosystem</span> (2022-Oct-26)
+</summary>
+<br>
+<p>
+There are several popular data visualization libraries for the Julia programming language, e.g.&nbsp;Plots, Gadfly, VegaLite, Makie. They vary in their precompilation time, time to first plot, layout capabilities, ability to handle 3D data, ease of use, and syntax style. In this landscape, Makie focuses on high performance, fancy layouts, and extensibility. Makie comes with multiple backends. In this workshop, we cover GLMakie (ideal for interactive 2D and 3D plotting), WGLMakie (an equivalent that runs within browsers), and CairoMakie (best for high-quality vector graphics). We also show how to run Makie in the Alliance clusters.
+</p>
+<ul>
+<li>
+Speaker: Marie-Hélène Burle
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/makie20221026.pdf" target="_blank">PDF slides</a>
+</li>
+<li>
+<a href="https://julia.westdri.ca/webinars/makie" target="_blank">Online slides</a>
+</li>
+</ul>
+<!--  -->
+<div class="video-container" data-url="https://www.youtube.com/embed/nmAv2bW9Y2I">
+
+</div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">In-situ visualization with ParaView Catalyst2</span> (2022-Sep-28)
+</summary>
+<br>
+<p>
+Catalyst lets you perform analysis and visualization of your simulation data while your simulation is running, using familiar ParaView visualization pipelines. In this webinar I focus on Catalyst2 which is a significant rewrite of the original Catalyst framework. Catalyst2 provides an API for describing and passing data arrays — computational meshes and fields — from your simulation to the Catalyst2 library which in turn converts these arrays into appropriate VTK data objects, without you having to know the VTK data model (unlike with the original Catalyst), and without duplicating these data arrays in memory. Catalyst2 framework can scale to very large datasets and thousands of CPU cores via MPI.
+</p>
+<p>
+I show examples of instrumenting a C simulation code with Catalyst2 and applying various Catalyst Python scripts to generate data and images on the fly while the simulation is running. These Catalyst Python scripts in turn can be easily generated with Extractors which have been part of ParaView since version 5.9. I also demo ParaView Live connecting from the ParaView GUI to a live simulation to modify an existing visualization pipeline while the simulation is running. This lets you interactively explore large datasets in memory without having to write them to disk. Even though I demo Catalyst2 with C codes, it can be used from C, C++, Fortran, Python, and has also been demonstrated to work well with Julia simulation codes.
+</p>
+<ul>
+<li>
+Speaker: Alex Razoumov
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/catalyst20220928.pdf" target="_blank">PDF slides</a>
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/catalyst20220928.zip" target="_blank">ZIP file with scripts and instructions</a>
+</li>
+</ul>
+<!--  -->
+<div class="video-container" data-url="https://www.youtube.com/embed/g3cvXeKbt1o">
+
+</div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Highlights from the 2021 SciVis Contest</span> (2021-Nov-10)
+</summary>
+<br>
+<p>
+The 2021 SciVis Contest organized jointly by IEEE and Compute Canada wrapped up on October 28th, with the official announcement of awards at the IEEE Vis conference. This Contest dataset was a numerical simulation of convection in the Earth’s mantle containing 251 timesteps covering 500 Myr of geological time, data courtesy of the Pysklywec Lab (Russell Pysklywec and Hosein Shahnas) at the University of Toronto. The simulation was conducted using Compute Canada’s Niagara cluster. The Contest challenge was to identify various flow features and visualize them clearly as they evolve in time. We saw many good submissions and a ton of innovative visualization ideas. In this webinar we talked about some of the ideas suggested in the submissions.
+</p>
+<ul>
+<li>
+Speaker: Alex Razoumov
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/scivis21.pdf" target="_blank">PDF slides</a>
+</li>
+</ul>
+<p>
+Please note that the short clips shared in the webinar were not recorded smoothly by Zoom, so it is best to watch these animations inside the presentations linked from the <a href="https://scivis2021.netlify.app/results" target="_blank">Contest website</a>.
+</p>
+<!--  -->
+<div class="video-container" data-url="https://www.youtube.com/embed/FmVOdcOoajM">
+
+</div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Remote visualization on Compute Canada clusters</span> (2021-Sep-29)
+</summary>
+<br>
+<ul>
+<li>
+Speaker: Alex Razoumov
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/remote20210929.pdf" target="_blank">PDF slides</a>
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/remote20210929.zip" target="_blank">ZIP file with scripts</a>
+</li>
+</ul>
+<!--  -->
+<div class="video-container" data-url="https://www.youtube.com/embed/VtAfV6V6Ob4">
+
+</div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<a name="nvidia"></a>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Scientific visualization on NVIDIA GPUs</span> (2021-Apr-28)
+</summary>
+<br>
+<ul>
+<li>
+Speaker: Nick Leaf (NVIDIA)
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/Nick_Leaf-Scientific_Visualization_on_NVIDIA_GPUs-April_2021.pdf" target="_blank">PDF slides</a>
+</li>
+</ul>
+<!--  -->
+<div class="video-container" data-url="https://www.youtube.com/embed/t9L8Q9jjGzo">
+
+</div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<a name="programmable"></a>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Workflows with Programmable Filter / Source in ParaView</span> (2021-Jan-20)
+</summary>
+<br>
+<p>
+For many years, one of the most underappreciated features in ParaView has been the ability to define custom objects using Programmable Filter or Source. These tools could be useful for defining new spatial discretizations (e.g.&nbsp;grids), for creating custom objects in 3D, or even for reading non-standard data from files. In this webinar I demonstrate some of these workflows.
+</p>
+<ul>
+<li>
+Speaker: Alex Razoumov
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/programmable20210120.pdf" target="_blank">PDF slides</a>
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/programmable20210120.zip" target="_blank">ZIP file with scripts</a>
+</li>
+</ul>
+<!--  -->
+<div class="video-container" data-url="https://www.youtube.com/embed/MBXP7hmYatc">
+
+</div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">The Topology ToolKit (TTK)</span> (2020-Nov-25)
+</summary>
+<br>
+<ul>
+<li>
+Speaker: Alex Razoumov
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/ttk20201125.pdf" target="_blank">PDF slides</a>
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/states20201125.tar.gz" target="_blank">gzipped tar file with ParaView state files</a>
+</li>
+</ul>
+<!--  -->
+<div class="video-container" data-url="https://www.youtube.com/embed/M9T04jj6HD4">
+
+</div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Intermediate VMD topics: trajectories, movies, scripting</span> (2020-Oct-28)
+</summary>
+<br>
+<ul>
+<li>
+Speaker: Olivier Fisette
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/vmd20201028.pdf" target="_blank">PDF slides</a>
+</li>
+<li>
+<a href="https://nextcloud.computecanada.ca/index.php/s/kcHgbbEgwS3GkHM/download" target="_blank">tar file</a> with data and scripts
+</li>
+</ul>
+<!--  -->
+<div class="video-container" data-url="https://www.youtube.com/embed/Jce5JN2fLuo">
+
+</div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Web-based 3D scientific visualization</span> (2020-Apr-29)
+</summary>
+<br>
+<ul>
+<li>
+Speaker: Alex Razoumov
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/webvis20200429.pdf" target="_blank">PDF slides</a>
+</li>
+</ul>
+<!--  -->
+<div class="video-container" data-url="https://www.youtube.com/embed/7aOF8BYll5A">
+
+</div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Scientific graphics with gnuplot</span> (2020-Apr-01)
+</summary>
+<br>
+<ul>
+<li>
+Speaker: Dmitri Rozmanov
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/gnuplotSlides20200401.pdf" target="_blank">PDF slides</a>
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/gnuplotExamples20200401.tar.gz" target="_blank">gzipped tar file with examples</a>
+</li>
+</ul>
+<!--  -->
+<div class="video-container" data-url="https://www.youtube.com/embed/js4KgC_Jucs">
+
+</div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Photorealistic rendering with ParaView and OSPRay</span> (2020-Jan-15)
+</summary>
+<br>
+<ul>
+<li>
+Speaker: Alex Razoumov
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/pathtracer20200115.zip" target="_blank">ZIP file</a> with slides and other materials
+</li>
+</ul>
+<!--  -->
+<div class="video-container" data-url="https://www.youtube.com/embed/oK35O03RSTw">
+
+</div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Batch visualization on Compute Canada clusters</span> (2019-Sep-18)
+</summary>
+<br>
+<ul>
+<li>
+Speaker: Alex Razoumov
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/batch20190918.zip" target="_blank">ZIP file</a> with slides and scripts
+</li>
+</ul>
+<!--  -->
+<div class="video-container" data-url="https://www.youtube.com/embed/VCUAObVUKj8">
+
+</div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Molecular visualization with VMD</span> (2019-Mar-06)
+</summary>
+<br>
+<ul>
+<li>
+Speaker: Dmitri Rozmanov
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/vmd20190306.pdf" target="_blank">PDF slides</a>
+</li>
+</ul>
+<!--  -->
+<div class="video-container" data-url="https://www.youtube.com/embed/_skmrS6X4Ys">
+
+</div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<a name="yt2"></a>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Working with data objects in YT</span> (YT Part 2, 2019-Jan-23)
+</summary>
+<br>
+<p>
+In Part 2 we learn how to use <a href="https://yt-project.org" target="_blank">YT</a> for data analysis and manipulation, including creating isosurfaces and streamlines, exporting 3D scenes to interactive viewers such as ParaView and MeshLab, and subsetting data in many different ways.
+</p>
+<ul>
+<li>
+Speaker: Alex Razoumov
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/yt20190123.pdf" target="_blank">PDF slides</a>
+</li>
+</ul>
+<!--  -->
+<div class="video-container" data-url="https://www.youtube.com/embed/enu7FcFmf6c">
+
+</div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Using YT for analysis and visualization of volumetric data</span> (YT Part 1, 2018-Nov-21)
+</summary>
+<br>
+<p>
+In this webinar we take a look at <a href="https://yt-project.org" target="_blank">YT</a>, a python package for analyzing multi-resolution volumetric and particle data. Initially written for working with astrophysical simulation data, YT is now widely used across many disciplines dealing with 3D simulation or observational/experimental data.
+</p>
+<ul>
+<li>
+Speaker: Alex Razoumov
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/yt20181121.pdf" target="_blank">PDF slides</a>
+</li>
+</ul>
+<!--  -->
+<div class="video-container" data-url="https://www.youtube.com/embed/gkUbVjImv20">
+
+</div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Scientific visualization with Plotly</span> (2018-Mar-28)
+</summary>
+<br>
+<ul>
+<li>
+Speaker: Alex Razoumov
+</li>
+<li>
+<a href="https://github.com/WestGrid/trainingMaterials/blob/gh-pages/materials/plotly.md" target="_blank">Webinar notes</a>
+</li>
+</ul>
+<!--  -->
+<div class="video-container" data-url="https://www.youtube.com/embed/to3u6g9XORM">
+
+</div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Novel sci-vis techniques from the 2017 <i>Visualize This</i> Challenge</span> (2018-Jan-31)
+</summary>
+<br>
+<p>
+In this webinar we review the visualization techniques found in 2017 WestGrid’s <i>Visualize This!</i> contest submissions:
+</p><ul>
+<li>
+toy conceptual animation created entirely in ParaView, along with the use of programmable sources,
+</li>
+<li>
+using Stream Tracer With Custom Source filter to animate streamlines in a stationary flow,
+</li>
+<li>
+using integration time contours to animate the grids of dots moving along streamlines,
+</li>
+<li>
+animating many properties simultaneously in a single Animation View timeline,
+</li>
+<li>
+colour selection for volumetric and semi-transparent plots to highlight specific regions,
+</li>
+<li>
+camera animations,
+</li>
+<li>
+using Blender game engine to let a user walk through the ParaView-created scene and toggle the visibility of the various physical components, and
+</li>
+<li>
+coupling visualization with the SuperCollider server to produce on-the-fly audio from selected Q-criterion.
+</li>
+</ul>
+<p></p>
+<ul>
+<li>
+Speakers: Alex Razoumov et al.
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/novel20180131.pdf" target="_blank">PDF slides</a>
+</li>
+</ul>
+<!--  -->
+<div class="video-container" data-url="https://www.youtube.com/embed/LAeiWHb3c70">
+
+</div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Data Visualization on Compute Canada’s Supercomputers</span> (2017-Oct-03)
+</summary>
+<br>
+<ul>
+<li>
+Speaker: Alex Razoumov
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/remote20171003.zip" target="_blank">ZIP file</a> with slides and other files
+</li>
+</ul>
+<!--  -->
+<div class="video-container" data-url="https://www.youtube.com/embed/vXamgZWTs0g">
+
+</div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">ParaViewWeb for 3D vis. and data analysis in a web browser</span> (2017-Mar-29)
+</summary>
+<br>
+<p>
+ParaViewWeb is a lightweight API for writing HTML5 web applications that utilize a remote ParaView server for running a visualization in a web browser. This talk gave an introduction to ParaViewWeb, shared an overview ofJavaScript Web Visualizer’s main features, and explained how to build simple ParaViewWeb apps from scratch.
+</p>
+<ul>
+<li>
+Speaker: Alex Razoumov
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/pvweb20170529.zip" target="_blank">ZIP file</a> with slides and other files
+</li>
+</ul>
+<!--  -->
+<div class="video-container" data-url="https://www.youtube.com/embed/IUN5ln_XnA8">
+
+</div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Scripting and other advanced topics in VisIt visualization</span> (2016-Nov-02)
+</summary>
+<br>
+<p>
+This webinar looks at the Python interface in VisIt, one of several popular open-source, general-purpose visualization packages. We demonstrate the different ways to launch scripts and use them for a number of rendering tasks including processing time-dependent datasets and creating animations. We also take a look at several other interesting topics in VisIt workflows such as visualizing the terrain in 3D and rendering molecules.
+</p>
+<ul>
+<li>
+Speaker: Alex Razoumov
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/visitScripting.zip" target="_blank">ZIP file</a> with slides and other files
+</li>
+</ul>
+<!--  -->
+<div class="video-container" data-url="https://www.youtube.com/embed/REJEmgmz7xw">
+
+</div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">CPU-based rendering with OSPRay</span> (2016-Sep-28)
+</summary>
+<br>
+<p>
+OSPRay, Intel’s scalable open-source library, can provide very fast rendering on systems that don’t have GPUs, making it possible to produce high-fidelity visualizations on the same general CPU nodes you use for running your simulations. In this session, we take a look at OSPRay inside ParaView both on a laptop and on a GPU-less cluster node, discuss benchmarks and compare the resulting images built with and without the OSPRay engine.
+</p>
+<ul>
+<li>
+Speaker: Alex Razoumov
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/ospray.pdf" target="_blank">PDF slides</a>
+</li>
+</ul>
+<!--  -->
+<div class="video-container" data-url="https://www.youtube.com/embed/23kOj1UkQ-o">
+
+</div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">3D graphs with NetworkX, VTK, and ParaView</span> (2016-May-24)
+</summary>
+<br>
+<p>
+Options for 3D graph visualization and analysis are very limited, confined primarily to short-lived research projects or legacy tools that can still be downloaded but are no longer maintained and updated. The reason for this is the popularity of 2D tools such as Gephi and Cytoscape and the expectation that in 3D complex networks will look messy, with some structures occluding others. On the other hand, in 3D layouts we can encode three independent attributes and visualize some unique connection topologies that will be lost in 2D.
+</p>
+<ul>
+<li>
+Speaker: Alex Razoumov
+</li>
+<li>
+<a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/3dgraphs.zip" target="_blank">ZIP file</a> with PDF slides and Python scripts
+</li>
+</ul>
+<!--  -->
+<div class="video-container" data-url="https://www.youtube.com/embed/BsK_WwoSKDM">
+
+</div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Graph visualization with Gephi</span> (2016-Mar-22)
+</summary>
+<br>
+<ul>
+<li>
+Speaker: Alex Razoumov
+</li>
+<li>
+<a href="https://github.com/WestGrid/trainingMaterials/blob/gh-pages/materials/gephi.md" target="_blank">Online notes</a>
+</li>
+</ul>
+<br>
+</details>
+<p><br></p>
+
+<div class="d-flex justify-content-end my-4">
+  <button class="btn btn-outline-secondary btn-sm" onclick="collapseAllDetails()">
+    <i class="bi bi-arrows-collapse"></i> Collapse All Sections
+  </button>
+</div>
+
+<!-- button to collapse all sections in this page -->
+<script>
+function collapseAllDetails() {
+  document.querySelectorAll('details').forEach(d => d.open = false);
+}
+</script>
+
+<br>
+```{=html}
+
+<div class="d-flex justify-content-end my-4">
+  <button class="btn btn-outline-secondary btn-sm" onclick="collapseAllDetails()">
+    <i class="bi bi-arrows-collapse"></i> Collapse All Sections
+  </button>
+</div>
+<!-- button to collapse all sections in this page -->
+<script>
+function collapseAllDetails() {
+  document.querySelectorAll('details').forEach(d => d.open = false);
+}
+</script>
+<!-- embed a video forcing a high-resolution thumbnail preview -->
+<script>
+document.querySelectorAll('details').forEach(details => {
+  details.addEventListener('toggle', () => {
+    if (details.open) {
+      const container = details.querySelector('.video-container');
+      if (container && !container.querySelector('iframe')) {
+        const url = container.getAttribute('data-url');
+        container.innerHTML = `<iframe src="${url}" width="100%" height="500px" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+      }
+    }
+  });
+});
+</script>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/WestDRI\.github\.io\/training\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
