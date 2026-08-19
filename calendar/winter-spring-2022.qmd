@@ -1,0 +1,59 @@
+---
+title: "Events for winter-spring 2022"
+aliases:
+  - /winter-spring-2022
+toc: false
+---
+
+<style>
+/* Adjust table width */
+table {
+  max-width: 90%;;
+  margin: 0 auto;
+}
+</style>
+
+## Webinars
+
+WestGrid's bi-weekly training webinars take place every second Wednesday at 10am Pacific / 11am Mountain / 12pm
+Central. For *upcoming sessions*, click the linked title to see more details or to register. For *past sessions*, click
+on the title to view recordings and slides.
+
+| DATE | TOPIC | Speaker |
+| ------------- | --------------- | ------------ |
+| Jan-26 | [<span style="color:blue">Everything you wanted to know (and more) about PyTorch tensors</span>](/tools/ml/#pytorch-tensors) | Marie-Hélène Burle |
+| Feb-02 | [<span style="color:blue">ThreadsX.jl: easier multithreading in Julia</span>](/programming#julia) | Alex Razoumov |
+| Mar-16[^1] | [<span style="color:blue">A few of our favourite tools</span>](/getting-started#a-few-of-our-favourite-tools) | Marie-Hélène Burle and Alex Razoumov |
+| Mar-30 | [<span style="color:blue">Best practices for securing your own OpenStack VM / Amazon instances / Containers</span>](/tools/virtual/#cloudSecurity) | Ken Bigelow |
+
+[^1]: We are postponing the "Image/data upscaling" webinar until further notice.
+
+<!-- | Mar-16 | [Image/data upscaling: training and parallel workflows](https://www.eventbrite.ca/e/241331006537) | Alex Razoumov and Marie-Hélène Burle | -->
+<!-- Apr-13 - after the transition -->
+<!-- Apr-27 - after the transition -->
+<!-- May-11 - after the transition -->
+<!-- May-25 - after the transition -->
+
+<!-- Nov-08[^1] -->
+<!-- [^1]: Note the different day of the week (Friday). -->
+
+## Other workshops
+
+| DATE | Event | Location |
+| ------------- | --------------- | ----------------- |
+| January | [UofA Winter Research Computing Bootcamp](https://www.ualberta.ca/information-services-and-technology/news/2022/winter-research-computing-bootcamp-starts-january-17.html) | online |
+| Jan-27 | [Everything you wanted to know (and more) about PyTorch tensors](https://libcal.library.ubc.ca/event/3653468) | <span style="color:#049A80">Online for UBC Research Commons</span> |
+| Feb-14,16,18 | [Parallel Julia](https://parallel-programming-in-julia.eventbrite.ca) | <span style="color:#3339ff">National training workshop</span> |
+| Feb-17 | [Collaborating through Git and GitHub](https://libcal.library.ubc.ca/event/3653471) | <span style="color:#049A80">Online for UBC Research Commons</span> |
+| Mar-7,9,11 | [Parallel Chapel](https://parallel-programming-in-chapel.eventbrite.ca) | <span style="color:#3339ff">National training workshop</span> |
+| Mar-24 | [Bash scripting for beginners](https://libcal.library.ubc.ca/event/3653491) | <span style="color:#049A80">Online for UBC Research Commons</span> |
+
+<!-- ## Western Canada Research Computing summer school -->
+
+<!-- WestGrid ceased its operations on March 31, 2022. Since April 1, 2022 the advanced research computing / HPC training in -->
+<!-- Western Canada is coordinated by the Digital Research Alliance of Canada and Simon Fraser University, in collaboration -->
+<!-- with other universities. Consequently, "WestGrid summer school" has been renamed "Western Canada Research Computing -->
+<!-- summer school". It will run online from mid-May to mid-July, 2022. The course details and the registration information -->
+<!-- will be published soon. -->
+
+<!-- As always, we welcome requests for other training topics and events. Please email suggestions to `training at westdri dot ca`. -->

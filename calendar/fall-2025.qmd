@@ -1,0 +1,81 @@
+---
+title: "Events for fall 2025"
+aliases:
+  - /fall-2025
+toc: false
+---
+
+<style>
+table {
+  max-width: 90%;;
+  margin: 0 auto;
+}
+h2 {
+  color: midnightblue;
+}
+</style>
+
+- To receive future news and emails about our training events, please [subscribe here](/contact).
+- To subscribe to our training calendar, scroll to the calendar at the bottom of this page and click "+" or
+  "Add to Google Calendar".
+
+[Table of Contents](#table-of-contents):
+&nbsp;
+[<em>Webinars</em>](#webinars)
+• [<em>Online courses</em>](#courses)
+• [<em>Other local bootcamps and workshops</em>](#bootcamps)
+<!-- • [<em>Humanities and social sciences training</em>](#dh) -->
+• [<em>In-person schools</em>](#schools)
+
+## [Webinars]{#webinars}
+
+<!-- The 2025 fall webinars are jointly presented by SFU's Research Computing Group (RCG) and UBC's -->
+<!-- Advanced Research Computing (ARC). -->
+
+The 2025 Fall Webinars, hosted by SFU's Research Computing Group (RCG), take place every second Tuesday at
+10:00am Pacific (Victoria, Vancouver), 11:00am Mountain (Edmonton, Calgary), and noon Central
+(Winnipeg). Webinar registration opens in early September.
+
+For *upcoming webinars*, click the linked titles to view details or register. For *past sessions*, click the
+titles to access recordings and slides.
+
+| DATE | TOPIC | SPEAKER |
+| ------------- | --------------- | ----------------- |
+| Sep-16 | [<span style="color:blue">Introduction to the Fir cluster</span>](/getting-started#high-performance-computing) | Alex Razoumov |
+| Oct-07 | [<span style="color:blue">AI pair programming & LLMs chats in Emacs</span>](/getting-started#emacs) | Marie-Hélène Burle |
+| Oct-14 | [<span style="color:blue">Globus-cli for file transfer</span>](/tools/rdm) | Alex Razoumov |
+| Oct-28 | [<span style="color:blue">The next generation of Python notebooks</span>](/programming#python) | Marie-Hélène Burle |
+| Nov-18 | [<span style="color:blue">Creating interactive online visualizations with Trame</span>](/tools/visualization) | Alex Razoumov | <!-- Nov-11 is a holiday -->
+| Nov-25 | [<span style="color:blue">Deep learning experiment tracking with MLflow</span>](/tools/ml) | Marie-Hélène Burle |
+| Dec-09 | [<span style="color:blue">Command-line OpenStack</span>](/tools/virtual) | Alex Razoumov |
+
+## [Online courses]{#courses}
+
+SFU Research Computing hosts weekly online sessions on advanced research computing every Thursday from 10:00am
+to noon Pacific Time. These sessions are open to all academic researchers in Canada. Most courses span two
+weeks, though some may be shorter or longer. Sessions are not recorded to encourage live participation and
+interaction. Popular and introductory sessions are repeated throughout the year.
+
+| COURSE | DATES | INSTRUCTOR |
+| ------------- | --------------- | ----------------- |
+| Introduction to the Unix shell | Sep-11, Sep-18 | Marie-Hélène Burle |
+| Introduction to HPC | Sep-25, Oct-02, Oct-09 | Alex Razoumov |
+| Introduction to Python | Oct-16 | Marie-Hélène Burle |
+| Scientific visualization | Oct-23 | Alex Razoumov |
+| Getting started with Git | Oct-30 | Marie-Hélène Burle |
+| Working with Apptainer containers | Nov-06, Nov-13 | Alex Razoumov |
+| HPC Python | Nov-20, Nov-27, Dec-04 | Alex Razoumov |
+| Deep learning with the JAX AI stack | Dec-11, Dec-18 | Marie-Hélène Burle |
+
+## [Upcoming bootcamps and workshops]{#bootcamps}
+
+Workshops from other Western Canadian universities will be added here as they are announced.
+
+| DATE | EVENT | VENUE |
+| ---- | ----- | ----- |
+| Starts Sep-19 | [Univ. of Alberta Fall Research Computing Bootcamp](https://www.ualberta.ca/en/information-services-and-technology/research-computing/bootcamps.html){target="_blank"} | Online |
+
+---
+
+As always, we welcome suggestions for additional training topics and events. Please email your ideas to
+`training at westdri dot ca`.

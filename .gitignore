@@ -1,0 +1,9 @@
+/.quarto/
+.DS_Store
+*_cache/
+_site
+Makefile
+/docs/
+111.*
+/removed/
+/serve.sh

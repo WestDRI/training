@@ -1,0 +1,235 @@
+---
+title: "Virtual machines and containers"
+aliases:
+  - /tools/virtual
+toc: false
+---
+
+For more information, please check the [cloud computing page](https://docs.alliancecan.ca/wiki/Cloud) and the
+[Apptainer page](https://docs.alliancecan.ca/wiki/Apptainer) in our technical wiki.
+
+## Webinars
+
+<!-- <details> -->
+<!-- <summary style="line-height: 0.6; margin: 0; padding: 2px 0;"> -->
+<!-- <span style="font-size: 1.2em;">title</span> (date) -->
+<!-- </summary> -->
+<!-- <br> -->
+<!-- <p> -->
+<!-- paragraph 1 -->
+<!-- </p><p> -->
+<!-- paragraph 2 -->
+<!-- </p> -->
+<!-- <ul> -->
+<!-- 	<li>Speaker: </li> -->
+<!-- 	<li><a href="" target="_blank">PDF slides</a></li> -->
+<!-- </ul> -->
+<!-- <div class="video-container" data-url="https://www.youtube.com/embed/videoIDstring"></div> -->
+<!-- <br> -->
+<!-- </details> -->
+
+Click on each webinar for its recording and materials.
+
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">OpenStack command line in action: VMs in minutes</span> (2026-May-05)
+</summary>
+<br>
+<p>
+Moving beyond our introduction to command-line OpenStack, this webinar demonstrates how quickly you can launch
+a virtual machine (VM). We walk through the full setup -- from selecting flavours and images to configuring
+networks and security groups -- in just 5–10 minutes. We then install and configure remote desktop software on
+the VM, preparing it for GUI-based workflows. Finally, we demonstrate these workflows, including a
+client-server visualization setup.
+</p>
+<ul>
+	<li>Speaker: Alex Razoumov</li>
+	<li><a href="https://folio.vastcloud.org/openstack" target="_blank">Online notes</a></li>
+</ul>
+{{< video https://www.youtube.com/watch?v=wbKT1BwoePc width="100%" height="500px" >}}
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Command-line OpenStack</span> (2025-Dec-09)
+</summary>
+<br>
+<p>
+OpenStack provides a powerful cloud platform for managing compute, storage, and networking resources. While
+its web dashboard offers a user-friendly interface and can be convenient at times, it often involves too many
+clicks to complete routine tasks such as creating and configuring a virtual machine. The command-line
+interface (CLI) offers a faster, more streamlined way to create and manage resources. In this webinar, we
+discuss `python-openstackclient`, walk through its setup and authentication, and demonstrate how to
+efficiently perform common OpenStack operations from the terminal.
+</p>
+<ul>
+	<li>Speaker: Alex Razoumov</li>
+	<li><a href="https://folio.vastcloud.org/openstack" target="_blank">Online notes</a></li>
+</ul>
+{{< video https://www.youtube.com/watch?v=83EWEussOqg width="100%" height="500px" >}}
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<a name="alliancecloud"></a>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Intro to the Alliance Cloud</span> (2024-Dec-10)
+</summary>
+<br>
+<p>
+This webinar provides an introduction to the Digital Research Alliance of Canada (the Alliance) community
+cloud.
+</p>
+<ul>
+	<li>Speaker: Michael Tang</li>
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/allianceCloud20241210.pdf" target="_blank">PDF slides</a></li>
+</ul>
+{{< video https://www.youtube.com/watch?v=93q79glfzz0 width="100%" height="500px" >}}
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<a name="manyFilesInOverlays"></a>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Hiding large numbers of files in container overlays</span> (2023-Jan-17)
+</summary>
+<br>
+<p>
+Many unoptimized HPC cluster workflows result in writing large numbers of files to distributed filesystems
+which can create significant problems for the performance of these shared filesystems. One of the ways to
+alleviate this is to organize write operations inside a persistent overlay directory attached to an immutable
+read-only container with your scientific software. These output files will be stored separately from the base
+container image, and to the host filesystem an overlay appears as a single large file. In this presentation,
+we demo running parallel OpenFOAM simulations where all output goes into overlay images, and the total number
+of files on the host filesystem is reduced from several million to several dozen or less. The same approach
+can be used in post-processing and visualization, where you can read simulation data from multiple overlays
+both in serial and in parallel. In this webinar we walk you through all stages of creating and using
+overlays. We assume no prior knowledge of the container technology.
+</p>
+<ul>
+	<li>Speaker: Alex Razoumov</li>
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/overlays20230117.pdf" target="_blank">PDF slides</a></li>
+</ul>
+{{< video https://www.youtube.com/watch?v=XGFE0gddMX4 width="100%" height="500px" >}}
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Storage options for cloud computing</span> (2022-Nov-09)
+</summary>
+<br>
+<p>
+As opposed to a cluster computing environment, projects in Infrastructure-as-a-Service clouds like those in
+the Alliance are responsible for selecting and administering their project's storage systems. Several types of
+cloud storage are available, enabling users to choose the storage type(s) best suited for their use case. In
+this webinar (not recorded, only slides available), we discuss the following storage options: volume storage,
+ephemeral disc storage, object storage, and shared filesystem storage.
+</p>
+<ul>
+	<li>Speaker: Sarah Huber</li>
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/20221109CloudStorage.pdf" target="_blank">PDF slides</a></li>
+</ul>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<a name="cloudSecurity"></a>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Securing your own OpenStack VM / Amazon instances / containers</span> (2022-Mar-30)
+</summary>
+<br>
+<ul>
+	<li>Speaker: Ken Bigelow</li>
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/securingCloud20220330.pdf" target="_blank">PDF slides</a></li>
+</ul>
+{{< video https://www.youtube.com/watch?v=5PMi6aqGwN4 width="100%" height="500px" >}}
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<a name="venkatSingularity"></a>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Using Singularity containers in VMs and HPC</span> (2021-May-26)
+</summary>
+<br>
+<ul>
+	<li>Speaker: Venkat Mahadevan</li>
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/singularity20210526.pdf" target="_blank">Main slides in PDF</a></li>
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/ttkContainerDemo20210526.pdf" target="_blank">TTK demo slides</a></li>
+</ul>
+{{< video https://www.youtube.com/watch?v=8QVzb78LUq4 width="100%" height="500px" >}}
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Singularity in HPC</span> (2020-Feb-05)
+</summary>
+<br>
+<ul>
+	<li>Speaker: Grigory Shamov</li>
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/singularity20200205.pdf" target="_blank">PDF slides</a></li>
+</ul>
+{{< video https://www.youtube.com/watch?v=z-RtotX0i_0 width="100%" height="500px" >}}
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Getting started on the cloud</span> (2018-Nov-28)
+</summary>
+<br>
+<ul>
+	<li>Speaker: John Simpson</li>
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/gettingStartedCloud20181128.pdf" target="_blank">PDF slides</a></li>
+</ul>
+We edited out the first few minutes of this video (lots of background noise), jumping straight into the
+section in which John explains cloud computing and its difference from traditional HPC.
+{{< video https://www.youtube.com/watch?v=JFFlkPrGFbM width="100%" height="500px" >}}
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">How to deploy HTTP and HTTPS sites on a virtual machine</span> (2018-Dec-12)
+</summary>
+<br>
+<ul>
+	<li>Speaker: John Simpson</li>
+	<li><a href="" target="_blank">PDF slides</a></li>
+</ul>
+{{< video https://www.youtube.com/watch?v=_hn_pVHGx8o width="100%" height="500px" >}}
+<br>
+</details>
+
+<br>
+```{=html}
+{{< video https://www.youtube.com/watch?v=videoIDstring width="100%" height="500px" >}}
+<div class="d-flex justify-content-end my-4">
+  <button class="btn btn-outline-secondary btn-sm" onclick="collapseAllDetails()">
+    <i class="bi bi-arrows-collapse"></i> Collapse All Sections
+  </button>
+</div>
+<!-- button to collapse all sections in this page -->
+<script>
+function collapseAllDetails() {
+  document.querySelectorAll('details').forEach(d => d.open = false);
+}
+</script>
+<!-- embed a video forcing a high-resolution thumbnail preview -->
+<script>
+document.querySelectorAll('details').forEach(details => {
+  details.addEventListener('toggle', () => {
+    if (details.open) {
+      const container = details.querySelector('.video-container');
+      if (container && !container.querySelector('iframe')) {
+        const url = container.getAttribute('data-url');
+        container.innerHTML = `<iframe src="${url}" width="100%" height="500px" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+      }
+    }
+  });
+});
+</script>
+```

@@ -1,0 +1,41 @@
+---
+title: "Summer School 2022"
+aliases:
+  - /summer-school-2022
+toc: false
+---
+
+<style>
+/* Adjust table width */
+table {
+  max-width: 90%;;
+  margin: 0 auto;
+}
+</style>
+
+While WestGrid ceased its operations on March 31, 2022, summer schools (and all other research computing training)
+remain -- from the same team, now based at Simon Fraser University.[^1]
+
+This summer, we are bringing you the Western Canada Research Computing Training Modules (aka summer school) 2022. The
+modules will run online from May 10 to July 21. Course details and registration information can be found at the
+[school website](https://rcmodules22.netlify.app).
+
+| MODULE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | DATE&nbsp;&nbsp;&nbsp;&nbsp; |
+| ------------- | --------------- | ----------------- |
+| [Remote computing basics](https://rcmodules22.netlify.app/basics){target="_blank"} | May 10, 12, 17, 19 |
+| [Programming tools](https://rcmodules22.netlify.app/programming){target="_blank"} | May 24, 26, 31 and June 2 |
+| [Parallel coding](https://rcmodules22.netlify.app/parallel){target="_blank"} | June 14, 16, 28, 30 |
+| [Virtualization](https://rcmodules22.netlify.app/virtualization){target="_blank"} | July 5, 7 |
+| [Machine learning](https://rcmodules22.netlify.app/ml){target="_blank"} | July 12, 14 |
+| [Scientific visualization](https://rcmodules22.netlify.app/scivis){target="_blank"} | July 19, 21 |
+
+Please email your questions at `training at westdri dot ca`.
+
+The Research Computing team at the UofA is running their own bootcamps:
+
+* [Spring Research Computing Bootcamp](https://www.ualberta.ca/information-services-and-technology/news/2022/spring-research-computing-bootcamp-starts-april-29.html){target="_blank"}
+  (from April 29)
+* [Spring Intermediate Python Series](https://www.ualberta.ca/information-services-and-technology/news/2022/spring-intermediate-python-bootcamp.html){target="_blank"}
+  (from May 25)
+
+[^1]: Since April 1st, 2022, the advanced research computing / HPC training in Western Canada has been coordinated by the Digital Research Alliance of Canada and Simon Fraser University, in collaboration with other universities in BC, Alberta, Saskatchewan, and Manitoba.

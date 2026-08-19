@@ -1,0 +1,222 @@
+---
+title: "Bioinformatics resources"
+description: ""
+aliases:
+  - /domains/bioinfo
+toc: false
+---
+
+<!-- ## Ask An Expert -->
+<!-- Browse the forum, ask a question, or request one-on-one support in -->
+<!-- [Compute Canada&#8217;s Bioinformatics Helpdesk](https://bioinformatics.computecanada.ca). -->
+
+## Webinars
+
+<!-- <details> -->
+<!-- <summary style="line-height: 0.6; margin: 0; padding: 2px 0;"> -->
+<!-- <span style="font-size: 1.2em;">title</span> (date) -->
+<!-- </summary> -->
+<!-- <br> -->
+<!-- <p> -->
+<!-- paragraph 1 -->
+<!-- </p><p> -->
+<!-- paragraph 2 -->
+<!-- </p> -->
+<!-- <ul> -->
+<!-- 	<li>Speaker: </li> -->
+<!-- 	<li><a href="" target="_blank">PDF slides</a></li> -->
+<!-- </ul> -->
+<!-- <div class="video-container" data-url="https://www.youtube.com/embed/videoIDstring"></div> -->
+<!-- <br> -->
+<!-- </details> -->
+
+Click on each webinar for its recording and materials.
+
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Container-based approach to bioinformatics applications</span> (2021-Oct-13)
+</summary>
+<br>
+<ul>
+	<li>Speaker: Tannistha Nandi</li>
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/TannisthaNandi_SingularityContainers_I.pdf" target="_blank">PDF slides</a></li>
+</ul>
+<!-- {{< video https://www.youtube.com/watch?v=MXQBUkotZ8Y width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/MXQBUkotZ8Y"></div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Building a bioinformatics QC pipeline</span> (2019-Nov-13)
+</summary>
+<br>
+<ul>
+	<li>Speaker: Brian McConeghy</li>
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/bioinfoPipeline20191113.pdf" target="_blank">PDF slides</a></li>
+	<li>workshop <a href="https://github.com/bmcconeghy/bioinformatics_pipeline_with_snakemake_2019-06-27" target="_blank">GitHub page</a></li>
+</ul>
+<!-- {{< video https://www.youtube.com/watch?v=lrs8WkVdIVg width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/lrs8WkVdIVg"></div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Short read DNA sequencing alignment and visualization</span> (2019-Apr-03)
+</summary>
+<br>
+<ul>
+	<li>Speaker: Phillip Richmond</li>
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/shortReadMapping20190403.pdf" target="_blank">PDF slides</a></li>
+</ul>
+<!-- {{< video https://www.youtube.com/watch?v=_SDiZjVliBk width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/_SDiZjVliBk"></div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Tools for automating analysis pipelines</span> (2018-Oct-17)
+</summary>
+<br>
+<ul>
+	<li>Speaker: Jamie Rosner</li>
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/automatingAnalysisPipelines20181017.pdf" target="_blank">PDF slides</a></li>
+</ul>
+<!-- {{< video https://www.youtube.com/watch?v=i30PZq60vfM width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/i30PZq60vfM"></div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">The Human Variant Database</span> (2018-Apr-11)
+</summary>
+<br>
+<ul>
+	<li>Speaker: Mya Warren</li>
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/humanVariantDatabase20180411.pdf" target="_blank">PDF slides</a></li>
+</ul>
+<!-- {{< video https://www.youtube.com/watch?v=xm6yMk85jd4 width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/xm6yMk85jd4"></div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Bioinfo Series: Detecting structural variants</span> (2017-Feb-14)
+</summary>
+<br>
+<ul>
+	<li>Speaker: Karen Mungall</li>
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/detectingStructuralVariants.pdf" target="_blank">PDF slides</a></li>
+</ul>
+<!-- {{< video https://www.youtube.com/watch?v=DX0OXXzyRRs width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/DX0OXXzyRRs"></div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Bioinfo Series: Quality Control of Next-Gen Sequence Data</span> (2018-Jan-17)
+</summary>
+<br>
+<ul>
+	<li>Speaker: Kane Tse</li>
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/qualityControlOfNGSData.pdf" target="_blank">PDF slides</a></li>
+</ul>
+<!-- {{< video https://www.youtube.com/watch?v=7g-WeGl3Oik width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/7g-WeGl3Oik"></div>
+<!-- <div class="flex-video"> -->
+<!-- 	<iframe width="780" height="585" src="https://www.youtube.com/embed/" frameborder="0" -->
+<!-- 	allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+<!-- </div> -->
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Bioinfo Series: FFPE in Your NGS Study</span> (2017-Dec-06)
+</summary>
+<br>
+<ul>
+	<li>Speaker: Richard Corbett</li>
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/WestGridwebinar-20171206-FFPE.pdf" target="_blank">PDF slides</a></li>
+</ul>
+<!-- {{< video https://www.youtube.com/watch?v=_c3KHGDhTcQ width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/_c3KHGDhTcQ"></div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Bioinfo Series: Designing an NGS Study for my Biological Question</span> (2017-Nov-08)
+</summary>
+<br>
+<ul>
+	<li>Speaker: Yussanne Ma</li>
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/WestGridwebinar_GSCdesigningNGSstudy_20171107.pdf" target="_blank">PDF slides</a></li>
+</ul>
+<!-- {{< video https://www.youtube.com/watch?v=uOypCEAL9rM width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/uOypCEAL9rM"></div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Bioinfo Series: Benchmarking of Variant Callers and Analysis Tools</span> (2017-Sept-28)
+</summary>
+<br>
+<ul>
+	<li>Speaker: Simon Chan</li>
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/benchmarkingSimonChan201709.pdf" target="_blank">PDF slides</a></li>
+</ul>
+<!-- {{< video https://www.youtube.com/watch?v=FbTjuOejojk width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/FbTjuOejojk"></div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Bioinfo Series: Introduction to Bioinformatics</span> (2017-June-28)
+</summary>
+<br>
+<ul>
+	<li>Speaker: Richard Corbett</li>
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/introBioinformatics20170628.pdf" target="_blank">PDF slides</a></li>
+</ul>
+<!-- {{< video https://www.youtube.com/watch?v=lnRkKopf6GU width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/lnRkKopf6GU"></div>
+<br>
+</details>
+
+<br>
+```{=html}
+{{< video https://www.youtube.com/watch?v=videoIDstring width="100%" height="500px" >}}
+<div class="d-flex justify-content-end my-4">
+  <button class="btn btn-outline-secondary btn-sm" onclick="collapseAllDetails()">
+    <i class="bi bi-arrows-collapse"></i> Collapse All Sections
+  </button>
+</div>
+<!-- button to collapse all sections in this page -->
+<script>
+function collapseAllDetails() {
+  document.querySelectorAll('details').forEach(d => d.open = false);
+}
+</script>
+<!-- embed a video forcing a high-resolution thumbnail preview -->
+<script>
+document.querySelectorAll('details').forEach(details => {
+  details.addEventListener('toggle', () => {
+    if (details.open) {
+      const container = details.querySelector('.video-container');
+      if (container && !container.querySelector('iframe')) {
+        const url = container.getAttribute('data-url');
+        container.innerHTML = `<iframe src="${url}" width="100%" height="500px" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+      }
+    }
+  });
+});
+</script>
+```

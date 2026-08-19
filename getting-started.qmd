@@ -1,0 +1,541 @@
+---
+title: "Getting started resources"
+description: "Get to know the basics of scientific computing"
+aliases:
+  - /getting-started
+toc: false
+---
+
+<style>
+h2 {
+  color: midnightblue;
+}
+</style>
+
+<!-- <details> -->
+<!-- <summary style="line-height: 0.6; margin: 0; padding: 2px 0;"> -->
+<!-- <span style="font-size: 1.2em;">title</span> (date) -->
+<!-- </summary> -->
+<!-- <br> -->
+<!-- <p> -->
+<!-- paragraph 1 -->
+<!-- </p><p> -->
+<!-- paragraph 2 -->
+<!-- </p> -->
+<!-- <ul> -->
+<!-- 	<li>Speaker: </li> -->
+<!-- 	<li><a href="" target="_blank">PDF slides</a></li> -->
+<!-- </ul> -->
+<!-- <div class="video-container" data-url="https://www.youtube.com/embed/videoIDstring"></div> -->
+<!-- <br> -->
+<!-- </details> -->
+
+Table of Contents:
+&nbsp; [HPC](#hpc)
+• [Linux CL](#linux)
+• [Git](#git)
+• [EasyBuild](#easybuild)
+• [Authoring](#author)
+• [Emacs](#emacs)
+
+## [High-performance computing]{#hpc}
+
+Click on each webinar for its recording and materials.
+
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Introduction to the Fir cluster</span> (2025-Sep-16)
+</summary>
+<br>
+<p>
+SFU's newest high-performance computing cluster, Fir, is now available to all users as a replacement for the
+Cedar cluster within Canada's national digital research infrastructure. In this webinar, we provide an
+overview of Fir's architecture and hardware, explain its filesystems and recommended usage, outline job
+submission policies with a focus on the new H100 GPUs, and share best practices for getting the most out of
+the cluster.
+</p>
+<ul>
+	<li>Speaker: Alex Razoumov</li>
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/fir20250916.pdf" target="_blank">PDF slides</a></li>
+</ul>
+<!-- {{< video https://www.youtube.com/watch?v=Xmlj7aI3fZI width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/Xmlj7aI3fZI"></div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Best practices in HPC/HTC environments</span> (2024-Oct-15)
+</summary>
+<br>
+<p>
+Most current Digital Research Alliance of Canada systems, as well as many local advanced research computing
+(ARC) systems and clusters support high-performance computing (HPC) and high-throughput computing (HTC)
+workflows. HPC workflows tend to focus on tightly coupled parallel jobs and, as such, they must execute within
+a particular site with low-latency interconnects. Conversely, HTC workflows consist of independent, mostly
+sequential jobs that can be individually scheduled on many different computing resources. In this webinar, we
+guide you through the best practices for deploying your HPC or HTC computations on our clusters:
+</p><p>
+<li> Interacting with the available hardware (login and data transfer nodes, compute nodes, interconnect etc.)</li>
+<li> Using the File Systems (where to store your data)</li>
+<li> Working with the available software and installing/building your own</li>
+<li> Interacting with the scheduler (testing your jobs scripts, submitting jobs)</li>
+</p>
+<ul>
+	<li>Speaker: Roman Baranowski</li>
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/bestPractices20241015.pdf" target="_blank">PDF slides</a></li>
+</ul>
+<!-- {{< video https://www.youtube.com/watch?v=Zowmo6H-AYQ width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/Zowmo6H-AYQ"></div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Tips & tricks on getting programming help</span> (2020-11-13)
+</summary>
+<br>
+<ul>
+	<li>Speaker: Marie-Hélène Burle</li>
+	<li><a href="https://prog.westdri.ca/webinars/getting_help" target="_blank">Webinar page</a></li>
+</ul>
+<!-- {{< video https://www.youtube.com/watch?v=mZjyf84Gbhg width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/mZjyf84Gbhg"></div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Managing Cluster Instability for Users</span> (March 2019)
+</summary>
+<br>
+<p>
+Presentation on dealing with hardware and software instabilities on Cedar from a user's perspective: causes,
+workarounds, bad workflows, and best practices. It was part of a larger WestGrid's March 2019 Town Hall -- the
+embedded video below starts at the relevant section.
+</p>
+<ul>
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/wgTownHall20190301.pdf" target="_blank">Combined PDF slides from all presenters</a>from WestGrid's March 2019 Town Hall</li>
+</ul>
+<!-- {{< video https://www.youtube.com/watch?v=kSWwu_fDraw width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/kSWwu_fDraw"></div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">How to submit and run jobs on Compute Canada HPC systems</span> (2018-Sep-19)
+</summary>
+<br>
+<p>
+This is an introduction to working on our HPC systems for new users.
+</p>
+<ul>
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/introRunningJobs20180919.pdf" target="_blank">PDF slides</a></li>
+</ul>
+<!-- {{< video https://www.youtube.com/watch?v=EY-NIGhCnhQ width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/EY-NIGhCnhQ"></div>
+<br>
+</details>
+
+<!-- * [Supercomputing in Canada: An Introduction](https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/introCCWestGridUWinnipeg201809.pdf) (PDF slides) -->
+<!-- * [High Performance Computing: Short Introduction](https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/hpcUMan20190920.pdf) - Univ. of Manitoba perspective (PDF slides) -->
+<!-- #### Quick guides -->
+<!-- * [WestGrid Backgrounder](https://www.westgrid.ca/files/WestGrid.Backgrounder.2018.pdf) (one-page PDF) -->
+<!-- * [Getting Started with WestGrid & Compute Canada](https://www.westgrid.ca/files/Getting%20Started%20with%20WestGrid%20%26%20Compute%20Canada.pdf) -->
+<!--   (two-page PDF) -->
+
+<!-- #### Other materials -->
+<!-- Read WestGrid's <a href="https://www.westgrid.ca/getting_started_national_systems_quickstart_guide_0" -->
+<!-- target="_blank">QuickStart Guide for Getting Started on CC National Systems</a>. -->
+<!-- Watch Compute Canada's <a href="https://www.youtube.com/playlist?list=PLeCQbAbRSKR8gg6ZMFof1Hf9YF_-n31Ym" -->
+<!-- target="_blank">Getting Started with CC National Systems</a> mini-webinars -- a series of short video -->
+<!-- tutorials that demonstrate how to access the national clusters, submit jobs, access software, avoid -->
+<!-- common mistakes, and get help from the Compute Canada support team. -->
+<!-- Browse the latest materials from WestGrid's [Introductory HPC course](http://bit.ly/introhpc) (ZIP file). -->
+
+## [Linux command line]{#linux}
+
+<!-- Browse the materials from our Introduction to Linux: Command Line Basics (delivered Sept 2017): -->
+<!-- - [View the slides](https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/introLinuxCommandLine20170926.pdf) -->
+<!-- - [Watch the recording](https://www.youtube.com/watch?v=vOrk0OuEU04) -->
+<!-- - [Try the problemset](https://github.com/Phillip-a-richmond/ComputeCanada_EOT/blob/master/IntroToLinuxProblemSet.txt) -->
+
+For a basic introduction to Bash command line -- as well as programming in Python or R, and version
+control with Git -- please check out a <a href="https://software-carpentry.org/workshops"
+target="_blank">Software Carpentry workshop</a> closest to you. For an online tutorial, we highly
+recommend their <a href="https://hpc-carpentry.github.io/hpc-shell" target="_blank">Introduction to using
+the shell in a HPC context</a>.
+
+Click on each webinar for its recording and materials.
+
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Modern shell utilities</span> (2025-Jan-28)
+</summary>
+<br>
+<p>
+In recent years, a number of open-source utilities for the Unix shell have emerged. Some are meant as
+replacements for classic tools with improved performance, better defaults, or nicer-looking outputs; others
+add novel functionality. Several of them were recently installed on the Alliance clusters.
+</p><p>
+In this webinar I cover a selection of tools that are very popular, well-maintained, and that have served me
+well in my daily workflows: `ls` in colours: `eza`, smart cd: `zoxide`, a cat with wings: `bat`, RIP grep:
+`ripgrep`, faster find: `fd`, fuzzy finder: `fzf`, file system TUIs.
+</p><p>
+I also talk about three useful Zsh plugins: a syntax highlighter, autosuggestions, and an improved history
+searcher. For each tool/plugin, I talk about installation on a personal computer and on the Alliance clusters
+and give live demos.
+</p>
+<ul>
+	<li>Speaker: Marie-Hélène Burle</li>
+	<li><a href="https://mint.westdri.ca/bash/wb_tools3_slides" target="_blank">Webinar slides</a></li>
+</ul>
+<!-- {{< video https://www.youtube.com/watch?v=Vqg6B5fVkD0 width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/Vqg6B5fVkD0"></div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Lesser known but very useful Bash features</span> (2022-12-07)
+</summary>
+<br>
+<p>
+Knowing basic Linux commands is essential for researchers using remote systems such as HPC clusters. Bash is
+the most commonly used Linux shell, which you will use by default on most Alliance hardware. Although we teach
+Bash basics in various online schools and in-person workshops many times a year, there are some useful Bash
+features and tricks that we never get to teach, due to our usual time constraints. Finally we can share some
+of them with you in this webinar!
+</p><p>
+In this presentation, we talk about running commands in a subshell, subsetting string variables, Bash arrays,
+modifying separators with IFS, running Python code from inside self-contained Bash functions, editing your
+command history, running unaliased versions of commands, handy use of bracket expansion, and a few other
+topics.
+</p>
+<ul>
+	<li>Speakers: Alex Razoumov and Marie-Hélène Burle</li>
+	<li><a href="https://wgpages.netlify.app/bashfeatures" target="_blank">Webinar notes</a></li>
+</ul>
+<!-- {{< video https://www.youtube.com/watch?v=3rzd7yISWVQ width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/3rzd7yISWVQ"></div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Turbo boost your interactive experience on the cluster with tmux</span> (2022-11-23)
+</summary>
+<br>
+<p>
+Have you experienced issues with unstable SSH connections that prevent you from being productive on your
+favourite cluster? Do you sometimes wish you had an extra terminal open so that you could run additional
+programs while waiting for tasks to complete? tmux is a terminal multiplexer (installed on the clusters) that
+can provide solutions to both connectivity and productivity sore points. It keeps your work session alive
+(even under the worst network conditions) while also providing you with the power to turn your terminal into a
+tiled window interface. This talk walks through some of the best features that will help you get work done on
+the cluster.
+</p>
+<ul>
+	<li>Speaker: Chris Want</li>
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/tmux20221123.pdf" target="_blank">PDF slides</a></li>
+</ul>
+<!-- {{< video https://www.youtube.com/watch?v=Y1Of3S5iVog width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/Y1Of3S5iVog"></div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">A few of our favourite tools</span> (2022-03-16)
+</summary>
+<br>
+<p>
+In this webinar we talk about the following command-line tools: <a
+href="https://github.com/jesseduffield/lazygit" target="_blank">lazygit</a> (a wonderful terminal UI for Git),
+<a href="https://github.com/sharkdp/bat" target="_blank">bat</a> (a great syntax highlighter), <a
+href="https://github.com/BurntSushi/ripgrep" target="_blank">ripgrep</a> (a fast alternative to `grep`), <a
+href="https://github.com/sharkdp/fd" target="_blank">fd</a> (a really fast alternative to `find`), and <a
+href="https://www.passwordstore.org" target="_blank">pass</a> (a command line password manager).
+</p><p>
+We also cover few other neat command-line tools such as
+<a href="https://github.com/sharkdp/hyperfine" target="_blank">hyperfine</a> - for sophisticated benchmarking - and
+<a href="https://github.com/so-fancy/diff-so-fancy" target="_blank">diff-so-fancy</a> - which makes your diffs
+a lot more readable. For Emacs users, we finish the workshop with two Emacs utilities:
+<a href="https://www.emacswiki.org/emacs/TrampMode" target="_blank">TRAMP</a> (a remote file access system) and
+<a href="https://github.com/emacs-helm/helm" target="_blank">Helm</a> (a "framework for incremental
+completions and narrowing selections").
+</p>
+<ul>
+	<li>Speakers: Marie-Hélène Burle and Alex Razoumov</li>
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/favouriteCLITools20220316.pdf" target="_blank">PDF slides</a></li>
+	<li><a href="https://slides.westdri.ca/tools/#" target="_blank">Online slides</a></li>
+</ul>
+<!-- {{< video https://www.youtube.com/watch?v=nshNKPFDrV8 width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/nshNKPFDrV8"></div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Fun tools to simplify your life in the command line</span> (2020-02-19)
+</summary>
+<br>
+<ul>
+	<li>Speaker: Marie-Hélène Burle</li>
+	<li><a href="https://westgrid-cli.netlify.com/webinars/cli_tools.html" target="_blank">Webinar page</a></li>
+	<li><a href="https://westgrid-cli.netlify.com/webinars/cli_tools.html#headline-4" target="_blank">Comments & questions</a></li>
+	<li><a href="https://westgrid-webinars.netlify.com/cli_tools#" target="_blank">Online slides</a></li>
+</ul>
+<!-- {{< video https://www.youtube.com/watch?v=BFKT7aj-i80 width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/BFKT7aj-i80"></div>
+<br>
+</details>
+
+## [Git version control]{#git}
+
+* <a href="https://mint.westdri.ca/git/ws_collab" target="_blank">Collaborating through Git & GitHub</a>
+* <a href="https://mint.westdri.ca/git/ws_contrib" target="_blank">Contributing to GitHub projects</a>
+
+Click on each webinar for its recording and materials.
+
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Lazygit</span> (2024-Oct-29)
+</summary>
+<br>
+<p>
+While it is important to know how to use Git from the command line, this makes for an austere experience: a
+series of commands are required to gather information on the state of the working tree, see changes to files,
+or get a schematic of the commit history. Committing sections of files interactively and other operations are
+just awkward affairs. On the other hand, the many graphic interfaces for Git are often buggy, slow, and
+limiting.
+</p><p>
+One option is to write exciting functions with tools such as fzf to make things more friendly and visual. A
+simpler and more polished option is to use an already built user interface for Git that runs directly in the
+command line. Lazygit is one such open source tool. After years of development, it is a mature, beautiful tool
+that allows to perform any Git operation in the command line in a convenient, fast, and visual fashion.
+</p><p>
+In this webinar, I demo how I use lazygit in my daily workflow to run routine as well as more complex Git
+commands.
+</p>
+<ul>
+	<li>Speaker: Marie-Hélène Burle</li>
+	<li><a href="https://mint.westdri.ca/tools/wb_lazygit" target="_blank">Online slides</a></li>
+	<li><a href="https://github.com/rothgar/awesome-tuis" target="_blank">Awesome TUIs</a></li>
+</ul>
+<!-- {{< video https://www.youtube.com/watch?v=1a2nrwfqNGI width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/1a2nrwfqNGI"></div>
+<br>
+</details>
+
+## [Building software with EasyBuild]{#easybuild}
+
+Click on each webinar for its recording and materials.
+
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Installing software using EasyBuild in your cluster home directory</span> (2021-12-08)
+</summary>
+<br>
+<ul>
+	<li>Speaker: Ata Roudgar</li>
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/easybuild20211208.pdf" target="_blank">PDF slides</a></li>
+</ul>
+<!-- {{< video https://www.youtube.com/watch?v=l3Vo9ATA3qQ width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/l3Vo9ATA3qQ"></div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Building software on Compute Canada clusters using EasyBuild</span> (2020-04-15)
+</summary>
+<br>
+<ul>
+	<li>Speaker: Ali Kerrache</li>
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/easybuild20200415.pdf" target="_blank">PDF slides</a></li>
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/ebExamples20200415.tar.gz" target="_blank">gzipped tar file with examples</a></li>
+</ul>
+<!-- {{< video https://www.youtube.com/watch?v=38AuEQ7Jxn4 width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/38AuEQ7Jxn4"></div>
+<br>
+</details>
+
+## [Authoring documents and static site generators]{#author}
+
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Typst: a new markup typesetting system</span> (2026-Apr-21)
+<a name="typst"></a>
+</summary>
+<br>
+<p>
+Typst is a modern open-source typesetting system that combines LaTeX-level power with faster compilation,
+simpler setup, and an easier learning curve. Its clean syntax supports math, tables, plots, bibliographies,
+scripting, and reactive documents with auto-updated content. It integrates seamlessly with Quarto and, despite
+being new, has rapidly gained popularity in the scientific community. Typst offers a smooth transition from
+word processors to a text-based workflow with benefits like version control, code embedding, and powerful
+editing tools.
+</p>
+<ul>
+	<li>Speaker: Marie-Hélène Burle</li>
+	<li><a href="https://mint.westdri.ca/tools/wb_typst_slides#/title-slide" target="_blank">Online slides</a></li>
+</ul>
+<!-- {{< video https://www.youtube.com/watch?v=ikzj8OWr0gk width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/ikzj8OWr0gk"></div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">The new R Markdown: authoring dynamic scientific docs with Quarto</span> (2023-04-11)
+<a name="quarto"></a>
+</summary>
+<br>
+<p>
+This webinar shows how you can easily create beautiful publications -- webpages, PDFs, websites,
+presentations, books, etc, complete with formatted text, dynamic code and figures -- with Quarto. Quarto is
+the successor to R Markdown. By combining the powers of Jupyter or knitr with Pandoc, it works with R, but
+also with Python and Julia code blocks, adding new functionality to the old tool.
+</p>
+<ul>
+	<li>Speaker: Marie-Hélène Burle</li>
+	<li><a href="https://mint.westdri.ca/tools/quarto_webinar.html" target="_blank">Online slides</a></li>
+	<li><a href="https://quarto.org/docs/guide" target="_blank">Quarto documentation</a></li>
+</ul>
+<!-- {{< video https://www.youtube.com/watch?v=0NtyFuA_yNU width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/0NtyFuA_yNU"></div>
+<br>
+</details>
+
+## [Emacs]{#emacs}
+
+Click on each webinar for its recording and materials.
+
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">AI pair programming & LLM chats in Emacs</span> (2025-Oct-07)
+</summary>
+<br>
+<p>
+Large language models (LLMs) have become powerful tools for coding, writing, and research. Not surprisingly,
+they are increasingly becoming integrated into many software packages, including text editors. Emacs is no
+exception and a number of packages have recently been developed to access models smoothly and directly. Of
+particular notice:
+<ul>
+<li>copilot.el brings GitHub Copilot's code completion to Emacs,</li>
+<li>copilot-chat.el allows to chat, perform code review, code correction, code optimization, code transformation, and code explanation with GitHub Copilot in Emacs,</li>
+<li>gptel allows access to any LLM from any buffer,</li>
+<li>chatgpt-shell provides an Emacs shell to chat with any LLM.</li>
+</ul>
+In this webinar, I demo these packages and show you how to install them and set things up.
+</p>
+<ul>
+	<li>Marie-Hélène Burle: </li>
+	<li><a href="https://mint.westdri.ca/emacs/wb_llms" target="_blank">Online slides</a></li>
+</ul>
+<!-- {{< video https://www.youtube.com/watch?v=qUcHbOANVns width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/qUcHbOANVns"></div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Understanding Emacs modes</span> (2024-Sep-17)
+</summary>
+<br>
+<p>
+At the core of Emacs functioning are modes: major modes set the appearance and behaviour of Emacs for various
+types of texts (e.g. a Python script and a Markdown document display different syntax highlighting and have
+different functions activated), while minor modes provide additional features that can be turned on or off
+(e.g. spell checking). Understanding how modes work is key to customizing Emacs and exploiting its
+strengths. In this webinar, I explain the functioning of Emacs modes and show how to manage and even customize
+them. Finally, I demo how the package Polymode allows to embed sections of a type of text in another type
+(e.g. snippets of code in a Markdown document).
+</p>
+<ul>
+	<li>Speaker: Marie-Hélène Burle</li>
+	<li><a href="https://mint.westdri.ca/emacs/wb_emacs_modes" target="_blank">Webinar front page</a></li>
+	<li><a href="https://mint.westdri.ca/emacs/wb_emacs_modes_slides#title-slide" target="_blank">Online slides</a></li>
+</ul>
+<!-- {{< video https://www.youtube.com/watch?v=42PYq9rjNr0 width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/42PYq9rjNr0"></div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Modern Emacs: new tools that make Emacs better and faster</span> (2024-Mar-05)
+</summary>
+<br>
+<p>
+Emacs might have been created in the 70s, but its development is alive and well. 10 years ago version 24
+brought huge speedups with lexical binding. In 2022, version 28 added -- among other things -- just-in-time
+native compilation for elisp code for improved performance. Version 29 last year brought countless exciting
+new additions such as official tree-sitter support and built-in Eglot and use-package. In addition to Emacs
+itself, a profusion of modern packages have emerged over the past few years (e.g. the
+vertico/consult/orderless/marginalia/embark completion system; corfu and cape for at point completion)
+bringing great speed and sleekness to the user experience.
+</p>
+<ul>
+	<li>Speaker: Marie-Hélène Burle</li>
+	<li><a href="https://mint.westdri.ca/emacs/wb_emacs_new_tools_slides#/title-slide" target="_blank">Online slides</a></li>
+</ul>
+<!-- {{< video https://www.youtube.com/watch?v=SOxlQ7ogplA width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/SOxlQ7ogplA"></div>
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Emacs as a programming IDE for Python, R, and Julia</span> (2023-Nov-14)
+</summary>
+<br>
+<p>
+Once upon a time (not that long ago), powerful text editors such as Vim and Emacs were the only nice
+interfaces to work with code. Nowadays, there are countless sleek and more GUI-oriented tools such as VS Code,
+RStudio, or JupyterLab that provide amazing IDEs, without the learning curve. So why would one still use Emacs
+as a programming IDE? What does that even look like? In this webinar, I show some of the many reasons why I
+can't let go of Emacs, then show how it can be used as a programming IDE for Python, R, and Julia.
+</p>
+<ul>
+	<li>Speaker: Marie-Hélène Burle</li>
+	<li><a href="https://mint.westdri.ca/emacs/wb_emacs_ide_slides#title-slide" target="_blank">Online slides</a></li>
+</ul>
+<!-- {{< video https://www.youtube.com/watch?v=rt0SpxuOuUs width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/rt0SpxuOuUs"></div>
+<br>
+</details>
+
+<br>
+```{=html}
+{{< video https://www.youtube.com/watch?v=videoIDstring width="100%" height="500px" >}}
+<div class="d-flex justify-content-end my-4">
+  <button class="btn btn-outline-secondary btn-sm" onclick="collapseAllDetails()">
+    <i class="bi bi-arrows-collapse"></i> Collapse All Sections
+  </button>
+</div>
+
+<!-- button to collapse all sections in this page -->
+<script>
+function collapseAllDetails() {
+  document.querySelectorAll('details').forEach(d => d.open = false);
+}
+</script>
+
+<!-- embed a video forcing a high-resolution thumbnail preview -->
+<script>
+document.querySelectorAll('details').forEach(details => {
+  details.addEventListener('toggle', () => {
+    if (details.open) {
+      const container = details.querySelector('.video-container');
+      if (container && !container.querySelector('iframe')) {
+        const url = container.getAttribute('data-url');
+        container.innerHTML = `<iframe src="${url}" width="100%" height="500px" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+      }
+    }
+  });
+});
+</script>
+```

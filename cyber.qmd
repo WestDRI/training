@@ -1,0 +1,102 @@
+---
+title: "Cybersecurity"
+aliases:
+  - /tools/cyber
+toc: false
+---
+
+## Webinars
+
+<!-- <details> -->
+<!-- <summary style="line-height: 0.6; margin: 0; padding: 2px 0;"> -->
+<!-- <span style="font-size: 1.2em;">title</span> (date) -->
+<!-- </summary> -->
+<!-- <br> -->
+<!-- <p> -->
+<!-- paragraph 1 -->
+<!-- </p><p> -->
+<!-- paragraph 2 -->
+<!-- </p> -->
+<!-- <ul> -->
+<!-- 	<li>Speaker: </li> -->
+<!-- 	<li><a href="" target="_blank">PDF slides</a></li> -->
+<!-- </ul> -->
+<!-- <div class="video-container" data-url="https://www.youtube.com/embed/videoIDstring"></div> -->
+<!-- <br> -->
+<!-- </details> -->
+
+Click on each webinar for its recording and materials.
+
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Cybersecurity hygiene</span> (2025-Apr-22)
+</summary>
+<br>
+<p>
+We all face a daily barrage of news about information cybersecurity: from hackers to breaches, flaws and
+vulnerabilities etc... This seemingly endless stream of content can lead to fear, confusion and even denial or
+abstinence from taking action. There are simple things everyone can do to be more secure.
+</p><p>
+This session provides an institutional-policy-agnostic, practical set of suggestions and plain language
+explanations of what can be done by individuals and teams within and outside the work environment and why each
+is important.
+</p>
+<ul>
+	<li>Speaker: Scott Baker</li>
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/cybersecurityHygiene20250422.pdf" target="_blank">PDF slides</a></li>
+</ul>
+{{< video https://www.youtube.com/watch?v=3fetWXh6SHM width="100%" height="500px" >}}
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Compliance or chaos: a research assessment survival guide</span> (2025-Mar-25)
+</summary>
+<br>
+<p>
+In today's research landscape, conducting a security, privacy, or compliance assessment is often required to
+safeguard information and adhere to regulatory requirements.
+</p><p>
+This presentation will inform researchers about prevalent challenges when participating in an assessment and
+guide them through the essential steps to prepare, thus facilitating a seamless process. This comprehensive
+approach will equip researchers with the knowledge and tools to navigate the complexities of research
+cybersecurity, ensuring their work is protected and compliant.
+</p>
+<ul>
+	<li>Speakers: Luc Letarte and Jessica Galo</li>
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/allianceComplianceOrChaos20250325.pdf" target="_blank">PDF slides</a></li>
+</ul>
+{{< video https://www.youtube.com/watch?v=3pXITv-9zvE width="100%" height="500px" >}}
+<br>
+</details>
+
+<br>
+```{=html}
+{{< video https://www.youtube.com/watch?v=videoIDstring width="100%" height="500px" >}}
+<div class="d-flex justify-content-end my-4">
+  <button class="btn btn-outline-secondary btn-sm" onclick="collapseAllDetails()">
+    <i class="bi bi-arrows-collapse"></i> Collapse All Sections
+  </button>
+</div>
+<!-- button to collapse all sections in this page -->
+<script>
+function collapseAllDetails() {
+  document.querySelectorAll('details').forEach(d => d.open = false);
+}
+</script>
+<!-- embed a video forcing a high-resolution thumbnail preview -->
+<script>
+document.querySelectorAll('details').forEach(details => {
+  details.addEventListener('toggle', () => {
+    if (details.open) {
+      const container = details.querySelector('.video-container');
+      if (container && !container.querySelector('iframe')) {
+        const url = container.getAttribute('data-url');
+        container.innerHTML = `<iframe src="${url}" width="100%" height="500px" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+      }
+    }
+  });
+});
+</script>
+```

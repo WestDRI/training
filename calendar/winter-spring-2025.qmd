@@ -1,0 +1,119 @@
+---
+title: "Events for winter-spring 2025"
+aliases:
+  - /winter-spring-2025
+toc: false
+---
+
+<style>
+/* Adjust table width */
+table {
+  max-width: 90%;;
+  margin: 0 auto;
+}
+</style>
+
+To receive future news and emails about our training events, please [subscribe here](/contact).
+
+<!-- To receive future news and emails about the BC DRI Group and the Prairies DRI Group training events, please -->
+<!-- [subscribe here](/contact). -->
+
+<!-- Going forward, this new list will be our primary way to reach academic researchers in Western Canada (and -->
+<!-- elsewhere). -->
+
+
+[Table of Contents](#table-of-contents):
+&nbsp;
+[<em>Webinars</em>](#webinars)
+• [<em>Online courses</em>](#courses)
+• [<em>Other local bootcamps and workshops</em>](#bootcamps)
+<!-- • [<em>Humanities and social sciences training</em>](#dh) -->
+• [<em>In-person schools</em>](#schools)
+
+## [Webinars]{#webinars}
+
+<!-- BC DRI + Prairies DRI bi-weekly Research Computing webinars take place every second Tuesday at 10am Pacific / -->
+<!-- 11pm Mountain / noon Central. -->
+
+The 2025 winter/spring webinars are jointly presented by SFU's Research Computing Group (RCG) and UBC's
+Advanced Research Computing (ARC). These webinars are held every second Tuesday at 10:00am Pacific (Victoria,
+Vancouver), 11:00am Mountain (Edmonton, Calgary), and noon Central (Saskatoon, Winnipeg).
+
+<!-- Webinar registration will open in early September. -->
+
+<!-- For *upcoming webinars*, click the linked title to see more details or to register. For *past -->
+<!-- sessions*, click on the title to view recordings and slides. -->
+
+<!-- | Oct-01 | [GPU computing with Chapel](link){target="_blank"} | Alex Razoumov (SFU) | -->
+<!-- Roman: let's consider setting 4 webinars in March and April time frame. -->
+<!-- February 17-21 UBC midterm break -->
+<!-- May-27 DRI Connect -->
+
+| DATE | TOPIC | SPEAKER |
+| ------------- | --------------- | ----------------- |
+| Jan-21 | [<span style="color:blue">High-level parallel stencil computations on CPUs and GPUs in Julia</span>](/programming#julia) | Alex Razoumov | <!-- ParallelStencil.jl -->
+| Jan-28 | [<span style="color:blue">Modern shell utilities</span>](/getting-started#linux) | Marie-Hélène Burle |
+| Feb-11 | [<span style="color:blue">Running parallel Ray workflows across multiple cluster nodes</span>](/programming#python) | Alex Razoumov |
+| Feb-25 | [<span style="color:blue">Bayesian inference in JAX</span>](/tools/pp) | Marie-Hélène Burle |
+| Mar-25 | [<span style="color:blue">Compliance or chaos: a research assessment survival guide</span>](/tools/cyber) | Luc Letarte &<br> Jessica Galo |
+| Apr-08 | [<span style="color:blue">Introduction to Globus</span>](/tools/rdm) | Ben Lai &<br> Michael Tang |
+| Apr-22 | [<span style="color:blue">Cybersecurity hygiene</span>](/tools/cyber) | Scott Baker |
+| May-06 | [<span style="color:blue">Managing Python packages, versions, and projects with uv</span>](/programming#python) | Marie-Hélène Burle |
+| May-20 | [<span style="color:blue">Workflow hacks for large datasets in HPC</span>](/tools/rdm) | Alex Razoumov |
+
+## [Online courses]{#courses}
+
+SFU Research Computing offers weekly online sessions on advanced research computing. These sessions take place
+every Thursday from 10am to noon Pacific and are open to all academic researchers across Canada. Most courses
+span 2 weeks, although some courses may be shorter or longer.
+
+Please note that these sessions are not recorded, as we want to encourage attendance and live interaction, and
+we are planning to repeat the most popular / introductory sessions throughout the year.
+
+| COURSE | DATES | INSTRUCTOR |
+| ------------------ | ---------- | ----------------- |
+| Introduction to the Unix shell | Jan-16, Jan-23 | Marie-Hélène Burle |
+| Introduction to HPC | Jan-30, Feb-06,<br>Feb-13 | Alex Razoumov |
+| High-performance R | Feb-27, Mar-06 | Marie-Hélène Burle |
+| Scientific visualization | Mar-13 | Alex Razoumov |
+| Parallel Julia | Mar-20, Mar-27  | Alex Razoumov |
+| Deep learning with JAX | Apr-03, Apr-10,<br>Apr-17 | Marie-Hélène Burle |
+| HPC Python | Apr-24, May-01,<br>May-08 | Alex Razoumov | <!-- week 2 on Ray Core, week 3 on Ray Data -->
+| Parallel programming in Chapel | May-15, May-22 | Alex Razoumov |
+
+## [Bootcamps and workshops]{#bootcamps}
+
+We will be adding workshops here as they are announced at other Western Canadian universities.
+
+| DATE | EVENT | VENUE |
+| ---- | ----- | ----- |
+| Starts May-02 | [Univ. of Alberta Spring Bootcamp](https://www.ualberta.ca/en/information-services-and-technology/research-computing/bootcamps.html){target="_blank"} | Online |
+
+## [Summer school]{#schools}
+
+<!-- Typically at the end of a term we organize a longer, in-person research computing school at SFU that is open -->
+<!-- to all students, postdocs, faculty and staff. We will add more information here. -->
+
+SFU's 2025 week-long Research Computing Summer School took place from June 9th to 13th. This year's program
+offered a hands-on introduction to essential tools and concepts in modern scientific computing and
+data-intensive research, with an emphasis on efficient, reproducible, and scalable workflows. Through a
+combination of guided instruction and practical sessions, attendees developed the skills needed to navigate
+computational environments, manage and optimize research code, and harness the power of high-performance
+computing.
+
+- Day 1: Linux command line - full-day
+- Day 2: High-performance computing (HPC) - full-day
+- Day 3: Version control with Git - morning
+- Day 3: Make your R code faster (serial optimization in R) - afternoon
+- Day 4: Practical hands-on session: working on a Git project of your choice - morning
+- Day 4: First dive into parallel programming with Chapel - afternoon
+- Day 5: Accelerated computing with Python - full-day
+
+The school was open to all researchers at SFU and other Canadian post-secondary institutions. For more
+details, please visit the [school website](https://sfu25.netlify.app){target="_blank"}.
+
+---
+
+<br>
+As always, we welcome requests for other training topics and events. Please email suggestions to `training at
+westdri dot ca`.

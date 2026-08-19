@@ -1,0 +1,86 @@
+---
+title: "Events for fall 2024"
+aliases:
+  - /fall-2024
+toc: false
+---
+
+<style>
+table {
+  max-width: 90%;;
+  margin: 0 auto;
+}
+h2 {
+  color: midnightblue;
+}
+</style>
+
+To receive future news and emails about our training events, please [subscribe here](/contact).
+
+[Table of Contents](#table-of-contents):
+&nbsp;
+[<em>Webinars</em>](#webinars)
+• [<em>Online courses</em>](#online-courses)
+• [<em>Other local bootcamps and workshops</em>](#bootcamps)
+<!-- • [<em>Humanities and social sciences training</em>](#dh) -->
+• [<em>In-person schools</em>](#schools)
+
+## [Webinars]{#webinars}
+
+<!-- BC DRI + Prairies DRI bi-weekly Research Computing webinars take place every second Tuesday at 10am Pacific / -->
+<!-- 11pm Mountain / noon Central. -->
+
+The 2024 fall webinars are jointly presented by SFU's Research Computing Group (RCG) and UBC's Advanced
+Research Computing (ARC). These webinars are held every second Tuesday at 10:00am Pacific (Victoria,
+Vancouver), 11:00am Mountain (Edmonton, Calgary, Saskatoon), and noon Central (Winnipeg).
+
+| DATE | TOPIC | SPEAKER |
+| ------------- | --------------- | ----------------- |
+| Sep-17 | [<span style="color:blue">Understanding Emacs modes</span>](/getting-started#emacs) | Marie-Hélène Burle (SFU) |
+| Oct-01 | [<span style="color:blue">GPU computing with Chapel</span>](/programming#chapel) | Alex Razoumov (SFU) |
+| Oct-15 | [<span style="color:blue">Best practices in HPC/HTC environments</span>](/getting-started#hpc) | Roman Baranowski (UBC) |
+| Oct-29 | [<span style="color:blue">Lazygit</span>](/getting-started#git) | Marie-Hélène Burle (SFU) |
+| Nov-12 | [<span style="color:blue">Nextflow and Julia for scalable computation</span>](/programming#nextflow) | Alexandre Bouchard-Côtén (UBC) | <!-- Nextflow/Julia from Alex Bouchard's group (https://www.stat.ubc.ca/~bouchard) -->
+| Nov-26 | [<span style="color:blue">Distributed file storage with git-annex</span>](/tools/rdm#annex) | Alex Razoumov (SFU) |
+| Dec-10 | [<span style="color:blue">Intro to the Alliance Cloud</span>](/tools/virtual#alliancecloud) | Michael Tang (UBC) |
+
+## [Online courses]{#courses}
+
+SFU Research Computing offers weekly online sessions on advanced research computing. These sessions take place
+every Thursday from 10am to noon Pacific and are open to all academic researchers across Canada. Most courses
+span 2 weeks, although some courses may be shorter or longer.
+
+Please note that these sessions are not recorded, as we want to encourage attendance and live interaction, and
+we are planning to repeat the most popular / introductory sessions throughout the year.
+
+| COURSE | DATES | INSTRUCTOR |
+| ------------------ | -------- | ----------------- |
+| <span style="color:gray">Introduction to HPC</span> | Sep-12,<br>Sep-19 | Alex Razoumov |
+| <span style="color:gray">Beginner's introduction to Emacs</span> | Sep-26,<br>Oct-03 | Marie-Hélène Burle |
+| <span style="color:gray">Working with Apptainer containers</span> | Oct-10,<br>Oct-17 | Alex Razoumov |
+| <span style="color:gray">Faster Python DataFrames with Polars</span> | Oct-24 | Marie-Hélène Burle |
+| <span style="color:gray">Parallel coding in Python</span> | Oct-31,<br>Nov-07 | Alex Razoumov and <br> Marie-Hélène Burle |
+| <span style="color:gray">Hands-on with ParaView's Programmable Filter / Source for scientific visualization</span> | Nov-14 | Alex Razoumov | <!-- Marie out of town on vacation -->
+| <span style="color:gray">Large-scale and remote visualization</span> | Nov-21 | Alex Razoumov | <!-- Marie is teaching @BCCAI workshop Nov-{20,21} -->
+| <span style="color:gray">Version control with Git</span> | Nov-28 | Marie-Hélène Burle |
+| <span style="color:gray">Using GPUs with Chapel</span> | Dec-05,<br>Dec-12 | Alex Razoumov | <!-- set up vGPUs on Arbutus or Beluga -->
+| <span style="color:gray">Answering your Bash questions</span> | Dec-19 | Marie-Hélène Burle and Alex Razoumov | <!-- bring your own questions and problems or pick from our course; create a google form in advance -->
+
+## [Bootcamps and workshops]{#bootcamps}
+
+We will be adding workshops here as they are announced at other Western Canadian universities.
+
+| DATE | EVENT | VENUE |
+| ---- | ----- | ----- |
+| Starts Sep-20 | [Univ. of Alberta Fall Bootcamp](https://www.ualberta.ca/en/information-services-and-technology/news/2024/fall-research-computing-bootcamp-2024.html){target="_blank"} | Online |
+
+## [In-person schools]{#schools}
+
+Typically at the end of a term we organize a longer, in-person research computing school at SFU that is open
+to all students, postdocs, faculty and staff. We will add more information here.
+
+---
+
+<br>
+As always, we welcome requests for other training topics and events. Please email suggestions to `training at
+westdri dot ca`.

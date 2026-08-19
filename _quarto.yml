@@ -1,0 +1,59 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "RC training"
+  navbar:
+    background: "white"
+    foreground: "#797979"
+    left:
+      - text: Getting started
+        href: getting-started
+      - text: Programming
+        href: programming
+      - text: Domains
+        menu: 
+          - text: Bioinformatics
+            href: domains/bioinfo
+          - text: Digital humanities
+            href: domains/dh
+          - text: Molecular dynamics
+            href: domains/md
+          - text: Astrophysics
+            href: domains/astro
+          - text: Earth sciences and GIS
+            href: domains/geo
+      - text: Tools
+        menu: 
+          - text: Visualization
+            href: tools/visualization
+          - text: Cloud and containers
+            href: tools/virtual
+          - text: Scheduling
+            href: tools/scheduling
+          - text: Data management
+            href: tools/rdm
+          - text: Machine learning
+            href: tools/ml
+          - text: Probabilistic programming
+            href: tools/pp
+          - text: Cybersecurity
+            href: tools/cyber
+      - text: Courses
+        href: courses
+      - text: Events
+        href: events
+    right:
+      - icon: envelope
+        href: /contact
+      - icon: youtube
+        href: https://www.youtube.com/WGSeminarSeries
+
+format:
+  html:
+    theme: default
+    css: styles.css
+    toc: true
+    linkcolor: "#097f5f"
+    code-line-numbers: false

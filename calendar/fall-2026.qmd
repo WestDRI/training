@@ -1,0 +1,94 @@
+---
+title: "Events for fall 2026"
+aliases:
+  - /fall-2026
+toc: false
+---
+
+<style>
+table {
+  max-width: 90%;;
+  margin: 0 auto;
+}
+h2 {
+  color: midnightblue;
+}
+</style>
+
+<!-- deployment status https://github.com/WestGrid/trainingMaterials/actions -->
+
+To receive future news and emails about our training events, please [subscribe here](/contact).
+
+<!-- To receive future news and emails about the BC DRI Group and the Prairies DRI Group training events, please -->
+<!-- [subscribe here](/contact). -->
+
+[Table of Contents](#table-of-contents):
+&nbsp;
+[<em>Webinars</em>](#webinars)
+• [<em>Online courses</em>](#courses)
+• [<em>Other local bootcamps and workshops</em>](#bootcamps)
+
+## [Webinars]{#webinars}
+
+The 2026 Fall Webinars, hosted by SFU's Research Computing Group (RCG), will take place every second Tuesday
+at 10:00am Pacific Time ([convert to your
+timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Webinar&iso=20261015T1000&p1=137){target="_blank"}).
+
+<!-- Webinar details and registration links will be posted here in March. -->
+
+For *upcoming webinars*, click the linked titles to view details or register. For *past sessions*, click the
+titles to access recordings and slides.
+
+| DATE | TOPIC | SPEAKER |
+| ---- | ----------- | ------- |
+| Sep-15 | TBA | TBA |
+| Sep-29 | TBA | TBA |
+| Oct-13 | TBA | TBA |
+| Oct-27 | TBA | TBA |
+| Nov-10 | Why would you use Rust for scientific computing? | Manuel Sebastian Drehwald (NVIDIA) | <!-- Marie vacation Nov-09-13 -->
+| Nov-24 | Scalable numerical methods | Sarah Huber (UVic) |
+| Dec-08 | TBA | TBA |
+
+## [Online courses]{#courses}
+
+SFU Research Computing hosts weekly online sessions on advanced computational topics every Thursday from
+10:00am ([convert to your
+timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Webinar&iso=20261015T1000&p1=137){target="_blank"})
+to noon Pacific Time. These sessions are open to academic researchers across Canada. Most courses run for two
+weeks, although some are shorter or longer. Sessions are not recorded to encourage live participation and
+interaction. Popular introductory topics are repeated throughout the year.
+
+<!-- SFU classes start on Wed Sep-09 -->
+
+| COURSE | DATES | INSTRUCTOR |
+| ------------ | ----- | ---------- |
+| Bash for beginners | Sep-17 | Marie-Hélène Burle |
+| HPC for beginners | Sep-24,<br>Oct-01 | Alex Razoumov |
+| Containers for HPC | Oct-08 | Alex Razoumov | <!-- Working with Apptainer containers -->
+| Getting started with Git | Oct-15,<br>Oct-22 | Marie-Hélène Burle |
+| Collaboration with Git | Oct-29 | Marie-Hélène Burle |
+| HPC Python | Nov-05,<br>Nov-12 | Alex Razoumov | <!-- Marie vacation Nov-09-13, Calgary training summit Nov-04-06 -->
+| Numba JIT compilation to CUDA kernels | Nov-19 | Alex Razoumov |
+| Intro to ML with PyTorch | Nov-26,<br>Dec-03 | Marie-Hélène Burle |
+| Gen-AI with PyTorch for simulation data | Dec-10 | Alex Razoumov |
+| Bring your questions and problems | Dec-17 | Marie-Hélène Burle<br>and Alex Razoumov |
+
+<!-- 1. break into smaller courses, with dependencies/requirements -->
+<!-- 1. be explicit about pre-requisites, e.g. for this Python course some were not familiar with HPC and bash, no -->
+<!--    idea what ssh is, etc. -->
+<!-- 1. include into the abstract: if you have not attended, please study this material -->
+<!-- 1. two start times: 9:30am for people not familiar with ssh, 10:00am for everyone else -->
+<!-- 1. we have 19 weeks - 1 reading week break = 18 weeks, starting on Jan-19 -->
+
+## [Upcoming bootcamps and workshops]{#bootcamps}
+
+Workshops offered by other Western Canadian universities will be added here as they are announced.
+
+<!-- | DATE | EVENT | VENUE | -->
+<!-- | ---- | ----- | ----- | -->
+<!-- | Jan-Feb | [UofA Winter Bootcamp](https://www.ualberta.ca/en/information-services-and-technology/research-computing/bootcamps.html){target="_blank"} | Online | -->
+<!-- | May | [UofA Spring Bootcamp](https://ualbertauw.qualtrics.com/jfe/form/SV_9mGhgrxohgzJc1w){target="_blank"} | Online | -->
+
+<br>
+As always, we welcome suggestions for additional training topics and events. Please email your ideas to
+`training at westdri dot ca`.

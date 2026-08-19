@@ -1,0 +1,58 @@
+---
+title: "Events for fall 2019"
+aliases:
+  - /fall-2019
+toc: false
+---
+
+<style>
+table {
+  max-width: 90%;;
+  margin: 0 auto;
+}
+h2 {
+  color: midnightblue;
+}
+</style>
+
+<!-- For more information on each session, or to register, click on the links below. -->
+
+<!-- ========================================================================================== -->
+
+## Webinars
+
+WestGrid's bi-weekly training webinars take place every second Wednesday at 10am Pacific / 11am Mountain
+/ 12pm Central.
+
+To view recordings and slides from past sessions, click on the linked title.
+
+| DATE | TOPIC | Speaker |
+| ------------- | --------------- | ----------------- |
+| Sep-18 | [<span style="color:blue">Batch visualization on Compute Canada clusters</span>](/tools/visualization#batch-visualization-on-compute-canada-clusters) | Alex Razoumov |
+| Oct-16 | [<span style="color:blue">Working with Python DASK library</span>](/programming#parallel-libraries) | Chris Want |
+| Oct-30 | [<span style="color:blue">File access control approaches and best practices</span>](/tools/rdm#acl) | Sergiy Stepanenko |
+| Nov-13 | [<span style="color:blue">Building a bioinformatics QC pipeline</span>](/domains/bioinfo) | Brian McConeghy |
+| Nov-27 | [<span style="color:blue">Tips & tools for mining Twitter data for research</span>](/domains/dh#twitterapis) | John Simpson |
+| Dec-11 | [<span style="color:blue">Geospatial analysis with HPC</span>](/domains/geo#geospatial) | Ian Percel |
+
+<!-- | TBD | Introduction to Machine Learning tools on CC clusters || -->
+
+<!-- this page http://bit.ly/wg2019b -->
+<!-- still available: Oct-02 -->
+
+<!-- Oct-30 webinar will review access control approaches and best practices aimed at PIs with a team -->
+<!-- that might have varying file sharing requirements. -->
+
+<!-- ========================================================================================== -->
+
+## In-person workshops
+
+| DATE | Event | Location |
+| ------------- | --------------- | ----------------- |
+| Sep-23 to Oct-04 | [Research Computing Fall Bootcamp](https://ist.ualberta.ca/blog/news/get-ready-research-computing-fall-bootcamp) | University of Alberta |
+| Dec-10 to Dec-13 | [Research Computing Winter School](https://www.eventbrite.ca/e/westgrid-research-computing-winter-school-university-of-victoria-registration-72872185669) | University of Victoria |
+
+<!-- ========================================================================================== -->
+
+As always, we welcome requests for other training topics and events. Please email suggestions to
+info@westgrid.ca.

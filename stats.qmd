@@ -1,0 +1,104 @@
+---
+title: "Probabilistic programming and statistics"
+aliases:
+  - /tools/pp
+toc: false
+---
+
+## Webinars
+
+<!-- <details> -->
+<!-- <summary style="line-height: 0.6; margin: 0; padding: 2px 0;"> -->
+<!-- <span style="font-size: 1.2em;">title</span> (date) -->
+<!-- </summary> -->
+<!-- <br> -->
+<!-- <p> -->
+<!-- paragraph 1 -->
+<!-- </p><p> -->
+<!-- paragraph 2 -->
+<!-- </p> -->
+<!-- <ul> -->
+<!-- 	<li>Speaker: </li> -->
+<!-- 	<li><a href="" target="_blank">PDF slides</a></li> -->
+<!-- </ul> -->
+<!-- <div class="video-container" data-url="https://www.youtube.com/embed/videoIDstring"></div> -->
+<!-- <br> -->
+<!-- </details> -->
+
+Click on each webinar for its recording and materials.
+
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Bayesian inference in JAX</span> (2025-Feb-25)
+</summary>
+<br>
+<p>
+<a href="https://en.wikipedia.org/wiki/Bayesian_statistics" target="_blank">Bayesian statistics</a>
+is more intuitive to the way we (humans) think about the world and easier to interpret
+than the traditional
+<a href="https://en.wikipedia.org/wiki/Frequentist_probability" target="_blank">frequentist
+approach</a>. Moreover, it allows for the incorporation of prior information and
+diverse data, it provides a measure of uncertainty, and it is extremely valuable in difficult situations with
+little data. The downside is that it is computationally complex and intensive. In addition, the best
+performing algorithms require burdensome calculations of derivatives. This explains its initial limitations.
+</p><p>
+With the advent of increasingly
+<a href="https://en.wikipedia.org/wiki/Probabilistic_programming" target="_blank">performant probabilistic
+programming languages (PPLs)</a>, algorithms, compilers,
+<a href="https://en.wikipedia.org/wiki/Automatic_differentiation" target="_blank">automatic differentiation</a>
+engines, and computer hardware, Bayesian approaches are now fast growing in
+popularity in many fields.
+</p><p>
+JAX is a library for Python that makes use of the extremely performant
+<a href="https://en.wikipedia.org/wiki/Accelerated_Linear_Algebra" target="_blank">XLA compiler</a>, runs
+on accelerators
+(GPUs/TPUs), provides automatic differentiation,
+<a href="https://en.wikipedia.org/wiki/Just-in-time_compilation" target="_blank">just-in-time
+compilation</a>, batching, and parallelization. In
+short, it is a perfect tool for Bayesian statistics. Not surprisingly, many PPLs now use it as a backend, and
+<a href="https://mc-stan.org" target="_blank">Stan</a>
+users (and
+<a href="https://statmodeling.stat.columbia.edu/2024/09/25/stan-faster-than-jax-on-cpu" target="_blank">developers!</a>) are turning to it.
+</p><p>
+In this webinar, I will give a brief and very high-level introduction to Bayesian inference, then talk about
+the various PPLs and samplers which use JAX.
+</p>
+<ul>
+	<li>Speaker: Marie-Hélène Burle</li>
+	<li><a href="https://mint.westdri.ca/ai/jx/wb_bayesian" target="_blank">Webinar page with slides</a></li>
+	<li><a href="https://dataorigami.net/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers"
+	target="_blank">"Probabilistic Programming & Bayesian Methods for Hackers" book online</a></li>
+</ul>
+{{< video https://www.youtube.com/watch?v=ERACcan7Nns width="100%" height="500px" >}}
+<br>
+</details>
+
+<br>
+```{=html}
+{{< video https://www.youtube.com/watch?v=videoIDstring width="100%" height="500px" >}}
+<div class="d-flex justify-content-end my-4">
+  <button class="btn btn-outline-secondary btn-sm" onclick="collapseAllDetails()">
+    <i class="bi bi-arrows-collapse"></i> Collapse All Sections
+  </button>
+</div>
+<!-- button to collapse all sections in this page -->
+<script>
+function collapseAllDetails() {
+  document.querySelectorAll('details').forEach(d => d.open = false);
+}
+</script>
+<!-- embed a video forcing a high-resolution thumbnail preview -->
+<script>
+document.querySelectorAll('details').forEach(details => {
+  details.addEventListener('toggle', () => {
+    if (details.open) {
+      const container = details.querySelector('.video-container');
+      if (container && !container.querySelector('iframe')) {
+        const url = container.getAttribute('data-url');
+        container.innerHTML = `<iframe src="${url}" width="100%" height="500px" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+      }
+    }
+  });
+});
+</script>
+```

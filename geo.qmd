@@ -1,0 +1,148 @@
+---
+title: "Earth sciences and GIS"
+aliases:
+  - /domains/geo
+toc: false
+---
+
+## Webinars
+
+<!-- <details> -->
+<!-- <summary style="line-height: 0.6; margin: 0; padding: 2px 0;"> -->
+<!-- <span style="font-size: 1.2em;">title</span> (date) -->
+<!-- </summary> -->
+<!-- <br> -->
+<!-- <p> -->
+<!-- paragraph 1 -->
+<!-- </p><p> -->
+<!-- paragraph 2 -->
+<!-- </p> -->
+<!-- <ul> -->
+<!-- 	<li>Speaker: </li> -->
+<!-- 	<li><a href="" target="_blank">PDF slides</a></li> -->
+<!-- </ul> -->
+<!-- <div class="video-container" data-url="https://www.youtube.com/embed/videoIDstring"></div> -->
+<!-- <br> -->
+<!-- </details> -->
+
+Click on each webinar for its recording and materials.
+
+<details>
+<a name="hydrological"></a>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">HPC for new users: a practical example using hydrological models</span> (2023-Oct-31)
+</summary>
+<br>
+<p>
+Researchers from a variety of disciplines in natural sciences are becoming increasingly interested in
+High-Performance Computing (HPC). However, factors such as lack of know-how and apparently steep learning
+curve can hinder new users from moving into HPC. Adopting a workflow to run jobs, monitor their status, and
+postprocess their outputs can be challenging for new users or for those who have limited experience. This
+webinar tries to alleviate this issue by illustrating common steps typically required to run jobs in HPC
+environments. Using a simple yet real hydrological modelling example, the demonstration consists of running a
+parallel FORTRAN application using R, as well as retrieving and summarizing its results in the Cedar
+Cluster. The presentation demonstrates a practical workflow that encompasses:
+<li> preparing submission scripts,</li>
+<li> testing parallel-computation jobs before submission,</li>
+<li> debugging parallel-computation jobs that return an error, and</li>
+<li> monitoring single or multiple jobs running at a time.</li>
+</p>
+<ul>
+	<li>Speaker: Marcos Cunha-Cordeiro and Befekadu Woldegiorgis</li>
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/hydrological20231031.pdf" target="_blank">PDF slides</a></li>
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/HPC_demonstration_Befekadu.R" target="_blank">Sample R code</a></li>
+</ul>
+{{< video https://www.youtube.com/watch?v=3fxENqHE5ao width="100%" height="500px" >}}
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Advanced GIS mapping in R</span> (2021-Feb-03)
+</summary>
+<br>
+<p>
+In this webinar we show how to create inset maps, faceted maps, animated maps, interactive mapping applications,
+cartograms, raster maps, and bridge over from R to QGIS with packages `sf`, `tmap`, `raster`, `leaflet`, `shiny`,
+`ggplot2`, `ggmap`, `grid`, `mapview`, `cartogram`, and `qgisprocess`.
+</p>
+<ul>
+	<li>Speaker: Marie-Hélène Burle</li>
+	<li><a href="https://prog.westdri.ca/webinars/adv_gis_r" target="_blank">Presentation materials</a></li>
+</ul>
+{{< video https://www.youtube.com/watch?v=7QoccXWqeUs width="100%" height="500px" >}}
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<a name="gis-with-r"></a>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Basics of GIS mapping in R</span> (2020-Dec-09)
+</summary>
+<br>
+<p>
+In this webinar, we introduce simple GIS tasks as well as map production in R using the packages `sf` and `tmap`.
+</p>
+<ul>
+	<li>Speaker: Marie-Hélène Burle</li>
+	<li><a href="https://prog.westdri.ca/webinars/gis_r" target="_blank">Presentation materials</a></li>
+</ul>
+{{< video https://www.youtube.com/watch?v=vWwbwROqn6w width="100%" height="500px" >}}
+<br>
+</details>
+<!-- ========================================================================================== -->
+<details>
+<a name="geospatial"></a>
+<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Geospatial analysis with HPC</span> (2019-Dec-11)
+</summary>
+<br>
+<p>
+This webinar provides an introduction to basic tools of spatial data analysis and modelling that are available as open
+source libraries in Python. It consists of two parts: GeoPandas and the parallelization of spatial joins.
+</p><p>
+The first portion of the talk introduces the core API of GeoPandas and emphasizes how it can be used to link relational
+data structures to geometric objects that represent spatial subsets. This includes a brief introduction to loading data
+from geodatabases, mapping, aggregating, spatial filtering, and simple spatial joins. The second portion of the talk
+focuses on how to implement parallel versions of spatial join operations. This examines alternatives that have been
+developed in the data science community for providing more efficient handling of GEOS pointers and subclassing Dask
+DataFrames.
+paragraph 2
+</p>
+<ul>
+	<li>Speaker: Ian Percel</li>
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/spatialAnalysis20191211.pdf" target="_blank">PDF slides</a></li>
+</ul>
+{{< video https://www.youtube.com/watch?v=wRmRnVMjKXM width="100%" height="500px" >}}
+<br>
+</details>
+
+<br>
+```{=html}
+{{< video https://www.youtube.com/watch?v=videoIDstring width="100%" height="500px" >}}
+<div class="d-flex justify-content-end my-4">
+  <button class="btn btn-outline-secondary btn-sm" onclick="collapseAllDetails()">
+    <i class="bi bi-arrows-collapse"></i> Collapse All Sections
+  </button>
+</div>
+<!-- button to collapse all sections in this page -->
+<script>
+function collapseAllDetails() {
+  document.querySelectorAll('details').forEach(d => d.open = false);
+}
+</script>
+<!-- embed a video forcing a high-resolution thumbnail preview -->
+<script>
+document.querySelectorAll('details').forEach(details => {
+  details.addEventListener('toggle', () => {
+    if (details.open) {
+      const container = details.querySelector('.video-container');
+      if (container && !container.querySelector('iframe')) {
+        const url = container.getAttribute('data-url');
+        container.innerHTML = `<iframe src="${url}" width="100%" height="500px" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+      }
+    }
+  });
+});
+</script>
+```
