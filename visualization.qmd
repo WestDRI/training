@@ -634,22 +634,6 @@ topologies that will be lost in 2D.
     <i class="bi bi-arrows-collapse"></i> Collapse All Sections
   </button>
 </div>
-
-<!-- button to collapse all sections in this page -->
-<script>
-function collapseAllDetails() {
-  document.querySelectorAll('details').forEach(d => d.open = false);
-}
-</script>
-
-<br>
-```{=html}
-{{< video https://www.youtube.com/watch?v=videoIDstring width="100%" height="500px" >}}
-<div class="d-flex justify-content-end my-4">
-  <button class="btn btn-outline-secondary btn-sm" onclick="collapseAllDetails()">
-    <i class="bi bi-arrows-collapse"></i> Collapse All Sections
-  </button>
-</div>
 <!-- button to collapse all sections in this page -->
 <script>
 function collapseAllDetails() {

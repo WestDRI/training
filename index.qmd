@@ -3,10 +3,6 @@ title: ""
 toc: false
 ---
 
-```{r,include = FALSE}
-source("ref.R")
-```
-
 # <font class=mrgg>Training in research computing</font> <img src="images/hero-image.svg" align="right" width="140"></img>
 
 Learn scientific programming, high-performance computing, data analysis, and visualization with SFU's Research
