@@ -62,16 +62,16 @@ interaction. Popular introductory topics are repeated throughout the year.
 
 | COURSE | DATES | INSTRUCTOR |
 | ------------ | ----- | ---------- |
-| Bash for beginners | Sep-17 | Marie-Hélène Burle |
-| HPC for beginners | Sep-24,<br>Oct-01 | Alex Razoumov |
-| Containers for HPC | Oct-08 | Alex Razoumov | <!-- Working with Apptainer containers -->
-| Getting started with Git | Oct-15,<br>Oct-22 | Marie-Hélène Burle |
-| Collaboration with Git | Oct-29 | Marie-Hélène Burle |
-| HPC Python | Nov-05,<br>Nov-12 | Alex Razoumov | <!-- Marie vacation Nov-09-13, Calgary training summit Nov-04-06 -->
-| Numba JIT compilation to CUDA kernels | Nov-19 | Alex Razoumov |
-| Intro to ML with PyTorch | Nov-26,<br>Dec-03 | Marie-Hélène Burle |
-| Gen-AI with PyTorch for simulation data | Dec-10 | Alex Razoumov |
-| Bring your questions and problems | Dec-17 | Marie-Hélène Burle<br>and Alex Razoumov |
+| [Bash for beginners](https://forms.gle/gwZxrVkskX4qYm75A) | Sep-17 | Marie-Hélène Burle |
+| [HPC for beginners](https://forms.gle/c5vb26hxoKaoPWpE9) | Sep-24,<br>Oct-01 | Alex Razoumov |
+| [Containers for HPC](https://forms.gle/FsBihszQehZx2vuG7) | Oct-08 | Alex Razoumov | <!-- Working with Apptainer containers -->
+| [Getting started with Git](https://forms.gle/einS6fRfNFzu8Tzn9) | Oct-15,<br>Oct-22 | Marie-Hélène Burle |
+| [Collaboration with Git](https://forms.gle/6PVS7yCVQ24dsHTG9) | Oct-29 | Marie-Hélène Burle |
+| [HPC Python](https://forms.gle/Bsmn6fsjmR9ZobxH8) | Nov-05,<br>Nov-12 | Alex Razoumov | <!-- Marie vacation Nov-09-13, Calgary training summit Nov-04-06 -->
+| [Numba JIT compilation to CUDA kernels](https://forms.gle/ee2N4tem8jKuuKdr9) | Nov-19 | Alex Razoumov |
+| [Intro DL with PyTorch](https://forms.gle/aojynRpvB7k8jCYG8) | Nov-26,<br>Dec-03 | Marie-Hélène Burle |
+| [Gen-AI with PyTorch for simulation data](https://forms.gle/SXkaJZtdDLxD4rbX9) | Dec-10 | Alex Razoumov |
+| [Bring your questions & problems](https://forms.gle/3exrfA37XjVx7ZDx6) | Dec-17 | Marie-Hélène Burle<br>and Alex Razoumov |
 
 <!-- 1. break into smaller courses, with dependencies/requirements -->
 <!-- 1. be explicit about pre-requisites, e.g. for this Python course some were not familiar with HPC and bash, no -->
