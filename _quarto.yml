@@ -5,6 +5,7 @@ project:
 website:
   title: "RC training"
   site-url: https://westdri.github.io/
+  favicon: /images/favicon_sfu.png
   navbar:
     background: "white"
     foreground: "#797979"
