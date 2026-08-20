@@ -45,8 +45,8 @@ titles to access recordings and slides.
 | Sep-29 | TBA | TBA |
 | Oct-13 | TBA | TBA |
 | Oct-27 | TBA | TBA |
-| Nov-10 | Why would you use Rust for scientific computing? | Manuel Sebastian Drehwald (NVIDIA) | <!-- Marie vacation Nov-09-13 -->
-| Nov-24 | Scalable numerical methods | Sarah Huber (UVic) |
+| Nov-10 | [Why would you use Rust for scientific computing?](https://forms.gle/tYgFGUPdoPAuAbfd8) | Manuel Sebastian Drehwald (NVIDIA) | <!-- Marie vacation Nov-09-13 -->
+| Nov-24 | [Scalable numerical methods](https://forms.gle/kQpAYLdgkKAMknvXA) | Sarah Huber (UVic) |
 | Dec-08 | TBA | TBA |
 
 ## [Online courses]{#courses}
@@ -66,7 +66,7 @@ interaction. Popular introductory topics are repeated throughout the year.
 | [HPC for beginners](https://forms.gle/c5vb26hxoKaoPWpE9) | Sep-24,<br>Oct-01 | Alex Razoumov |
 | [Containers for HPC](https://forms.gle/FsBihszQehZx2vuG7) | Oct-08 | Alex Razoumov | <!-- Working with Apptainer containers -->
 | [Getting started with Git](https://forms.gle/einS6fRfNFzu8Tzn9) | Oct-15,<br>Oct-22 | Marie-Hélène Burle |
-| [Collaboration with Git](https://forms.gle/6PVS7yCVQ24dsHTG9) | Oct-29 | Marie-Hélène Burle |
+| [Collaboration via GitHub](https://forms.gle/6PVS7yCVQ24dsHTG9) | Oct-29 | Marie-Hélène Burle |
 | [HPC Python](https://forms.gle/Bsmn6fsjmR9ZobxH8) | Nov-05,<br>Nov-12 | Alex Razoumov | <!-- Marie vacation Nov-09-13, Calgary training summit Nov-04-06 -->
 | [Numba JIT compilation to CUDA kernels](https://forms.gle/ee2N4tem8jKuuKdr9) | Nov-19 | Alex Razoumov |
 | [Intro DL with PyTorch](https://forms.gle/aojynRpvB7k8jCYG8) | Nov-26,<br>Dec-03 | Marie-Hélène Burle |
