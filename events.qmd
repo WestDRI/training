@@ -3,6 +3,7 @@ title: "Events calendar"
 aliases:
   - /events
 toc: false
+anchor-sections: false
 ---
 
 ::: {.card-grid}
