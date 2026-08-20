@@ -3,97 +3,98 @@ title: "Events calendar"
 aliases:
   - /events
 toc: false
+anchor-sections: false
 ---
 
 ::: {.card-grid}
 
 ::: {.card}
-### [Fall 2026](fall-2026)
+### [Fall 2026](fall-2026){.stretched-link}
 :::
 
 ::: {.card}
-### [Winter/spring 2026](winter-spring-2026)
+### [Winter/spring 2026](winter-spring-2026){.stretched-link}
 :::
 
 ::: {.card}
-### [Fall 2025](fall-2025)
+### [Fall 2025](fall-2025){.stretched-link}
 :::
 
 ::: {.card}
-### [Winter/spring 2025](winter-spring-2025)
+### [Winter/spring 2025](winter-spring-2025){.stretched-link}
 :::
 
 ::: {.card}
-### [Fall 2024](fall-2024)
+### [Fall 2024](fall-2024){.stretched-link}
 :::
 
 ::: {.card}
-### [Winter/spring 2024](winter-spring-2024)
+### [Winter/spring 2024](winter-spring-2024){.stretched-link}
 :::
 
 ::: {.card}
-### [Fall 2023](fall-2023)
+### [Fall 2023](fall-2023){.stretched-link}
 :::
 
 ::: {.card}
-### [Winter/spring 2023](winter-spring-2023)
+### [Winter/spring 2023](winter-spring-2023){.stretched-link}
 :::
 
 ::: {.card}
-### [Fall 2022](fall-2022)
+### [Fall 2022](fall-2022){.stretched-link}
 :::
 
 ::: {.card}
-### [Summer school 2022](summer-school-2022)
+### [Summer school 2022](summer-school-2022){.stretched-link}
 :::
 
 ::: {.card}
-### [Winter/spring 2022](winter-spring-2022)
+### [Winter/spring 2022](winter-spring-2022){.stretched-link}
 :::
 
 ::: {.card}
-### [Fall 2021](fall-2021)
+### [Fall 2021](fall-2021){.stretched-link}
 :::
 
 ::: {.card}
-### [Winter/spring 2021](winter-spring-2021)
+### [Winter/spring 2021](winter-spring-2021){.stretched-link}
 :::
 
 ::: {.card}
-### [Fall 2020](fall-2020)
+### [Fall 2020](fall-2020){.stretched-link}
 :::
 
 ::: {.card}
-### [Winter/spring 2020](winter-spring-2020)
+### [Winter/spring 2020](winter-spring-2020){.stretched-link}
 :::
 
 ::: {.card}
-### [Fall 2019](fall-2019)
+### [Fall 2019](fall-2019){.stretched-link}
 :::
 
 ::: {.card}
-### [Winter/spring 2019](winter-spring-2019)
+### [Winter/spring 2019](winter-spring-2019){.stretched-link}
 :::
 
 ::: {.card}
-### [Fall 2018](fall-2018)
+### [Fall 2018](fall-2018){.stretched-link}
 :::
 
 ::: {.card}
-### [Spring/summer 2018](spring-summer-2018)
+### [Spring/summer 2018](spring-summer-2018){.stretched-link}
 :::
 
 ::: {.card}
-### [Winter 2018](winter-2018)
+### [Winter 2018](winter-2018){.stretched-link}
 :::
 
 <!-- ::: {.card} -->
-<!-- ### [GitHub Repository](https://github.com) -->
+<!-- ### [GitHub Repository](https://github.com){.stretched-link} -->
 <!-- Explore source code, collaborate, and manage software projects. -->
 <!-- ::: -->
 
 <!-- ::: {.card} -->
-<!-- ### [Posit / RStudio](https://posit.co) -->
+<!-- ### [Posit / RStudio](https://posit.co){.stretched-link} -->
 <!-- Discover powerful open-source tools for data science and analysis. -->
 <!-- ::: -->
 
