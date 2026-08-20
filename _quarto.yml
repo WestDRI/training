@@ -4,6 +4,7 @@ project:
 
 website:
   title: "RC training"
+  site-url: https://westdri.github.io/
   navbar:
     background: "white"
     foreground: "#797979"
