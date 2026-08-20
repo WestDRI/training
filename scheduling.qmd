@@ -41,7 +41,8 @@ Click on each webinar for its recording and materials.
 	<li>Speaker: Kamil Marcinkowski</li>
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/clusterstats20210331.pdf" target="_blank">PDF slides</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=6m9qlV4fIq0 width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=6m9qlV4fIq0 width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/6m9qlV4fIq0"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -57,7 +58,8 @@ This webinar is intended for users who are already familiar with the basic Slurm
 	<li>Speaker: Kamil Marcinkowski</li>
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/schedulingKamil/schedulingProblems20181003.pdf" target="_blank">PDF slides</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=UGSi0vung8Q width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=UGSi0vung8Q width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/UGSi0vung8Q"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -77,7 +79,8 @@ This three-part webinar is a beginner-level introduction to working with Slurm.
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/schedulingKamil/answers.tar.gz" target="_blank">Workshop questions and answers</a> (gzipped tar archive)</li>
 </ul>
 Part 1:
-{{< video https://www.youtube.com/watch?v=RCodAqGlFeM width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=RCodAqGlFeM width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/RCodAqGlFeM"></div>
 Part 2:
 {{< video https://www.youtube.com/watch?v=x87cD6E4hGE width="100%" height="500px" >}}
 Part 3:

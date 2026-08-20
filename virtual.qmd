@@ -48,7 +48,8 @@ client-server visualization setup.
 	<li>Speaker: Alex Razoumov</li>
 	<li><a href="https://folio.vastcloud.org/openstack" target="_blank">Online notes</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=wbKT1BwoePc width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=wbKT1BwoePc width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/wbKT1BwoePc"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -69,7 +70,8 @@ efficiently perform common OpenStack operations from the terminal.
 	<li>Speaker: Alex Razoumov</li>
 	<li><a href="https://folio.vastcloud.org/openstack" target="_blank">Online notes</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=83EWEussOqg width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=83EWEussOqg width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/83EWEussOqg"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -87,7 +89,8 @@ cloud.
 	<li>Speaker: Michael Tang</li>
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/allianceCloud20241210.pdf" target="_blank">PDF slides</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=93q79glfzz0 width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=93q79glfzz0 width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/93q79glfzz0"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -113,7 +116,8 @@ overlays. We assume no prior knowledge of the container technology.
 	<li>Speaker: Alex Razoumov</li>
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/overlays20230117.pdf" target="_blank">PDF slides</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=XGFE0gddMX4 width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=XGFE0gddMX4 width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/XGFE0gddMX4"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -146,7 +150,8 @@ ephemeral disc storage, object storage, and shared filesystem storage.
 	<li>Speaker: Ken Bigelow</li>
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/securingCloud20220330.pdf" target="_blank">PDF slides</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=5PMi6aqGwN4 width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=5PMi6aqGwN4 width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/5PMi6aqGwN4"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -161,7 +166,8 @@ ephemeral disc storage, object storage, and shared filesystem storage.
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/singularity20210526.pdf" target="_blank">Main slides in PDF</a></li>
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/ttkContainerDemo20210526.pdf" target="_blank">TTK demo slides</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=8QVzb78LUq4 width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=8QVzb78LUq4 width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/8QVzb78LUq4"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -174,7 +180,8 @@ ephemeral disc storage, object storage, and shared filesystem storage.
 	<li>Speaker: Grigory Shamov</li>
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/singularity20200205.pdf" target="_blank">PDF slides</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=z-RtotX0i_0 width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=z-RtotX0i_0 width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/z-RtotX0i_0"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -189,7 +196,8 @@ ephemeral disc storage, object storage, and shared filesystem storage.
 </ul>
 We edited out the first few minutes of this video (lots of background noise), jumping straight into the
 section in which John explains cloud computing and its difference from traditional HPC.
-{{< video https://www.youtube.com/watch?v=JFFlkPrGFbM width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=JFFlkPrGFbM width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/JFFlkPrGFbM"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -202,7 +210,8 @@ section in which John explains cloud computing and its difference from tradition
 	<li>Speaker: John Simpson</li>
 	<li><a href="" target="_blank">PDF slides</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=_hn_pVHGx8o width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=_hn_pVHGx8o width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/_hn_pVHGx8o"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->

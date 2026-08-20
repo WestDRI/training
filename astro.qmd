@@ -37,7 +37,8 @@ Click on each webinar for its recording and materials.
 <ul>
 	<li>Speaker: Falk Herwig</li>
 </ul>
-{{< video https://www.youtube.com/watch?v=hLgCmVFK9vM width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=hLgCmVFK9vM width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/hLgCmVFK9vM"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->

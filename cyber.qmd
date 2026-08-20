@@ -47,7 +47,8 @@ is important.
 	<li>Speaker: Scott Baker</li>
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/cybersecurityHygiene20250422.pdf" target="_blank">PDF slides</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=3fetWXh6SHM width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=3fetWXh6SHM width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/3fetWXh6SHM"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -69,7 +70,8 @@ cybersecurity, ensuring their work is protected and compliant.
 	<li>Speakers: Luc Letarte and Jessica Galo</li>
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/allianceComplianceOrChaos20250325.pdf" target="_blank">PDF slides</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=3pXITv-9zvE width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=3pXITv-9zvE width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/3pXITv-9zvE"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->

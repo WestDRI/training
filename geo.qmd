@@ -54,7 +54,8 @@ Cluster. The presentation demonstrates a practical workflow that encompasses:
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/hydrological20231031.pdf" target="_blank">PDF slides</a></li>
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/HPC_demonstration_Befekadu.R" target="_blank">Sample R code</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=3fxENqHE5ao width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=3fxENqHE5ao width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/3fxENqHE5ao"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -72,7 +73,8 @@ cartograms, raster maps, and bridge over from R to QGIS with packages `sf`, `tma
 	<li>Speaker: Marie-Hélène Burle</li>
 	<li><a href="https://prog.westdri.ca/webinars/adv_gis_r" target="_blank">Presentation materials</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=7QoccXWqeUs width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=7QoccXWqeUs width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/7QoccXWqeUs"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -89,7 +91,8 @@ In this webinar, we introduce simple GIS tasks as well as map production in R us
 	<li>Speaker: Marie-Hélène Burle</li>
 	<li><a href="https://prog.westdri.ca/webinars/gis_r" target="_blank">Presentation materials</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=vWwbwROqn6w width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=vWwbwROqn6w width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/vWwbwROqn6w"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -115,7 +118,8 @@ paragraph 2
 	<li>Speaker: Ian Percel</li>
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/spatialAnalysis20191211.pdf" target="_blank">PDF slides</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=wRmRnVMjKXM width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=wRmRnVMjKXM width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/wRmRnVMjKXM"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->

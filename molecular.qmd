@@ -39,7 +39,8 @@ Click on each webinar for its recording and materials.
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/gmxtools.pdf" target="_blank">PDF slides</a></li>
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/gmxtools.tar.gz" target="_blank">Script archive</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=r8DXH7bH8-4 width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=r8DXH7bH8-4 width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/r8DXH7bH8-4"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -53,7 +54,8 @@ Click on each webinar for its recording and materials.
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/vmd20201028.pdf" target="_blank">PDF slides</a></li>
 	<li><a href="https://nextcloud.computecanada.ca/index.php/s/kcHgbbEgwS3GkHM/download" target="_blank">tar file</a> with data and scripts</li>
 </ul>
-{{< video https://www.youtube.com/watch?v=Jce5JN2fLuo width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=Jce5JN2fLuo width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/Jce5JN2fLuo"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -66,7 +68,8 @@ Click on each webinar for its recording and materials.
 	<li>Speaker: Dmitri Rozmanov</li>
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/vmd20190306.pdf" target="_blank">PDF slides</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=_skmrS6X4Ys width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=_skmrS6X4Ys width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/_skmrS6X4Ys"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -79,7 +82,8 @@ Click on each webinar for its recording and materials.
 	<li>Speaker: Ali Kerrache</li>
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/introMDsimulations20171101.pdf" target="_blank">PDF slides</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=yaLPLRO1FLE width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=yaLPLRO1FLE width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/yaLPLRO1FLE"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -92,7 +96,8 @@ Click on each webinar for its recording and materials.
 	<li>Speaker: Ali Kerrache</li>
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/introMDSimulationsLAMMPS0.pdf" target="_blank">PDF slides</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=ZMiveX6n-1w width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=ZMiveX6n-1w width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/ZMiveX6n-1w"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->

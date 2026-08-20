@@ -51,7 +51,8 @@ MLflow and demo some of its most useful features.
 	<li>Speaker: Marie-Hélène Burle </li>
 	<li><a href="https://mint.westdri.ca/ai/mlops/wb_mlflow" target="_blank">Online slides</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=YsyoqqZYn6g width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=YsyoqqZYn6g width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/YsyoqqZYn6g"></div>
 <br>
 </details>
 
@@ -74,7 +75,8 @@ of JAX's principles and functioning.
 	<li>Speaker: Marie-Hélène Burle</li>
 	<li><a href="https://mint.westdri.ca/ai/wb_jax_slides#title-slide" target="_blank">Online slides</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=tk3x9x0eqPU width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=tk3x9x0eqPU width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/tk3x9x0eqPU"></div>
 <br>
 </details>
 
@@ -95,7 +97,8 @@ practical guidance for researchers considering the adoption of GenAI.
 	<li>Speaker: Jillian Anderson</li>
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/genAIForResearch20240319.pdf" target="_blank">PDF slides</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=5zVAd72Fm2E width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=5zVAd72Fm2E width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/5zVAd72Fm2E"></div>
 <br>
 </details>
 
@@ -124,7 +127,8 @@ demo Copilot's main features:
 	<li>Speaker: Marie-Hélène Burle</li>
 	<li><a href="https://mint.westdri.ca/ai/wb_copilot" target="_blank">Online slides</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=gvAUdhiTIME width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=gvAUdhiTIME width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/gvAUdhiTIME"></div>
 <br>
 </details>
 
@@ -146,7 +150,8 @@ to frameworks that can be used from Python, Julia, and R.
 	<li>Speaker: Marie-Hélène Burle</li>
 	<li><a href="https://mint.westdri.ca/ml/frameworks" target="_blank">Online slides</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=XGtiCBz2gIg width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=XGtiCBz2gIg width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/XGtiCBz2gIg"></div>
 <br>
 </details>
 
@@ -174,7 +179,8 @@ using TensorBoard for model monitoring is applicable to projects from across dis
 	<li>Speaker: Jillian Anderson</li>
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/tensorBoard20221012.pdf" target="_blank">PDF slides</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=y4YGqMcsIxc width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=y4YGqMcsIxc width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/y4YGqMcsIxc"></div>
 <br>
 </details>
 
@@ -196,7 +202,8 @@ NumPy's `ndarray` and integrate well with other Python libraries such as Pandas.
 	<li><a href="https://slides.westdri.ca/torchtensors_webinar" target="_blank">Online slides</a></li>
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/torchtensors20220119.pdf" target="_blank">PDF slides</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=n-3h9ucTN4w width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=n-3h9ucTN4w width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/n-3h9ucTN4w"></div>
 <br>
 </details>
 
@@ -216,7 +223,8 @@ using  <a href="https://pytorch.org" target="_blank">PyTorch</a> as our framewor
 	<li>Speaker: Marie-Hélène Burle</li>
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/upscalingPyTorch20211124.pdf" target="_blank">PDF slides</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=vtuSFQ_0u0M width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=vtuSFQ_0u0M width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/vtuSFQ_0u0M"></div>
 <br>
 </details>
 
@@ -241,7 +249,8 @@ This webinar takes a closer look at the features and functionality of fastai.
 	<li>Speaker: Marie-Hélène Burle</li>
 	<li><a href="https://ml.westdri.ca/webinars/fastai" target="_blank">Online slides</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=Q3__FzA6XLc width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=Q3__FzA6XLc width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/Q3__FzA6XLc"></div>
 <br>
 </details>
 
@@ -256,7 +265,8 @@ This webinar takes a closer look at the features and functionality of fastai.
 	<li><a href="https://ml.westdri.ca/webinars/flux.html#headline-4" target="_blank">Comments & questions</a></li>
 	<li><a href="https://westgrid-webinars.netlify.app/flux#" target="_blank">Online slides</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=9nhVaJSuMF8 width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=9nhVaJSuMF8 width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/9nhVaJSuMF8"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->

@@ -69,7 +69,8 @@ instead of pandas for DataFrames in Python.
 	<li><a href="https://mint.westdri.ca/python/gpu_cudf" target="_blank">Our upcoming course on using Polars on a GPU</a></li>
 	<li><a href="https://docs.pola.rs" target="_blank">Polars official documentation</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=Z0YeoRVs1D8 width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=Z0YeoRVs1D8 width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/Z0YeoRVs1D8"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -91,7 +92,8 @@ movement.
 	<li>Speaker: Alex Razoumov</li>
 	<li><a href="https://folio.vastcloud.org/globus" target="_blank">Online notes</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=gZuDmPush7M width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=gZuDmPush7M width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/gZuDmPush7M"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -112,7 +114,8 @@ offers indexing, differential archives, and faster extraction.
 	<li>Speaker: Alex Razoumov</li>
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/datasetHacks202505.pdf" target="_blank">PDF slides</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=wLC28MIs-ak width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=wLC28MIs-ak width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/wLC28MIs-ak"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -136,7 +139,8 @@ via the Globus web interface and command line (CLI), as well as how to automate 
 	<li><a
 	href="https://docs.globus.org/cli" target="_blank">Globus Command Line Interface (CLI) documentation</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=lwrd7HV4QV4 width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=lwrd7HV4QV4 width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/lwrd7HV4QV4"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -164,7 +168,8 @@ clusters to help you manage your research data.
 	<li>Speaker: Alex Razoumov</li>
 	<li><a href="https://wgpages.netlify.app/annex" target="_blank">Online notes</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=951fYUHkX5A width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=951fYUHkX5A width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/951fYUHkX5A"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -183,7 +188,8 @@ as convenient.
 	<li>Speaker: Marie-Hélène Burle</li>
 	<li><a href="https://mint.westdri.ca/python/wb_polars_slides#/title-slide" target="_blank">Online slides</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=U5Gl_X6Z7Lk width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=U5Gl_X6Z7Lk width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/U5Gl_X6Z7Lk"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -210,7 +216,8 @@ compression. We focus on file (rather than in-memory) compression, with long-ter
 	<li>Speaker: Alex Razoumov</li>
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/lossy20240423.pdf" target="_blank">PDF slides</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=dMSBFH62R3c width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=dMSBFH62R3c width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/dMSBFH62R3c"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -234,7 +241,8 @@ a more organized and reproducible fashion.
 	<li>Speaker: Marie-Hélène Burle</li>
 	<li><a href="https://mint.westdri.ca/ai/wb_dvc" target="_blank">Online slides</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=2MQVF78FRKs width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=2MQVF78FRKs width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/2MQVF78FRKs"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -259,7 +267,8 @@ compression, making it very efficient for handling huge amounts of data.
 	<li>Speaker: Alex Razoumov</li>
 	<li><a href="https://wgpages.netlify.app/pytables" target="_blank">Online notes</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=iFzKWIgZEds width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=iFzKWIgZEds width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/iFzKWIgZEds"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -283,7 +292,8 @@ the 50-min presentation, but the notes below contain everything.
 	<li>Speaker: Alex Razoumov</li>
 	<li><a href="https://wgpages.netlify.app/datalad" target="_blank">Online notes</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=itXkNB9Pq30 width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=itXkNB9Pq30 width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/itXkNB9Pq30"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -297,7 +307,8 @@ the 50-min presentation, but the notes below contain everything.
 	<li>Speaker: Gemma Hoad</li>
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/databases20230228.pdf" target="_blank">PDF slides</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=3uHSXXQwJpQ width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=3uHSXXQwJpQ width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/3uHSXXQwJpQ"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -317,7 +328,8 @@ collaboration, and analysis.
 	<li>Speaker: Ian Percel</li>
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/datalad_for_hpc_1_1.pdf" target="_blank">PDF slides</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=IZGlxfdRRno width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=IZGlxfdRRno width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/IZGlxfdRRno"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -343,7 +355,8 @@ overlays. We assume no prior knowledge of the container technology.
 	<li>Speaker: Alex Razoumov</li>
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/overlays20230117.pdf" target="_blank">PDF slides</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=XGFE0gddMX4 width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=XGFE0gddMX4 width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/XGFE0gddMX4"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -358,7 +371,8 @@ overlays. We assume no prior knowledge of the container technology.
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/throughput20210303.pdf" target="_blank">PDF slides</a></li>
 	<li><a href="https://throughput-ec.github.io/throughput_docs" target="_blank">Throughput DB documentation</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=WVFfRV2X0HI width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=WVFfRV2X0HI width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/WVFfRV2X0HI"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -382,7 +396,8 @@ incremental backup of a much larger filesystem.
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/backup202102.pdf" target="_blank">PDF slides</a></li>
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/functions202102.sh" target="_blank">Bash script</a> with all function definitions</li>
 </ul>
-{{< video https://www.youtube.com/watch?v=VF-gijhrcYE width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=VF-gijhrcYE width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/VF-gijhrcYE"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -396,7 +411,8 @@ incremental backup of a much larger filesystem.
 	<li>Speaker: Alex Razoumov</li>
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/xarray20200930.pdf" target="_blank">PDF slides</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=xdrcMi_FB8Q width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=xdrcMi_FB8Q width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/xdrcMi_FB8Q"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -410,7 +426,8 @@ incremental backup of a much larger filesystem.
 	<li>Speaker: Sergiy Stepanenko</li>
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/acl20191030.pdf" target="_blank">PDF slides</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=h-iZ2Cz9OTA width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=h-iZ2Cz9OTA width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/h-iZ2Cz9OTA"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -436,7 +453,8 @@ manage directories with many files, how to backup and restore your data, and oth
 	<li>Speaker: Alex Razoumov</li>
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/dar20190501.zip" target="_blank">ZIP file</a> with slides and bash functions</li>
 </ul>
-{{< video https://www.youtube.com/watch?v=AeZSPa4aMnk width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=AeZSPa4aMnk width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/AeZSPa4aMnk"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -450,7 +468,8 @@ manage directories with many files, how to backup and restore your data, and oth
 	<li>Speaker: Alex Garnett and Adam McKenzie</li>
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/rdm20190320.pdf" target="_blank">PDF slides</a></li>
 </ul>
-{{< video https://www.youtube.com/watch?v=ZMl6bZT7ZU0 width="100%" height="500px" >}}
+<!-- {{< video https://www.youtube.com/watch?v=ZMl6bZT7ZU0 width="100%" height="500px" >}} -->
+<div class="video-container" data-url="https://www.youtube.com/embed/ZMl6bZT7ZU0"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
