@@ -547,7 +547,7 @@ document.querySelectorAll('details').forEach(details => {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/WestDRI\.github\.io\/training\/");
+        var filterRegex = new RegExp("https:\/\/westdri\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
