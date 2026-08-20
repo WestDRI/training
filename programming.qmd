@@ -48,7 +48,7 @@ section](tools/visualization).
 Click on each webinar for its recording and materials.
 
 <details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">The next generation of Python notebooks</span> (2025-Oct-28)
 </summary>
 <br>
@@ -185,7 +185,10 @@ various packages for parallelization, as well as using C++ from inside R to spee
 
 ## [Julia]{#julia}
 
-You can also browse some of our Julia programming materials <a href="https://mint.westdri.ca/julia" target="_blank">here</a>.
+<!-- You can also browse some of our Julia programming materials <a href="https://mint.westdri.ca/julia" target="_blank">here</a>. -->
+
+We teach several Julia programming courses, with a particular focus on parallel programming. You can also
+browse some of our past Julia webinars below.
 
 Click on each webinar for its recording and materials.
 
