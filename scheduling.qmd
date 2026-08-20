@@ -10,8 +10,8 @@ technical wiki.
 
 ## Webinars
 
-<!-- <details> -->
-<!-- <summary style="line-height: 0.6; margin: 0; padding: 2px 0;"> -->
+<!-- <details style="margin: 0; padding: 0;"> -->
+<!-- <summary style="line-height: 1.2; margin: 0; padding: 2px 0;"> -->
 <!-- <span style="font-size: 1.2em;">title</span> (date) -->
 <!-- </summary> -->
 <!-- <br> -->
@@ -30,8 +30,10 @@ technical wiki.
 
 Click on each webinar for its recording and materials.
 
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Exploring the state of a Slurm cluster with Clusterstats</span> (2021-Mar-31)
 </summary>
 <br>
@@ -43,8 +45,8 @@ Click on each webinar for its recording and materials.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Common job submission errors and how to avoid them</span> (2018-Oct-03)
 </summary>
 <br>
@@ -59,8 +61,8 @@ This webinar is intended for users who are already familiar with the basic Slurm
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Scheduling & job management: how to get the most from a cluster</span> (2017-Oct)
 </summary>
 <br>
@@ -76,15 +78,14 @@ This three-part webinar is a beginner-level introduction to working with Slurm.
 </ul>
 Part 1:
 {{< video https://www.youtube.com/watch?v=RCodAqGlFeM width="100%" height="500px" >}}
-
 Part 2:
 {{< video https://www.youtube.com/watch?v=x87cD6E4hGE width="100%" height="500px" >}}
-
 Part 3:
 {{< video https://www.youtube.com/watch?v=MZlNDAgmhq8 width="100%" height="500px" >}}
-
 <br>
 </details>
+<!-- ========================================================================================== -->
+</div>
 
 <br>
 ```{=html}

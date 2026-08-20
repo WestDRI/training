@@ -7,8 +7,8 @@ toc: false
 
 ## Webinars
 
-<!-- <details> -->
-<!-- <summary style="line-height: 0.6; margin: 0; padding: 2px 0;"> -->
+<!-- <details style="margin: 0; padding: 0;"> -->
+<!-- <summary style="line-height: 1.2; margin: 0; padding: 2px 0;"> -->
 <!-- <span style="font-size: 1.2em;">title</span> (date) -->
 <!-- </summary> -->
 <!-- <br> -->
@@ -27,8 +27,10 @@ toc: false
 
 Click on each webinar for its recording and materials.
 
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">How HPC helped researchers simulate the life of a star</span> (2018-Nov-14)
 </summary>
 <br>
@@ -38,6 +40,8 @@ Click on each webinar for its recording and materials.
 {{< video https://www.youtube.com/watch?v=hLgCmVFK9vM width="100%" height="500px" >}}
 <br>
 </details>
+<!-- ========================================================================================== -->
+</div>
 
 <br>
 ```{=html}

@@ -27,8 +27,8 @@ toc: false
 
 Click on each webinar for its recording and materials.
 
-<!-- <details> -->
-<!-- <summary style="line-height: 0.6; margin: 0; padding: 2px 0;"> -->
+<!-- <details style="margin: 0; padding: 0;"> -->
+<!-- <summary style="line-height: 1.2; margin: 0; padding: 2px 0;"> -->
 <!-- <span style="font-size: 1.2em;">title</span> (date) -->
 <!-- </summary> -->
 <!-- <br> -->
@@ -45,8 +45,10 @@ Click on each webinar for its recording and materials.
 <!-- <br> -->
 <!-- </details> -->
 
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">RIP pandas, welcome Polars</span> (2026-Apr-07)
 </summary>
 <br>
@@ -71,8 +73,8 @@ instead of pandas for DataFrames in Python.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Globus-cli for file transfer</span> (2025-Oct-14)
 </summary>
 <br>
@@ -93,8 +95,8 @@ movement.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Workflow hacks for large datasets in HPC</span> (2025-May-20)
 </summary>
 <br>
@@ -114,8 +116,8 @@ offers indexing, differential archives, and faster extraction.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Introduction to Globus</span> (2025-Apr-08)
 </summary>
 <br>
@@ -138,9 +140,9 @@ via the Globus web interface and command line (CLI), as well as how to automate 
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
+<details style="margin: 0; padding: 0;">
 <a name="annex"></a>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Distributed file storage with git-annex</span> (2024-Nov-26)
 </summary>
 <br>
@@ -166,9 +168,9 @@ clusters to help you manage your research data.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
+<details style="margin: 0; padding: 0;">
 <a name="polars"></a>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">DataFrames on steroids with Polars</span> (2024-May-14)
 </summary>
 <br>
@@ -185,9 +187,9 @@ as convenient.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
+<details style="margin: 0; padding: 0;">
 <a name="lossy"></a>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Lossy data compression</span> (2024-Apr-23)
 </summary>
 <br>
@@ -212,9 +214,9 @@ compression. We focus on file (rather than in-memory) compression, with long-ter
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
+<details style="margin: 0; padding: 0;">
 <a name="dvc"></a>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Version control for data science and ML with DVC</span> (2023-Dec-12)
 </summary>
 <br>
@@ -236,9 +238,9 @@ a more organized and reproducible fashion.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
+<details style="margin: 0; padding: 0;">
 <a name="pytables"></a>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Managing large hierarchical datasets with PyTables</span> (2023-May-23)
 </summary>
 <br>
@@ -261,8 +263,8 @@ compression, making it very efficient for handling huge amounts of data.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Distributed datasets with DataLad</span> (2023-Mar-28)
 </summary>
 <br>
@@ -285,9 +287,9 @@ the 50-min presentation, but the notes below contain everything.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
+<details style="margin: 0; padding: 0;">
 <a name="sql"></a>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Create and access MySQL / PostgreSQL databases on DRI systems</span> (2023-Feb-28)
 </summary>
 <br>
@@ -299,9 +301,9 @@ the 50-min presentation, but the notes below contain everything.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
+<details style="margin: 0; padding: 0;">
 <a name="datalad"></a>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Data management with DataLad</span> (2023-Feb-14)
 </summary>
 <br>
@@ -319,9 +321,9 @@ collaboration, and analysis.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
+<details style="margin: 0; padding: 0;">
 <a name="manyFilesInOverlays"></a>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Hiding large numbers of files in container overlays</span> (2023-Jan-17)
 </summary>
 <br>
@@ -345,9 +347,9 @@ overlays. We assume no prior knowledge of the container technology.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
+<details style="margin: 0; padding: 0;">
 <a name="throughput"></a>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Linking databases to code repositories with Throughput</span> (2021-Mar-03)
 </summary>
 <br>
@@ -360,9 +362,9 @@ overlays. We assume no prior knowledge of the container technology.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
+<details style="margin: 0; padding: 0;">
 <a name="backups"></a>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Automating your backups in Linux and MacOS</span> (2021-Feb-17)
 </summary>
 <br>
@@ -384,9 +386,9 @@ incremental backup of a much larger filesystem.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
+<details style="margin: 0; padding: 0;">
 <a name="xarray"></a>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Working with multidimensional datasets in xarray</span> (2020-Sep-30)
 </summary>
 <br>
@@ -398,9 +400,9 @@ incremental backup of a much larger filesystem.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
+<details style="margin: 0; padding: 0;">
 <a name="acl"></a>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">File access control approaches and best practices</span> (2019-Oct-30)
 </summary>
 <br>
@@ -412,9 +414,9 @@ incremental backup of a much larger filesystem.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
+<details style="margin: 0; padding: 0;">
 <a name="dar"></a>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Managing many files with Disk ARchiver (DAR)</span> (2019-May-01)
 </summary>
 <br>
@@ -438,9 +440,9 @@ manage directories with many files, how to backup and restore your data, and oth
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
+<details style="margin: 0; padding: 0;">
 <a name="rdmToolsPlatforms"></a>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">RDM tools, platforms, and best practices for Canadian researchers</span> (2019-Mar-20)
 </summary>
 <br>
@@ -451,6 +453,8 @@ manage directories with many files, how to backup and restore your data, and oth
 {{< video https://www.youtube.com/watch?v=ZMl6bZT7ZU0 width="100%" height="500px" >}}
 <br>
 </details>
+<!-- ========================================================================================== -->
+</div>
 
 <br>
 ```{=html}

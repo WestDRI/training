@@ -12,8 +12,8 @@ h2 {
 }
 </style>
 
-<!-- <details> -->
-<!-- <summary style="line-height: 0.6; margin: 0; padding: 2px 0;"> -->
+<!-- <details style="margin: 0; padding: 0;"> -->
+<!-- <summary style="line-height: 1.2; margin: 0; padding: 2px 0;"> -->
 <!-- <span style="font-size: 1.2em;">title</span> (date) -->
 <!-- </summary> -->
 <!-- <br> -->
@@ -47,7 +47,9 @@ section](tools/visualization).
 
 Click on each webinar for its recording and materials.
 
-<details>
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
 <summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">The next generation of Python notebooks</span> (2025-Oct-28)
 </summary>
@@ -74,8 +76,8 @@ install and use marimo notebooks in practice.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Managing Python packages, versions, and projects with uv</span> (2025-May-06)
 </summary>
 <br>
@@ -104,9 +106,10 @@ more.
 <div class="video-container" data-url="https://www.youtube.com/embed/pilnGPOqyeU"></div>
 <br>
 </details>
+<!-- </div> -->
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Running parallel Ray workflows across multiple cluster nodes</span> (2025-Feb-11)
 </summary>
 <br>
@@ -129,8 +132,8 @@ tightly coupled parallel problem.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Working with multidimensional datasets in xarray</span> (2020-Sep-30)
 </summary>
 <br>
@@ -143,8 +146,8 @@ tightly coupled parallel problem.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Working with the Python DASK library</span> (2019-Oct-16)
 </summary>
 <br>
@@ -157,13 +160,17 @@ tightly coupled parallel problem.
 <div class="video-container" data-url="https://www.youtube.com/embed/uGy5gT2vLdI"></div>
 <br>
 </details>
+<!-- ========================================================================================== -->
+</div>
 
 ## [R]{#r-language}
 
 Click on each webinar for its recording and materials.
 
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Introduction to high-performance research computing in R</span> (2023-Jan-31)
 </summary>
 <br>
@@ -182,6 +189,8 @@ various packages for parallelization, as well as using C++ from inside R to spee
 <div class="video-container" data-url="https://www.youtube.com/embed/mxkhOHdN2Hw"></div>
 <br>
 </details>
+<!-- ========================================================================================== -->
+</div>
 
 ## [Julia]{#julia}
 
@@ -192,8 +201,10 @@ browse some of our past Julia webinars below.
 
 Click on each webinar for its recording and materials.
 
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">High-level parallel stencil computations on CPUs and GPUs</span> (2025-Jan-21)
 </summary>
 <br>
@@ -225,8 +236,8 @@ nodes.
 </details>
 <!-- ========================================================================================== -->
 <!-- <a name="nextflow"></a> -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Nextflow and Julia for scalable computation</span> (2024-Nov-12)
 </summary>
 <br>
@@ -250,8 +261,8 @@ experiments:
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Julia at full tilt: profiling and optimizations</span> (2024-Apr-30)
 </summary>
 <br>
@@ -264,8 +275,8 @@ experiments:
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">ThreadsX.jl: easier multithreading in Julia</span> (2022-Feb-02)
 </summary>
 <br>
@@ -278,8 +289,8 @@ experiments:
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Easier parallel Julia workflow with Dagger.jl</span> (2021-Oct-27)
 </summary>
 <br>
@@ -300,8 +311,8 @@ runtime profiling tools.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Parallel programming in Julia</span> (2021-Mar-17)
 </summary>
 <br>
@@ -319,8 +330,8 @@ a Julia set, and an N-body solver. We run the examples on a multi-core laptop an
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">High-performance research computing with Julia</span> (2020-Mar-04)
 </summary>
 <br>
@@ -334,13 +345,17 @@ a Julia set, and an N-body solver. We run the examples on a multi-core laptop an
 <div class="video-container" data-url="https://www.youtube.com/embed/XQsxn8OUXGA"></div>
 <br>
 </details>
+<!-- ========================================================================================== -->
+</div>
 
 ## [Chapel]{#chapel}
 
 Click on each webinar for its recording and materials.
 
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">GPU computing with Chapel</span> (2024-Oct-01)
 </summary>
 <br>
@@ -372,8 +387,8 @@ In this webinar, we guide you through Chapel's key GPU programming features with
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Working with data files and external C libraries in Chapel</span> (2020-Mar-18)
 </summary>
 <br>
@@ -386,8 +401,8 @@ In this webinar, we guide you through Chapel's key GPU programming features with
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Working with distributed unstructured data in Chapel</span> (2019-Apr-17)
 </summary>
 <br>
@@ -400,8 +415,8 @@ In this webinar, we guide you through Chapel's key GPU programming features with
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Intro to Parallel Programming in Chapel</span> (3-part series, early 2018)
 </summary>
 <br>
@@ -428,6 +443,8 @@ write efficient large-scale numerical codes.
 {{< video https://www.youtube.com/watch?v=hdnVKGJAlcM width="100%" height="500px" >}}
 <br>
 </details>
+<!-- ========================================================================================== -->
+</div>
 
 ## [HPC Carpentry Course]{#hpc-carpentry}
 
@@ -440,8 +457,10 @@ alex dot razoumov at westgrid dot ca.
 
 Click on each webinar for its recording and materials.
 
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">A Brief Introduction to the Boost MPI Library</span> (2018-May-09)
 </summary>
 <br>
@@ -454,13 +473,17 @@ Click on each webinar for its recording and materials.
 <div class="video-container" data-url="https://www.youtube.com/embed/P3kMdyka0XI"></div>
 <br>
 </details>
+<!-- ========================================================================================== -->
+</div>
 
 ## [OpenMP]{#openmp}
 
 Click on each webinar for its recording and materials.
 
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Intro to Parallel Programming for Shared Memory Machines</span> (2019-Oct)
 </summary>
 <br>
@@ -484,13 +507,17 @@ The topics covered include:
 <div class="video-container" data-url="https://www.youtube.com/embed/LL3TAHpxOig"></div>
 <br>
 </details>
+<!-- ========================================================================================== -->
+</div>
 
 ## [Debugging and profiling]{#debugging}
 
 Click on each webinar for its recording and materials.
 
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Memory debugging with Valgrind</span> (2019-Feb-20)
 </summary>
 <br>
@@ -502,13 +529,17 @@ Click on each webinar for its recording and materials.
 <div class="video-container" data-url="https://www.youtube.com/embed/-VDiEe9hxC4"></div>
 <br>
 </details>
+<!-- ========================================================================================== -->
+</div>
 
 ## [MATLAB]{#matlab}
 
 Click on each webinar for its recording and materials.
 
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Data Analytics and Machine Learning with MATLAB</span> (2018-Oct-31)
 </summary>
 <br>
@@ -520,6 +551,8 @@ Click on each webinar for its recording and materials.
 <div class="video-container" data-url="https://www.youtube.com/embed/LFxTqte_Msc"></div>
 <br>
 </details>
+<!-- ========================================================================================== -->
+</div>
 
 <br>
 ```{=html}

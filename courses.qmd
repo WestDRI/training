@@ -64,10 +64,10 @@ format](https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/ma
 
 ### Visualization
 
-<div style="height: 8px;"></div>
-
-<details>
-<summary style="line-height: 0.4; margin: 0; padding: 2px 0;">
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <a>&nbsp;&nbsp;<font size="+1">Introduction to scientific visualization with ParaView</font></a>
 </summary>
 <p>
@@ -81,9 +81,9 @@ supports both interactive (GUI) and scripted (including offscreen) visualization
 tool to learn.
 </p>
 </details>
-
-<details>
-<summary style="line-height: 0.4; margin: 0; padding: 2px 0;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <a>&nbsp;&nbsp;<font size="+1">Introduction to scientific visualization with VisIt</font></a>
 </summary>
 <p>
@@ -91,9 +91,9 @@ tool to learn.
 This is a VisIt-flavoured version of the previous workshop.
 </p>
 </details>
-
-<details>
-<summary style="line-height: 0.4; margin: 0; padding: 2px 0;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <a>&nbsp;&nbsp;<font size="+1">Remote and large-scale visualization</font></a>
 </summary>
 <p>
@@ -103,9 +103,9 @@ rendering, interactive client-server remote visualization, batch workflows using
 GPUs.
 </p>
 </details>
-
-<details>
-<summary style="line-height: 0.4; margin: 0; padding: 2px 0;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <a>&nbsp;&nbsp;<font size="+1">3D visualization for humanities and social sciences</font></a>
 </summary>
 <p>
@@ -123,8 +123,11 @@ these (and more general polygon-based) visualizations on the web, using state-of
 visualization techniques. No prior visualization experience is needed.
 </p>
 </details>
+<!-- ========================================================================================== -->
+</div>
 
-<div style="height: 0px;"></div>
+<div style="height: 4px;"></div>
+
 - <font size="+1">ParaView scripting</font>
 - <font size="+1">ParaView animation</font>
 - <font size="+1">Programmable Filter / Source in ParaView</font>
@@ -138,10 +141,10 @@ visualization techniques. No prior visualization experience is needed.
 
 ### Linux command line
 
-<div style="height: 8px;"></div>
-
-<details>
-<summary style="line-height: 0.4; margin: 0; padding: 2px 0;">
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <a>&nbsp;&nbsp;<font size="+1">Moving your research to Linux and command line in remote servers</font></a>
 </summary>
 <p>
@@ -152,16 +155,18 @@ files), directories and the file system, remote access, basic version control (G
 and basic Bash programming.
 </p>
 </details>
+<!-- ========================================================================================== -->
+</div>
 
-<div style="height: 0px;"></div>
+<div style="height: 4px;"></div>
 - <font size="+1">Bash scripting for beginners</font>
 
 ### High-performance computing (HPC)
 
-<div style="height: 8px;"></div>
-
-<details>
-<summary style="line-height: 0.4; margin: 0; padding: 2px 0;">
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <a>&nbsp;&nbsp;<font size="+1">Introduction to HPC</font></a> (using clusters to speed up your research)
 </summary>
 <p>
@@ -176,9 +181,9 @@ interactive jobs, and tracking your job's memory usage. We also take a quick loo
 packages such as R, Python and Matlab on the clusters, as well as best practices in cluster workflows.
 </p>
 </details>
-
-<details>
-<summary style="line-height: 0.4; margin: 0; padding: 2px 0;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <a>&nbsp;&nbsp;<font size="+1">Working with Apptainer containers </font></a>
 </summary>
 <p>
@@ -187,8 +192,10 @@ This full-day course is a hands-on introduction to working with Singularity/Appt
 environment, as well as working with data stored inside container overlays.
 </p>
 </details>
+<!-- ========================================================================================== -->
+</div>
 
-<div style="height: 0px;"></div>
+<div style="height: 4px;"></div>
 
 - <font size="+1">Intro to HPC for R users</font>
 - <font size="+1">Distributed-memory programming with MPI</font>
@@ -198,10 +205,10 @@ environment, as well as working with data stored inside container overlays.
 
 ### Emacs and other tools
 
-<div style="height: 8px;"></div>
-
-<details>
-<summary style="line-height: 0.4; margin: 0; padding: 2px 0;">
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <a>&nbsp;&nbsp;<font size="+1">Getting started with Emacs</font></a>
 </summary>
 <p>
@@ -211,17 +218,19 @@ you what makes Emacs such a fantastic tool and get you started in a smooth and g
 basic concepts of Emacs, how to customize it, how to manage packages efficiently, and how to use it remotely.
 </p>
 </details>
+<!-- ========================================================================================== -->
+</div>
 
-<div style="height: 0px;"></div>
+<div style="height: 4px;"></div>
 
 - <font size="+1">Typesetting with Quarto</font>
 
 ### Python
 
-<div style="height: 8px;"></div>
-
-<details>
-<summary style="line-height: 0.4; margin: 0; padding: 2px 0;">
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <a>&nbsp;&nbsp;<font size="+1">Introduction to Python</font></a>
 </summary>
 <p>
@@ -235,9 +244,9 @@ libraries in more details, including pandas for working with large tables, simpl
 and few others.
 </p>
 </details>
-
-<details>
-<summary style="line-height: 0.4; margin: 0; padding: 2px 0;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <a>&nbsp;&nbsp;<font size="+1">Scientific Python</font></a>
 </summary>
 <p>
@@ -252,9 +261,9 @@ Python scripts from the command line including processing arguments and standard
 We can customize this workshop to address your specific Python workflows.
 </p>
 </details>
-
-<details>
-<summary style="line-height: 0.4; margin: 0; padding: 2px 0;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <a>&nbsp;&nbsp;<font size="+1">Towards high-performance Python</font></a>
 </summary>
 <p>
@@ -274,9 +283,9 @@ numerical (and therefore CPU-bound) workflows, both with and without reduction. 
 will also benefit from this course, as I/O-bound workflows can be easily processed with Ray.
 </p>
 </details>
-
-<details>
-<summary style="line-height: 0.4; margin: 0; padding: 2px 0;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <a>&nbsp;&nbsp;<font size="+1">Distributed computing with Ray</font></a>
 </summary>
 <p>
@@ -287,25 +296,25 @@ numerical (and therefore CPU-bound) workflows, both with and without reduction. 
 workflows.
 </p>
 </details>
+<!-- ========================================================================================== -->
+</div>
 
-<div style="height: 0px;"></div>
+<div style="height: 4px;"></div>
 
 - <font size="+1">`uv` package manager</font>
 - <font size="+1">Next-gen Python notebooks with Marimo</font>
 
 ### R
 
-<div style="height: 8px;"></div>
-
 - <font size="+1">Introduction and advanced topics in R programming</font>
 - <font size="+1">Intro to HPC for R users</font>
 
 ### Julia
 
-<div style="height: 8px;"></div>
-
-<details>
-<summary style="line-height: 0.4; margin: 0; padding: 2px 0;">
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <a>&nbsp;&nbsp;<font size="+1">Introduction to programming in Julia</font></a>
 </summary>
 <p>
@@ -326,9 +335,9 @@ Python would be ideal), we will start with the basics of Julia's syntax and its 
 at running Julia in parallel for large-scale problems.
 </p>
 </details>
-
-<details>
-<summary style="line-height: 0.4; margin: 0; padding: 2px 0;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <a>&nbsp;&nbsp;<font size="+1">Multi-threading and multi-processing in Julia</font></a>
 </summary>
 <p>
@@ -344,17 +353,19 @@ using several problems: a slowly converging series, a Julia set, a linear algebr
 run examples on a multi-core laptop and an HPC cluster.
 </p>
 </details>
+<!-- ========================================================================================== -->
+</div>
 
-<div style="height: 0px;"></div>
+<div style="height: 4px;"></div>
 
 - <font size="+1">High-level parallel stencil computations on CPUs and GPUs in Julia</font>
 
 ### Chapel
 
-<div style="height: 8px;"></div>
-
-<details>
-<summary style="line-height: 0.4; margin: 0; padding: 2px 0;">
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <a>&nbsp;&nbsp;<font size="+1">Foundations of parallel programming in Chapel</font></a>
 </summary>
 <p>
@@ -369,9 +380,9 @@ lines of Chapel code. Chapel is open source and can run on any Unix-like operati
 support from laptops to large HPC systems.
 </p>
 </details>
-
-<details>
-<summary style="line-height: 0.4; margin: 0; padding: 2px 0;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <a>&nbsp;&nbsp;<font size="+1">GPU computing with Chapel</font></a>
 </summary>
 <p>
@@ -390,13 +401,15 @@ system to run on, but to follow exercises you will need an ssh client on your co
 system.
 </p>
 </details>
+<!-- ========================================================================================== -->
+</div>
 
 ### Machine learning
 
-<div style="height: 8px;"></div>
-
-<details>
-<summary style="line-height: 0.4; margin: 0; padding: 2px 0;">
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <a>&nbsp;&nbsp;<font size="+1">Introduction to deep learning with PyTorch</font></a>
 </summary>
 <p>
@@ -404,20 +417,20 @@ system.
 This is a full-day workshop introducing the basic principles of machine learning and the first steps with PyTorch.
 </p>
 </details>
+<!-- ========================================================================================== -->
+</div>
 
 ### Cloud
-
-<div style="height: 8px;"></div>
 
 - <font size="+1">Setting a virtual machine on an Alliance cloud system</font>
 - <font size="+1">Command-line OpenStack</font>
 
 ### Research data management (RDM)
 
-<div style="height: 8px;"></div>
-
-<details>
-<summary style="line-height: 0.4; margin: 0; padding: 2px 0;">
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <a>&nbsp;&nbsp;<font size="+1">Version control with Git</font></a>
 </summary>
 <p>
@@ -429,8 +442,11 @@ go beyond the limited use of "add, commit, push" so common in data science field
 In the second half of this workshop we focus on collaborative workflows on GitHub.
 </p>
 </details>
+<!-- ========================================================================================== -->
+</div>
 
-<div style="height: 0px;"></div>
+<div style="height: 4px;"></div>
+
 - <font size="+1">A great Git UI: Lazygit</font>
 - <font size="+1">Distributed file storage with git-annex</font>
 - <font size="+1">Version control of large and distributed datasets with DataLad</font>
@@ -446,14 +462,11 @@ suggestions spanning numerical linear algebra, ODE / PDE solvers, stiff systems 
 techniques, (magneto-) hydrodynamics, and everything in between, and we would be happy to collaborate with you
 in developing tailored materials.
 
-
-
 <!-- - Research data management -->
 <!-- - Bioinformatics workflows in HPC -->
 <!-- - Introduction to GPU programming with CUDA -->
 <!-- - Introduction to GPU programming with OpenACC -->
 <!-- - Code optimization -->
-
 
 <!-- ========================================================================================== -->
 

@@ -7,8 +7,8 @@ toc: false
 
 ## Webinars
 
-<!-- <details> -->
-<!-- <summary style="line-height: 0.6; margin: 0; padding: 2px 0;"> -->
+<!-- <details style="margin: 0; padding: 0;"> -->
+<!-- <summary style="line-height: 1.2; margin: 0; padding: 2px 0;"> -->
 <!-- <span style="font-size: 1.2em;">title</span> (date) -->
 <!-- </summary> -->
 <!-- <br> -->
@@ -27,8 +27,10 @@ toc: false
 
 Click on each webinar for its recording and materials.
 
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Cybersecurity hygiene</span> (2025-Apr-22)
 </summary>
 <br>
@@ -49,8 +51,8 @@ is important.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Compliance or chaos: a research assessment survival guide</span> (2025-Mar-25)
 </summary>
 <br>
@@ -70,6 +72,8 @@ cybersecurity, ensuring their work is protected and compliant.
 {{< video https://www.youtube.com/watch?v=3pXITv-9zvE width="100%" height="500px" >}}
 <br>
 </details>
+<!-- ========================================================================================== -->
+</div>
 
 <br>
 ```{=html}

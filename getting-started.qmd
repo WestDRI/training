@@ -12,8 +12,8 @@ h2 {
 }
 </style>
 
-<!-- <details> -->
-<!-- <summary style="line-height: 0.6; margin: 0; padding: 2px 0;"> -->
+<!-- <details style="margin: 0; padding: 0;"> -->
+<!-- <summary style="line-height: 1.2; margin: 0; padding: 2px 0;"> -->
 <!-- <span style="font-size: 1.2em;">title</span> (date) -->
 <!-- </summary> -->
 <!-- <br> -->
@@ -42,8 +42,10 @@ Table of Contents:
 
 Click on each webinar for its recording and materials.
 
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Introduction to the Fir cluster</span> (2025-Sep-16)
 </summary>
 <br>
@@ -63,8 +65,8 @@ the cluster.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Best practices in HPC/HTC environments</span> (2024-Oct-15)
 </summary>
 <br>
@@ -90,8 +92,8 @@ guide you through the best practices for deploying your HPC or HTC computations 
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Tips & tricks on getting programming help</span> (2020-11-13)
 </summary>
 <br>
@@ -104,8 +106,8 @@ guide you through the best practices for deploying your HPC or HTC computations 
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Managing Cluster Instability for Users</span> (March 2019)
 </summary>
 <br>
@@ -122,8 +124,8 @@ embedded video below starts at the relevant section.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">How to submit and run jobs on Compute Canada HPC systems</span> (2018-Sep-19)
 </summary>
 <br>
@@ -137,6 +139,8 @@ This is an introduction to working on our HPC systems for new users.
 <div class="video-container" data-url="https://www.youtube.com/embed/EY-NIGhCnhQ"></div>
 <br>
 </details>
+<!-- ========================================================================================== -->
+</div>
 
 <!-- * [Supercomputing in Canada: An Introduction](https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/introCCWestGridUWinnipeg201809.pdf) (PDF slides) -->
 <!-- * [High Performance Computing: Short Introduction](https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/hpcUMan20190920.pdf) - Univ. of Manitoba perspective (PDF slides) -->
@@ -169,8 +173,10 @@ the shell in a HPC context</a>.
 
 Click on each webinar for its recording and materials.
 
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Modern shell utilities</span> (2025-Jan-28)
 </summary>
 <br>
@@ -196,8 +202,8 @@ and give live demos.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Lesser known but very useful Bash features</span> (2022-12-07)
 </summary>
 <br>
@@ -222,8 +228,8 @@ topics.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Turbo boost your interactive experience on the cluster with tmux</span> (2022-11-23)
 </summary>
 <br>
@@ -245,8 +251,8 @@ the cluster.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">A few of our favourite tools</span> (2022-03-16)
 </summary>
 <br>
@@ -276,8 +282,8 @@ completions and narrowing selections").
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Fun tools to simplify your life in the command line</span> (2020-02-19)
 </summary>
 <br>
@@ -291,6 +297,8 @@ completions and narrowing selections").
 <div class="video-container" data-url="https://www.youtube.com/embed/BFKT7aj-i80"></div>
 <br>
 </details>
+<!-- ========================================================================================== -->
+</div>
 
 ## [Git version control]{#git}
 
@@ -299,8 +307,10 @@ completions and narrowing selections").
 
 Click on each webinar for its recording and materials.
 
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Lazygit</span> (2024-Oct-29)
 </summary>
 <br>
@@ -328,13 +338,17 @@ commands.
 <div class="video-container" data-url="https://www.youtube.com/embed/1a2nrwfqNGI"></div>
 <br>
 </details>
+<!-- ========================================================================================== -->
+</div>
 
 ## [Building software with EasyBuild]{#easybuild}
 
 Click on each webinar for its recording and materials.
 
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Installing software using EasyBuild in your cluster home directory</span> (2021-12-08)
 </summary>
 <br>
@@ -347,8 +361,8 @@ Click on each webinar for its recording and materials.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Building software on Compute Canada clusters using EasyBuild</span> (2020-04-15)
 </summary>
 <br>
@@ -361,11 +375,15 @@ Click on each webinar for its recording and materials.
 <div class="video-container" data-url="https://www.youtube.com/embed/38AuEQ7Jxn4"></div>
 <br>
 </details>
+<!-- ========================================================================================== -->
+</div>
 
 ## [Authoring documents and static site generators]{#author}
 
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Typst: a new markup typesetting system</span> (2026-Apr-21)
 <a name="typst"></a>
 </summary>
@@ -387,8 +405,8 @@ editing tools.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">The new R Markdown: authoring dynamic scientific docs with Quarto</span> (2023-04-11)
 <a name="quarto"></a>
 </summary>
@@ -408,13 +426,17 @@ also with Python and Julia code blocks, adding new functionality to the old tool
 <div class="video-container" data-url="https://www.youtube.com/embed/0NtyFuA_yNU"></div>
 <br>
 </details>
+<!-- ========================================================================================== -->
+</div>
 
 ## [Emacs]{#emacs}
 
 Click on each webinar for its recording and materials.
 
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">AI pair programming & LLM chats in Emacs</span> (2025-Oct-07)
 </summary>
 <br>
@@ -440,8 +462,8 @@ In this webinar, I demo these packages and show you how to install them and set 
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Understanding Emacs modes</span> (2024-Sep-17)
 </summary>
 <br>
@@ -464,8 +486,8 @@ them. Finally, I demo how the package Polymode allows to embed sections of a typ
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Modern Emacs: new tools that make Emacs better and faster</span> (2024-Mar-05)
 </summary>
 <br>
@@ -487,8 +509,8 @@ bringing great speed and sleekness to the user experience.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Emacs as a programming IDE for Python, R, and Julia</span> (2023-Nov-14)
 </summary>
 <br>
@@ -507,6 +529,8 @@ can't let go of Emacs, then show how it can be used as a programming IDE for Pyt
 <div class="video-container" data-url="https://www.youtube.com/embed/rt0SpxuOuUs"></div>
 <br>
 </details>
+<!-- ========================================================================================== -->
+</div>
 
 <br>
 ```{=html}
@@ -516,14 +540,12 @@ can't let go of Emacs, then show how it can be used as a programming IDE for Pyt
     <i class="bi bi-arrows-collapse"></i> Collapse All Sections
   </button>
 </div>
-
 <!-- button to collapse all sections in this page -->
 <script>
 function collapseAllDetails() {
   document.querySelectorAll('details').forEach(d => d.open = false);
 }
 </script>
-
 <!-- embed a video forcing a high-resolution thumbnail preview -->
 <script>
 document.querySelectorAll('details').forEach(details => {

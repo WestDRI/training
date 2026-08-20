@@ -10,8 +10,8 @@ For more information, please check the [cloud computing page](https://docs.allia
 
 ## Webinars
 
-<!-- <details> -->
-<!-- <summary style="line-height: 0.6; margin: 0; padding: 2px 0;"> -->
+<!-- <details style="margin: 0; padding: 0;"> -->
+<!-- <summary style="line-height: 1.2; margin: 0; padding: 2px 0;"> -->
 <!-- <span style="font-size: 1.2em;">title</span> (date) -->
 <!-- </summary> -->
 <!-- <br> -->
@@ -30,8 +30,10 @@ For more information, please check the [cloud computing page](https://docs.allia
 
 Click on each webinar for its recording and materials.
 
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">OpenStack command line in action: VMs in minutes</span> (2026-May-05)
 </summary>
 <br>
@@ -50,8 +52,8 @@ client-server visualization setup.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Command-line OpenStack</span> (2025-Dec-09)
 </summary>
 <br>
@@ -71,9 +73,9 @@ efficiently perform common OpenStack operations from the terminal.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
+<details style="margin: 0; padding: 0;">
 <a name="alliancecloud"></a>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Intro to the Alliance Cloud</span> (2024-Dec-10)
 </summary>
 <br>
@@ -89,9 +91,9 @@ cloud.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
+<details style="margin: 0; padding: 0;">
 <a name="manyFilesInOverlays"></a>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Hiding large numbers of files in container overlays</span> (2023-Jan-17)
 </summary>
 <br>
@@ -115,8 +117,8 @@ overlays. We assume no prior knowledge of the container technology.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Storage options for cloud computing</span> (2022-Nov-09)
 </summary>
 <br>
@@ -134,9 +136,9 @@ ephemeral disc storage, object storage, and shared filesystem storage.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
+<details style="margin: 0; padding: 0;">
 <a name="cloudSecurity"></a>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Securing your own OpenStack VM / Amazon instances / containers</span> (2022-Mar-30)
 </summary>
 <br>
@@ -148,9 +150,9 @@ ephemeral disc storage, object storage, and shared filesystem storage.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
+<details style="margin: 0; padding: 0;">
 <a name="venkatSingularity"></a>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Using Singularity containers in VMs and HPC</span> (2021-May-26)
 </summary>
 <br>
@@ -163,8 +165,8 @@ ephemeral disc storage, object storage, and shared filesystem storage.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Singularity in HPC</span> (2020-Feb-05)
 </summary>
 <br>
@@ -176,8 +178,8 @@ ephemeral disc storage, object storage, and shared filesystem storage.
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">Getting started on the cloud</span> (2018-Nov-28)
 </summary>
 <br>
@@ -191,8 +193,8 @@ section in which John explains cloud computing and its difference from tradition
 <br>
 </details>
 <!-- ========================================================================================== -->
-<details>
-<summary style="line-height: 0.6; margin: 0; padding: 2px 0;">
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
 <span style="font-size: 1.2em;">How to deploy HTTP and HTTPS sites on a virtual machine</span> (2018-Dec-12)
 </summary>
 <br>
@@ -203,6 +205,8 @@ section in which John explains cloud computing and its difference from tradition
 {{< video https://www.youtube.com/watch?v=_hn_pVHGx8o width="100%" height="500px" >}}
 <br>
 </details>
+<!-- ========================================================================================== -->
+</div>
 
 <br>
 ```{=html}
