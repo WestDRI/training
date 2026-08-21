@@ -41,13 +41,12 @@ titles to access recordings and slides.
 
 | TOPIC | DATE | SPEAKER |
 | ----------- | ---- | ------- |
-| TBA | Sep-15 | TBA |
-| TBA | Sep-29 | TBA |
-| TBA | Oct-13 | TBA |
-| TBA | Oct-27 | TBA |
+| TBA | Sep-29 | Alex Razoumov |
+| [Keeping your system safe](https://forms.gle/mNfAVjb8UUHVdfDh7) | Oct-13 | Marie-Hélène Burle |
+| [Concepts of NLP](https://forms.gle/LzzZnTie1beHC2Tr9) | Oct-27 | Marie-Hélène Burle |
 | [Why would you use Rust for scientific computing?](https://forms.gle/tYgFGUPdoPAuAbfd8) | Nov-10 | Manuel Sebastian Drehwald (NVIDIA) | <!-- Marie vacation Nov-09-13 -->
 | [Scalable numerical methods](https://forms.gle/kQpAYLdgkKAMknvXA) | Nov-24 | Sarah Huber (UVic) |
-| TBA | Dec-08 | TBA |
+| TBA | Dec-08 | Alex Razoumov |
 
 ## [Online courses]{#courses}
 
@@ -60,7 +59,7 @@ interaction. Popular introductory topics are repeated throughout the year.
 
 <!-- SFU classes start on Wed Sep-09 -->
 
-| COURSE | DATES | INSTRUCTOR |
+| TOPIC | DATES | INSTRUCTOR |
 | ------------ | ----- | ---------- |
 | [Bash for beginners](https://forms.gle/gwZxrVkskX4qYm75A) | Sep-17 | Marie-Hélène Burle |
 | [HPC for beginners](https://forms.gle/c5vb26hxoKaoPWpE9) | Sep-24,<br>Oct-01 | Alex Razoumov |
@@ -71,7 +70,7 @@ interaction. Popular introductory topics are repeated throughout the year.
 | [Numba JIT compilation to CUDA kernels](https://forms.gle/ee2N4tem8jKuuKdr9) | Nov-19 | Alex Razoumov |
 | [Intro DL with PyTorch](https://forms.gle/aojynRpvB7k8jCYG8) | Nov-26,<br>Dec-03 | Marie-Hélène Burle |
 | [Gen-AI with PyTorch for simulation data](https://forms.gle/SXkaJZtdDLxD4rbX9) | Dec-10 | Alex Razoumov |
-| [Bring your questions & problems](https://forms.gle/3exrfA37XjVx7ZDx6) | Dec-17 | Marie-Hélène Burle<br>and Alex Razoumov |
+| [Bring your questions & problems](https://forms.gle/3exrfA37XjVx7ZDx6) | Dec-17 | Marie-Hélène Burle<br>& Alex Razoumov |
 
 <!-- 1. break into smaller courses, with dependencies/requirements -->
 <!-- 1. be explicit about pre-requisites, e.g. for this Python course some were not familiar with HPC and bash, no -->
