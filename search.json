@@ -102,7 +102,7 @@
     "href": "calendar/fall-2023.html#webinars",
     "title": "Events for fall 2023",
     "section": "Webinars",
-    "text": "Webinars\nBC DRI + Prairies DRI bi-weekly Research Computing webinars take place every second Tuesday at 11am Pacific / noon Mountain / 1pm Central.\n\n\n\nDATE\nTOPIC\nSPEAKER\n\n\n\n\nSep-19\nLaunching 2023 Visualize This contest\nAlex Razoumov (SFU)\n\n\nOct-03\nA map of current machine learning frameworks\nMarie-Hélène Burle (SFU)\n\n\nOct-17\nImage-based approach to large-scale visualization\nAlex Razoumov (SFU)\n\n\nOct-31\nEssentials of High-Performance Computing for new users: A practical example using hydrological models\nMarcos Cunha-Cordeiro and Befekadu Woldegiorgis (Univ. of Manitoba)\n\n\nNov-14\nEmacs as a programming IDE for Python, R, and Julia\nMarie-Hélène Burle (SFU)\n\n\nNov-28\nText analysis in 3D\nAlex Razoumov (SFU)\n\n\nDec-12\nVersion control for data science and machine learning with DVC\nMarie-Hélène Burle (SFU)"
+    "text": "Webinars\nBC DRI + Prairies DRI bi-weekly Research Computing webinars take place every second Tuesday at 11am Pacific / noon Mountain / 1pm Central.\n\n\n\nTOPIC\nDATE\nSPEAKER\n\n\n\n\nLaunching 2023 Visualize This contest\nSep-19\nAlex Razoumov (SFU)\n\n\nA map of current machine learning frameworks\nOct-03\nMarie-Hélène Burle (SFU)\n\n\nImage-based approach to large-scale visualization\nOct-17\nAlex Razoumov (SFU)\n\n\nEssentials of High-Performance Computing for new users: A practical example using hydrological models\nOct-31\nMarcos Cunha-Cordeiro and Befekadu Woldegiorgis (Univ. of Manitoba)\n\n\nEmacs as a programming IDE for Python, R, and Julia\nNov-14\nMarie-Hélène Burle (SFU)\n\n\nText analysis in 3D\nNov-28\nAlex Razoumov (SFU)\n\n\nVersion control for data science and machine learning with DVC\nDec-12\nMarie-Hélène Burle (SFU)"
   },
   {
     "objectID": "calendar/fall-2023.html#online-courses",
@@ -123,7 +123,7 @@
     "href": "calendar/fall-2023.html#local-bootcamps-and-workshops",
     "title": "Events for fall 2023",
     "section": "Local bootcamps and workshops",
-    "text": "Local bootcamps and workshops\nWe will be adding workshops here as they are announced at other Western Canadian universities.\n\n\n\nDATE\nEVENT\nVENUE\n\n\n\n\nStarts Sep-22\nUniv. of Alberta Fall Bootcamp\nOnline"
+    "text": "Local bootcamps and workshops\nWe will be adding workshops here as they are announced at other Western Canadian universities.\n\n\n\nEVENT\nDATE\nVENUE\n\n\n\n\nUniv. of Alberta Fall Bootcamp\nStarts Sep-22\nOnline"
   },
   {
     "objectID": "calendar/fall-2023.html#in-person-schools",
@@ -158,7 +158,7 @@
     "href": "calendar/winter-spring-2023.html#webinars",
     "title": "Events for winter-spring 2023",
     "section": "Webinars",
-    "text": "Webinars\nBC DRI + Prairies DRI bi-weekly Research Computing webinars take place every second Tuesday at 11am Pacific / noon Mountain / 1pm Central.\n\n\n\n\n\n\nDATE\nTOPIC\nSPEAKER\n\n\n\n\nJan-17\nHiding large numbers of files in container overlays\nAlex Razoumov (SFU)\n\n\nJan-31\nIntroduction to high-performance research computing in R\nMarie-Hélène Burle (SFU)\n\n\nFeb-14\nData management with DataLad\nIan Percel (UofCalgary)\n\n\nFeb-28\nHow to create and access MySQL and PostgreSQL databases on DRI systems\nGemma Hoad (SFU)\n\n\nMar-14\nAutomating the GROMACS analysis tools on HPC systems\nOlivier Fisette (USask)\n\n\nMar-28\nDistributed datasets with DataLad\nAlex Razoumov (SFU)\n\n\nApr-11\nThe new R Markdown: authoring dynamic scientific documents with Quarto\nMarie-Hélène Burle (SFU)\n\n\nMay-09\nLearning Regular Expressions with Smart Tools\nJohn Simpson (UofA)\n\n\nMay-23\nManaging large hierarchical datasets with PyTables\nAlex Razoumov (SFU)"
+    "text": "Webinars\nBC DRI + Prairies DRI bi-weekly Research Computing webinars take place every second Tuesday at 11am Pacific / noon Mountain / 1pm Central.\n\n\n\n\n\n\nTOPIC\nDATE\nSPEAKER\n\n\n\n\nHiding large numbers of files in container overlays\nJan-17\nAlex Razoumov (SFU)\n\n\nIntroduction to high-performance research computing in R\nJan-31\nMarie-Hélène Burle (SFU)\n\n\nData management with DataLad\nFeb-14\nIan Percel (UofCalgary)\n\n\nHow to create and access MySQL and PostgreSQL databases on DRI systems\nFeb-28\nGemma Hoad (SFU)\n\n\nAutomating the GROMACS analysis tools on HPC systems\nMar-14\nOlivier Fisette (USask)\n\n\nDistributed datasets with DataLad\nMar-28\nAlex Razoumov (SFU)\n\n\nThe new R Markdown: authoring dynamic scientific documents with Quarto\nApr-11\nMarie-Hélène Burle (SFU)\n\n\nLearning Regular Expressions with Smart Tools\nMay-09\nJohn Simpson (UofA)\n\n\nManaging large hierarchical datasets with PyTables\nMay-23\nAlex Razoumov (SFU)"
   },
   {
     "objectID": "calendar/winter-spring-2023.html#online-courses",
@@ -179,42 +179,42 @@
     "href": "calendar/winter-spring-2023.html#bootcamps-and-workshops",
     "title": "Events for winter-spring 2023",
     "section": "Bootcamps and workshops",
-    "text": "Bootcamps and workshops\n\n\n\nDATE\nEVENT\nVENUE\n\n\n\n\nJan-20 to Feb-09\nUofA Winter Bootcamp\n\n\n\nMay-04 to Jun-21\nUofA Spring Bootcamp"
+    "text": "Bootcamps and workshops\n\n\n\nEVENT\nDATE\nVENUE\n\n\n\n\nUofA Winter Bootcamp\nJan-20 to Feb-09\n\n\n\nUofA Spring Bootcamp\nMay-04 to Jun-21"
   },
   {
     "objectID": "calendar/winter-spring-2023.html#humanities-and-social-sciences-training",
     "href": "calendar/winter-spring-2023.html#humanities-and-social-sciences-training",
     "title": "Events for winter-spring 2023",
     "section": "Humanities and social sciences training",
-    "text": "Humanities and social sciences training\n\n\n\nDATE\nEVENT\nVENUE\n\n\n\n\nFeb-14 to Feb-17\nHSS Winter Series\nonline\n\n\nJune 5-9 and 12-16\nDHSI  (Digital Humanities Summer Institute)\nTBC"
+    "text": "Humanities and social sciences training\n\n\n\nEVENT\nDATE\nVENUE\n\n\n\n\nHSS Winter Series\nFeb-14 to Feb-17\nonline\n\n\nDHSI  (Digital Humanities Summer Institute)\nJune 5-9 and 12-16\nTBC"
   },
   {
     "objectID": "calendar/winter-spring-2023.html#in-person-schools",
     "href": "calendar/winter-spring-2023.html#in-person-schools",
     "title": "Events for winter-spring 2023",
     "section": "In-person schools",
-    "text": "In-person schools\n\n\n\nDATE\nCOURSE\nLOCATION\n\n\n\n\nMay 1-5  (5 days)\nUVic spring school\nUVic\n\n\nJune 19-23  (5 days)\nSFU summer school\nSFU’s Big Data Hub\n\n\n\nAs always, we welcome requests for other training topics and events. Please email suggestions to training at westdri dot ca."
+    "text": "In-person schools\n\n\n\nCOURSE\nDATE\nLOCATION\n\n\n\n\nUVic spring school\nMay 1-5  (5 days)\nUVic\n\n\nSFU summer school\nJune 19-23  (5 days)\nSFU’s Big Data Hub\n\n\n\nAs always, we welcome requests for other training topics and events. Please email suggestions to training at westdri dot ca."
   },
   {
     "objectID": "calendar/fall-2021.html",
     "href": "calendar/fall-2021.html",
     "title": "Events for fall 2021",
     "section": "",
-    "text": "WestGrid’s bi-weekly training webinars take place every second Wednesday at 10am Pacific / 11am Mountain / 12pm Central. For upcoming sessions, click the linked title to see more details or to register. For past sessions, click on the title to view recordings and slides.\n\n\n\nDATE\nTOPIC\nSpeaker\n\n\n\n\nSep-29\nRemote visualization on Compute Canada clusters\nAlex Razoumov\n\n\nOct-13\nContainer-based approach to bioinformatics applications\nTannistha Nandi\n\n\nOct-27\nEasier parallel Julia workflow with Dagger.jl\nMarie-Helene Burle\n\n\nNov-10\nHighlights from the 2021 SciVis Contest\nAlex Razoumov\n\n\nNov-24\nUpscaling with PyTorch\nMarie-Helene Burle\n\n\nDec-08\nInstalling software using EasyBuild in your cluster home directory\nAta Roudgar"
+    "text": "WestGrid’s bi-weekly training webinars take place every second Wednesday at 10am Pacific / 11am Mountain / 12pm Central. For upcoming sessions, click the linked title to see more details or to register. For past sessions, click on the title to view recordings and slides.\n\n\n\nTOPIC\nDATE\nSpeaker\n\n\n\n\nRemote visualization on Compute Canada clusters\nSep-29\nAlex Razoumov\n\n\nContainer-based approach to bioinformatics applications\nOct-13\nTannistha Nandi\n\n\nEasier parallel Julia workflow with Dagger.jl\nOct-27\nMarie-Helene Burle\n\n\nHighlights from the 2021 SciVis Contest\nNov-10\nAlex Razoumov\n\n\nUpscaling with PyTorch\nNov-24\nMarie-Helene Burle\n\n\nInstalling software using EasyBuild in your cluster home directory\nDec-08\nAta Roudgar"
   },
   {
     "objectID": "calendar/fall-2021.html#webinars",
     "href": "calendar/fall-2021.html#webinars",
     "title": "Events for fall 2021",
     "section": "",
-    "text": "WestGrid’s bi-weekly training webinars take place every second Wednesday at 10am Pacific / 11am Mountain / 12pm Central. For upcoming sessions, click the linked title to see more details or to register. For past sessions, click on the title to view recordings and slides.\n\n\n\nDATE\nTOPIC\nSpeaker\n\n\n\n\nSep-29\nRemote visualization on Compute Canada clusters\nAlex Razoumov\n\n\nOct-13\nContainer-based approach to bioinformatics applications\nTannistha Nandi\n\n\nOct-27\nEasier parallel Julia workflow with Dagger.jl\nMarie-Helene Burle\n\n\nNov-10\nHighlights from the 2021 SciVis Contest\nAlex Razoumov\n\n\nNov-24\nUpscaling with PyTorch\nMarie-Helene Burle\n\n\nDec-08\nInstalling software using EasyBuild in your cluster home directory\nAta Roudgar"
+    "text": "WestGrid’s bi-weekly training webinars take place every second Wednesday at 10am Pacific / 11am Mountain / 12pm Central. For upcoming sessions, click the linked title to see more details or to register. For past sessions, click on the title to view recordings and slides.\n\n\n\nTOPIC\nDATE\nSpeaker\n\n\n\n\nRemote visualization on Compute Canada clusters\nSep-29\nAlex Razoumov\n\n\nContainer-based approach to bioinformatics applications\nOct-13\nTannistha Nandi\n\n\nEasier parallel Julia workflow with Dagger.jl\nOct-27\nMarie-Helene Burle\n\n\nHighlights from the 2021 SciVis Contest\nNov-10\nAlex Razoumov\n\n\nUpscaling with PyTorch\nNov-24\nMarie-Helene Burle\n\n\nInstalling software using EasyBuild in your cluster home directory\nDec-08\nAta Roudgar"
   },
   {
     "objectID": "calendar/fall-2021.html#other-workshops",
     "href": "calendar/fall-2021.html#other-workshops",
     "title": "Events for fall 2021",
     "section": "Other workshops",
-    "text": "Other workshops\n\n\n\nDATE\nEvent\nLocation\n\n\n\n\nSep-23\nTaking Git one step further - collaborating through GitHub\nOnline for UBC Research Commons\n\n\nSep-27 to Oct-25\nUofA’s Fall Research Computing Bootcamp\nOnline by the UofA\n\n\nOct-04 and Oct-05\nVisualization with Paraview (EN)\nNational training workshop\n\n\nOct-14\nMulti-processing in Julia\nOnline for UBC Research Commons\n\n\nOct-18 and Oct-19\nParallel Julia workshop\nInvited for a 3rd party\n\n\nNov-02 and Nov-03\nVisualization with Paraview (FR)\nNational training workshop\n\n\nNov-18\nUsing Deep Learning to increase image resolution\nOnline for UBC Research Commons\n\n\nDec-09\nWorking with shared and distributed arrays in Julia\nOnline for UBC Research Commons"
+    "text": "Other workshops\n\n\n\nEvent\nDATE\nLocation\n\n\n\n\nTaking Git one step further - collaborating through GitHub\nSep-23\nOnline for UBC Research Commons\n\n\nUofA’s Fall Research Computing Bootcamp\nSep-27 to Oct-25\nOnline by the UofA\n\n\nVisualization with Paraview (EN)\nOct-04 and Oct-05\nNational training workshop\n\n\nMulti-processing in Julia\nOct-14\nOnline for UBC Research Commons\n\n\nParallel Julia workshop\nOct-18 and Oct-19\nInvited for a 3rd party\n\n\nVisualization with Paraview (FR)\nNov-02 and Nov-03\nNational training workshop\n\n\nUsing Deep Learning to increase image resolution\nNov-18\nOnline for UBC Research Commons\n\n\nWorking with shared and distributed arrays in Julia\nDec-09\nOnline for UBC Research Commons"
   },
   {
     "objectID": "calendar/fall-2022.html",
@@ -228,7 +228,7 @@
     "href": "calendar/fall-2022.html#webinars",
     "title": "Events for fall 2022",
     "section": "Webinars",
-    "text": "Webinars\nBC DRI + Prairies DRI bi-weekly Research Computing webinars take place every second Wednesday at 10am Pacific / 11am Mountain / 12pm Central.\n\n\n\n\n\n\nDATE\nTOPIC\nSpeaker\n\n\n\n\nSep-28\nIn-situ visualization with ParaView Catalyst2\nAlex Razoumov (SFU)\n\n\nOct-12\nTensorBoard for objection detection models\nJillian Anderson (SFU)\n\n\nOct-26\nData visualization in Julia with the Makie ecosystem\nMarie-Hélène Burle (SFU)\n\n\nNov-09\nStorage options for cloud computing\nSarah Huber (UVic)\n\n\nNov-23\nTurbo boost your interactive experience on the cluster with tmux\nChris Want (UofA)\n\n\nDec-07\nLesser known but very useful Bash features\nAlex Razoumov &  Marie-Hélène Burle (SFU)"
+    "text": "Webinars\nBC DRI + Prairies DRI bi-weekly Research Computing webinars take place every second Wednesday at 10am Pacific / 11am Mountain / 12pm Central.\n\n\n\n\n\n\nTOPIC\nDATE\nSpeaker\n\n\n\n\nIn-situ visualization with ParaView Catalyst2\nSep-28\nAlex Razoumov (SFU)\n\n\nTensorBoard for objection detection models\nOct-12\nJillian Anderson (SFU)\n\n\nData visualization in Julia with the Makie ecosystem\nOct-26\nMarie-Hélène Burle (SFU)\n\n\nStorage options for cloud computing\nNov-09\nSarah Huber (UVic)\n\n\nTurbo boost your interactive experience on the cluster with tmux\nNov-23\nChris Want (UofA)\n\n\nLesser known but very useful Bash features\nDec-07\nAlex Razoumov &  Marie-Hélène Burle (SFU)"
   },
   {
     "objectID": "calendar/fall-2022.html#sfu-ubc-research-commons-workshops",
@@ -242,35 +242,35 @@
     "href": "calendar/fall-2022.html#local-bootcamps-and-workshops",
     "title": "Events for fall 2022",
     "section": "Local bootcamps and workshops",
-    "text": "Local bootcamps and workshops\n\n\n\nDATE\nTitle\nLocation\n\n\n\n\nSep-16 to Oct-03\nFall Research Computing Bootcamp\nUniversity of Alberta\n\n\nSep-29\nWorkshop: Introduction to machine learning under the Alliance resources\nUniversity of Victoria"
+    "text": "Local bootcamps and workshops\n\n\n\nTitle\nDate\nLocation\n\n\n\n\nFall Research Computing Bootcamp\nSep-16 to Oct-03\nUniversity of Alberta\n\n\nWorkshop: Introduction to machine learning under the Alliance resources\nSep-29\nUniversity of Victoria"
   },
   {
     "objectID": "calendar/fall-2022.html#westdri-autumn-school",
     "href": "calendar/fall-2022.html#westdri-autumn-school",
     "title": "Events for fall 2022",
     "section": "WestDRI autumn school",
-    "text": "WestDRI autumn school\nIn our 2022 autumn school we decided to focus on a small subset of our courses, leaving more advanced topics to spring (March) and summer (May-June) schools.\n\n\n\n\n\n\nDATE\nCourse\nLocation\n\n\n\n\nNov-08\nLinux command line\nOnline\n\n\nNov-10\nPython level 1\nOnline\n\n\nNov-15\nIntro to HPC\nOnline\n\n\nNov-17\nR level 1\nOnline\n\n\nNov-22\nGPU Python (NVIDIA)\nOnline\n\n\n\nAs always, we welcome requests for other training topics and events. Please email suggestions to training at westdri dot ca."
+    "text": "WestDRI autumn school\nIn our 2022 autumn school we decided to focus on a small subset of our courses, leaving more advanced topics to spring (March) and summer (May-June) schools.\n\n\n\n\n\n\nCourse\nDate\nLocation\n\n\n\n\nLinux command line\nNov-08\nOnline\n\n\nPython level 1\nNov-10\nOnline\n\n\nIntro to HPC\nNov-15\nOnline\n\n\nR level 1\nNov-17\nOnline\n\n\nGPU Python (NVIDIA)\nNov-22\nOnline\n\n\n\nAs always, we welcome requests for other training topics and events. Please email suggestions to training at westdri dot ca."
   },
   {
     "objectID": "calendar/winter-spring-2020.html",
     "href": "calendar/winter-spring-2020.html",
     "title": "Events for winter-spring 2020",
     "section": "",
-    "text": "WestGrid’s bi-weekly training webinars take place every second Wednesday at 10am Pacific / 11am Mountain / 12pm Central.\nTo view recordings and slides from past sessions, click on the linked title.\n\n\n\nDATE\nTOPIC\nSpeaker\n\n\n\n\nJan-151\nPhotorealistic rendering with ParaView and OSPRay\nAlex Razoumov\n\n\nFeb-05\nSingularity in HPC: beyond the basics\nGrigory Shamov\n\n\nFeb-19\nFun tools to simplify your life in the command line\nMarie-Hélène Burle\n\n\nMar-04\nHigh-performance research computing with Julia\nMarie-Hélène Burle\n\n\nMar-18\nWorking with data files and external C libraries in Chapel\nAlex Razoumov\n\n\nApr-01\nScientific graphics with GNUPlot\nDmitri Rozmanov\n\n\nApr-08\nIntro to HPC (remote for UBC Research Commons)\nAlex Razoumov\n\n\nApr-15\nBuilding software on Compute Canada clusters using EasyBuild\nAli Kerrache\n\n\nApr-29\nWeb-based 3D scientific visualization\nAlex Razoumov\n\n\nMay-06\nIntro to Cloud Computing (remote for UBC Research Commons)\npre-recorded\n\n\nMay-13\nMachine learning in Julia with Flux\nMarie-Hélène Burle\n\n\nMay-27\nMining Twitter data for research (part 2)\nJohn Simpson"
+    "text": "WestGrid’s bi-weekly training webinars take place every second Wednesday at 10am Pacific / 11am Mountain / 12pm Central.\nTo view recordings and slides from past sessions, click on the linked title.\n\n\n\nTOPIC\nDATE\nSpeaker\n\n\n\n\nPhotorealistic rendering with ParaView and OSPRay\nJan-151\nAlex Razoumov\n\n\nSingularity in HPC: beyond the basics\nFeb-05\nGrigory Shamov\n\n\nFun tools to simplify your life in the command line\nFeb-19\nMarie-Hélène Burle\n\n\nHigh-performance research computing with Julia\nMar-04\nMarie-Hélène Burle\n\n\nWorking with data files and external C libraries in Chapel\nMar-18\nAlex Razoumov\n\n\nScientific graphics with GNUPlot\nApr-01\nDmitri Rozmanov\n\n\nIntro to HPC (remote for UBC Research Commons)\nApr-08\nAlex Razoumov\n\n\nBuilding software on Compute Canada clusters using EasyBuild\nApr-15\nAli Kerrache\n\n\nWeb-based 3D scientific visualization\nApr-29\nAlex Razoumov\n\n\nIntro to Cloud Computing (remote for UBC Research Commons)\nMay-06\npre-recorded\n\n\nMachine learning in Julia with Flux\nMay-13\nMarie-Hélène Burle\n\n\nMining Twitter data for research (part 2)\nMay-27\nJohn Simpson"
   },
   {
     "objectID": "calendar/winter-spring-2020.html#webinars",
     "href": "calendar/winter-spring-2020.html#webinars",
     "title": "Events for winter-spring 2020",
     "section": "",
-    "text": "WestGrid’s bi-weekly training webinars take place every second Wednesday at 10am Pacific / 11am Mountain / 12pm Central.\nTo view recordings and slides from past sessions, click on the linked title.\n\n\n\nDATE\nTOPIC\nSpeaker\n\n\n\n\nJan-151\nPhotorealistic rendering with ParaView and OSPRay\nAlex Razoumov\n\n\nFeb-05\nSingularity in HPC: beyond the basics\nGrigory Shamov\n\n\nFeb-19\nFun tools to simplify your life in the command line\nMarie-Hélène Burle\n\n\nMar-04\nHigh-performance research computing with Julia\nMarie-Hélène Burle\n\n\nMar-18\nWorking with data files and external C libraries in Chapel\nAlex Razoumov\n\n\nApr-01\nScientific graphics with GNUPlot\nDmitri Rozmanov\n\n\nApr-08\nIntro to HPC (remote for UBC Research Commons)\nAlex Razoumov\n\n\nApr-15\nBuilding software on Compute Canada clusters using EasyBuild\nAli Kerrache\n\n\nApr-29\nWeb-based 3D scientific visualization\nAlex Razoumov\n\n\nMay-06\nIntro to Cloud Computing (remote for UBC Research Commons)\npre-recorded\n\n\nMay-13\nMachine learning in Julia with Flux\nMarie-Hélène Burle\n\n\nMay-27\nMining Twitter data for research (part 2)\nJohn Simpson"
+    "text": "WestGrid’s bi-weekly training webinars take place every second Wednesday at 10am Pacific / 11am Mountain / 12pm Central.\nTo view recordings and slides from past sessions, click on the linked title.\n\n\n\nTOPIC\nDATE\nSpeaker\n\n\n\n\nPhotorealistic rendering with ParaView and OSPRay\nJan-151\nAlex Razoumov\n\n\nSingularity in HPC: beyond the basics\nFeb-05\nGrigory Shamov\n\n\nFun tools to simplify your life in the command line\nFeb-19\nMarie-Hélène Burle\n\n\nHigh-performance research computing with Julia\nMar-04\nMarie-Hélène Burle\n\n\nWorking with data files and external C libraries in Chapel\nMar-18\nAlex Razoumov\n\n\nScientific graphics with GNUPlot\nApr-01\nDmitri Rozmanov\n\n\nIntro to HPC (remote for UBC Research Commons)\nApr-08\nAlex Razoumov\n\n\nBuilding software on Compute Canada clusters using EasyBuild\nApr-15\nAli Kerrache\n\n\nWeb-based 3D scientific visualization\nApr-29\nAlex Razoumov\n\n\nIntro to Cloud Computing (remote for UBC Research Commons)\nMay-06\npre-recorded\n\n\nMachine learning in Julia with Flux\nMay-13\nMarie-Hélène Burle\n\n\nMining Twitter data for research (part 2)\nMay-27\nJohn Simpson"
   },
   {
     "objectID": "calendar/winter-spring-2020.html#in-person-workshops",
     "href": "calendar/winter-spring-2020.html#in-person-workshops",
     "title": "Events for winter-spring 2020",
     "section": "In-person workshops",
-    "text": "In-person workshops\n\n\n\nDATE\nEvent\nLocation\n\n\n\n\nFeb-07\nAdvanced Unix Shell\nUBC Research Commons\n\n\nMar-2,3,5,6\nWestGrid Spring School\nBig Data Hub @SFU\n\n\nMar-09\nWestGrid workshop at BMIAI@UBC\nUBC\n\n\nMar-13\nAdvanced GitHub\nUBC Research Commons\n\n\nTBA\nWestGrid Summer School\nonline\n\n\n\n\n\nYou might also find useful the following workshops taught by our partner Advanced Research Computing (ARC) teams at the WestGrid member institutions:\n\nHands-on introduction to HPC at USask\nResearch Computing Bootcamps at UofA\n\n\nAs always, we welcome requests for other training topics and events. Please email suggestions to info at westgrid dor ca."
+    "text": "In-person workshops\n\n\n\nEvent\nDATE\nLocation\n\n\n\n\nAdvanced Unix Shell\nFeb-07\nUBC Research Commons\n\n\nWestGrid Spring School\nMar-2,3,5,6\nBig Data Hub @SFU\n\n\nWestGrid workshop at BMIAI@UBC\nMar-09\nUBC\n\n\nAdvanced GitHub\nMar-13\nUBC Research Commons\n\n\nWestGrid Summer School\nTBA\nonline\n\n\n\n\n\nYou might also find useful the following workshops taught by our partner Advanced Research Computing (ARC) teams at the WestGrid member institutions:\n\nHands-on introduction to HPC at USask\nResearch Computing Bootcamps at UofA\n\n\nAs always, we welcome requests for other training topics and events. Please email suggestions to info at westgrid dor ca."
   },
   {
     "objectID": "calendar/winter-spring-2020.html#footnotes",
@@ -291,35 +291,35 @@
     "href": "calendar/winter-spring-2019.html#webinars",
     "title": "Events for winter-spring 2019",
     "section": "Webinars",
-    "text": "Webinars\nWestGrid’s bi-weekly training webinars take place every second Wednesday at 10am Pacific / 11am Mountain / 12pm Central.\nTo view recordings and slides from past sessions, click on the linked title.\n\n\n\nDATE                     \nTOPIC\nSpeaker                           \n\n\n\n\nJan-23\nWorking with data objects in yt (visualization)\nAlex Razoumov\n\n\nFeb-06\nText Parsing and Analysis with HPC\nIan Percel\n\n\nFeb-20\nMemory debugging with Valgrind\nTyson Whitehead (SHARCNET)\n\n\nMar-06\nMolecular visualization with VMD\nDmitri Rozmanov\n\n\nMar-20\nResearch Data Management Tools, Platforms, and Best Practices for Canadian Researchers\nAlex Garnett (SFU) and Adam McKenzie\n\n\nApr-03\nShort read DNA sequencing alignment and visualization\nPhillip Richmond (UBC)\n\n\nApr-17\nComputing graphs on an HPC cluster: working with distributed unstructured data in Chapel\nAlex Razoumov\n\n\nMay-01\nLearn how to manage many files with DAR disk archiver\nAlex Razoumov"
+    "text": "Webinars\nWestGrid’s bi-weekly training webinars take place every second Wednesday at 10am Pacific / 11am Mountain / 12pm Central.\nTo view recordings and slides from past sessions, click on the linked title.\n\n\n\nTOPIC\nDATE\nSpeaker\n\n\n\n\nWorking with data objects in yt (visualization)\nJan-23\nAlex Razoumov\n\n\nText Parsing and Analysis with HPC\nFeb-06\nIan Percel\n\n\nMemory debugging with Valgrind\nFeb-20\nTyson Whitehead (SHARCNET)\n\n\nMolecular visualization with VMD\nMar-06\nDmitri Rozmanov\n\n\nResearch Data Management Tools, Platforms, and Best Practices for Canadian Researchers\nMar-20\nAlex Garnett (SFU) and Adam McKenzie\n\n\nShort read DNA sequencing alignment and visualization\nApr-03\nPhillip Richmond (UBC)\n\n\nComputing graphs on an HPC cluster: working with distributed unstructured data in Chapel\nApr-17\nAlex Razoumov\n\n\nLearn how to manage many files with DAR disk archiver\nMay-01\nAlex Razoumov"
   },
   {
     "objectID": "calendar/winter-spring-2019.html#in-person-workshops",
     "href": "calendar/winter-spring-2019.html#in-person-workshops",
     "title": "Events for winter-spring 2019",
     "section": "In-person workshops",
-    "text": "In-person workshops\n\n\n\nDATE\nEvent\nLocation\n\n\n\n\nJan-15 to Jan-18\nResearch Computing Workshops: Introduction to Scientific Computing with Linux, High-Performance Computing, Parallel Programming, and Scientific Visualization\nUniversity of Saskatchewan\n\n\nJan-28 to Feb-01\nResearch Computing Winter Bootcamp\nUniversity of Alberta\n\n\nFeb-04 to Feb-05\nPython-themed Software Carpentry\nSFU\n\n\nMar-18 to Mar-21\nResearch Computing Workshops: Introduction to Scientific Computing with Linux, High-Performance Computing, Parallel Programming, and Scientific Visualization\nSFU\n\n\nApr-30\nUsing yt for analysis and visualization of volumetric data in Python\nSFU\n\n\nApr-29 to May-03\nResearch Computing Spring Bootcamp\nUniversity of Alberta\n\n\nMay-27 to May-30\nResearch Computing Summer School\nUniversity of Calgary\n\n\nJune-24 to June-27\nResearch Computing Summer School\nUniversity of British Columbia\n\n\n\nAs always, we welcome requests for other training topics and events. Please email suggestions to info at westgrid dot ca."
+    "text": "In-person workshops\n\n\n\nEvent\nDATE\nLocation\n\n\n\n\nResearch Computing Workshops: Introduction to Scientific Computing with Linux, High-Performance Computing, Parallel Programming, and Scientific Visualization\nJan-15 to Jan-18\nUniversity of Saskatchewan\n\n\nResearch Computing Winter Bootcamp\nJan-28 to Feb-01\nUniversity of Alberta\n\n\nPython-themed Software Carpentry\nFeb-04 to Feb-05\nSFU\n\n\nResearch Computing Workshops: Introduction to Scientific Computing with Linux, High-Performance Computing, Parallel Programming, and Scientific Visualization\nMar-18 to Mar-21\nSFU\n\n\nUsing yt for analysis and visualization of volumetric data in Python\nApr-30\nSFU\n\n\nResearch Computing Spring Bootcamp\nApr-29 to May-03\nUniversity of Alberta\n\n\nResearch Computing Summer School\nMay-27 to May-30\nUniversity of Calgary\n\n\nResearch Computing Summer School\nJune-24 to June-27\nUniversity of British Columbia\n\n\n\nAs always, we welcome requests for other training topics and events. Please email suggestions to info at westgrid dot ca."
   },
   {
     "objectID": "calendar/fall-2019.html",
     "href": "calendar/fall-2019.html",
     "title": "Events for fall 2019",
     "section": "",
-    "text": "WestGrid’s bi-weekly training webinars take place every second Wednesday at 10am Pacific / 11am Mountain / 12pm Central.\nTo view recordings and slides from past sessions, click on the linked title.\n\n\n\nDATE\nTOPIC\nSpeaker\n\n\n\n\nSep-18\nBatch visualization on Compute Canada clusters\nAlex Razoumov\n\n\nOct-16\nWorking with Python DASK library\nChris Want\n\n\nOct-30\nFile access control approaches and best practices\nSergiy Stepanenko\n\n\nNov-13\nBuilding a bioinformatics QC pipeline\nBrian McConeghy\n\n\nNov-27\nTips & tools for mining Twitter data for research\nJohn Simpson\n\n\nDec-11\nGeospatial analysis with HPC\nIan Percel"
+    "text": "WestGrid’s bi-weekly training webinars take place every second Wednesday at 10am Pacific / 11am Mountain / 12pm Central.\nTo view recordings and slides from past sessions, click on the linked title.\n\n\n\nTOPIC\nDATE\nSpeaker\n\n\n\n\nBatch visualization on Compute Canada clusters\nSep-18\nAlex Razoumov\n\n\nWorking with Python DASK library\nOct-16\nChris Want\n\n\nFile access control approaches and best practices\nOct-30\nSergiy Stepanenko\n\n\nBuilding a bioinformatics QC pipeline\nNov-13\nBrian McConeghy\n\n\nTips & tools for mining Twitter data for research\nNov-27\nJohn Simpson\n\n\nGeospatial analysis with HPC\nDec-11\nIan Percel"
   },
   {
     "objectID": "calendar/fall-2019.html#webinars",
     "href": "calendar/fall-2019.html#webinars",
     "title": "Events for fall 2019",
     "section": "",
-    "text": "WestGrid’s bi-weekly training webinars take place every second Wednesday at 10am Pacific / 11am Mountain / 12pm Central.\nTo view recordings and slides from past sessions, click on the linked title.\n\n\n\nDATE\nTOPIC\nSpeaker\n\n\n\n\nSep-18\nBatch visualization on Compute Canada clusters\nAlex Razoumov\n\n\nOct-16\nWorking with Python DASK library\nChris Want\n\n\nOct-30\nFile access control approaches and best practices\nSergiy Stepanenko\n\n\nNov-13\nBuilding a bioinformatics QC pipeline\nBrian McConeghy\n\n\nNov-27\nTips & tools for mining Twitter data for research\nJohn Simpson\n\n\nDec-11\nGeospatial analysis with HPC\nIan Percel"
+    "text": "WestGrid’s bi-weekly training webinars take place every second Wednesday at 10am Pacific / 11am Mountain / 12pm Central.\nTo view recordings and slides from past sessions, click on the linked title.\n\n\n\nTOPIC\nDATE\nSpeaker\n\n\n\n\nBatch visualization on Compute Canada clusters\nSep-18\nAlex Razoumov\n\n\nWorking with Python DASK library\nOct-16\nChris Want\n\n\nFile access control approaches and best practices\nOct-30\nSergiy Stepanenko\n\n\nBuilding a bioinformatics QC pipeline\nNov-13\nBrian McConeghy\n\n\nTips & tools for mining Twitter data for research\nNov-27\nJohn Simpson\n\n\nGeospatial analysis with HPC\nDec-11\nIan Percel"
   },
   {
     "objectID": "calendar/fall-2019.html#in-person-workshops",
     "href": "calendar/fall-2019.html#in-person-workshops",
     "title": "Events for fall 2019",
     "section": "In-person workshops",
-    "text": "In-person workshops\n\n\n\nDATE\nEvent\nLocation\n\n\n\n\nSep-23 to Oct-04\nResearch Computing Fall Bootcamp\nUniversity of Alberta\n\n\nDec-10 to Dec-13\nResearch Computing Winter School\nUniversity of Victoria\n\n\n\n\nAs always, we welcome requests for other training topics and events. Please email suggestions to info@westgrid.ca."
+    "text": "In-person workshops\n\n\n\nEvent\nDATE\nLocation\n\n\n\n\nResearch Computing Fall Bootcamp\nSep-23 to Oct-04\nUniversity of Alberta\n\n\nResearch Computing Winter School\nDec-10 to Dec-13\nUniversity of Victoria\n\n\n\n\nAs always, we welcome requests for other training topics and events. Please email suggestions to info@westgrid.ca."
   },
   {
     "objectID": "calendar/fall-2018.html",
@@ -333,14 +333,14 @@
     "href": "calendar/fall-2018.html#webinars",
     "title": "Events for fall 2018",
     "section": "Webinars",
-    "text": "Webinars\nWestGrid’s bi-weekly training webinars take place every second Wednesday at 10am Pacific / 11am Mountain / 12pm Central. Note two off-cycle special dates (Sep-20 and mid-November).\n\n\n\nDATE                     \nTOPIC\nSpeaker                           \n\n\n\n\nSep-19\nHow to submit and run jobs on Compute Canada HPC systems\nAlex Razoumov\n\n\nSep-20 (special time)\nArbutus Upgrade: What you need to know\nRyan Enge and Venkat Mahadevan\n\n\nOct-03\nCommon job submission errors and how to avoid them\nKamil Marcinkowski\n\n\nOct-17\nTools for automating analysis pipelines\nJamie Rosner\n\n\nOct-31\nData Analytics and Machine Learning with MATLAB\nSumit Tandon (MathWorks)\n\n\nNov-14\nHow HPC helped researchers simulate the life of a star\nFalk Herwig (UVic)\n\n\nNov-21 (alternate week)\nUsing yt for analysis and visualization of volumetric data\nAlex Razoumov\n\n\nNov-28\nGetting started on the cloud (humanities/social sci. Part 1)\nJohn Simpson\n\n\nDec-12\nHow to deploy HTTP and HTTPS sites on a virtual machine (humanities/social sciences Part 2)\nJohn Simpson"
+    "text": "Webinars\nWestGrid’s bi-weekly training webinars take place every second Wednesday at 10am Pacific / 11am Mountain / 12pm Central. Note two off-cycle special dates (Sep-20 and mid-November).\n\n\n\n\n\n\n\n\nTOPIC\nDATE\nSpeaker\n\n\n\n\nHow to submit and run jobs on Compute Canada HPC systems\nSep-19\nAlex Razoumov\n\n\nArbutus Upgrade: What you need to know\nSep-20 (special time)\nRyan Enge and Venkat Mahadevan\n\n\nCommon job submission errors and how to avoid them\nOct-03\nKamil Marcinkowski\n\n\nTools for automating analysis pipelines\nOct-17\nJamie Rosner\n\n\nData Analytics and Machine Learning with MATLAB\nOct-31\nSumit Tandon (MathWorks)\n\n\nHow HPC helped researchers simulate the life of a star\nNov-14\nFalk Herwig (UVic)\n\n\nUsing yt for analysis and visualization of volumetric data\nNov-21 (alternate week)\nAlex Razoumov\n\n\nGetting started on the cloud (HSS Part 1)\nNov-28\nJohn Simpson\n\n\nHow to deploy HTTP and HTTPS sites on a virtual machine (HSS Part 2)\nDec-12\nJohn Simpson"
   },
   {
     "objectID": "calendar/fall-2018.html#in-person-workshops",
     "href": "calendar/fall-2018.html#in-person-workshops",
     "title": "Events for fall 2018",
     "section": "In-person workshops",
-    "text": "In-person workshops\n\n\n\nDATE\nEvent\nLocation\n\n\n\n\nSep-24 to 28\nResearch Computing Fall Bootcamp\nUofA\n\n\nSep-25\nIntroduction to Python\nSFU’s Big Data Hub\n\n\nOct-23\nA taste of parallel programming with Chapel\nSFU, Bennett Library, Rm 7010, Research Commons\n\n\nNov-02, 3pm-5pm\nIntroductory Research Computing Workshop\nUniversity of Manitoba, Department of Biochemistry and Medical Genetics, Basic Medical Science Building, Room 341\n\n\n\nAs always, we welcome requests for other training topics and events. Please email suggestions to info at westgrid dot ca."
+    "text": "In-person workshops\n\n\n\nEvent\nDATE\nLocation\n\n\n\n\nResearch Computing Fall Bootcamp\nSep-24 to 28\nUofA\n\n\nIntroduction to Python\nSep-25\nSFU’s Big Data Hub\n\n\nA taste of parallel programming with Chapel\nOct-23\nSFU, Bennett Library, Rm 7010, Research Commons\n\n\nIntroductory Research Computing Workshop\nNov-02, 3pm-5pm\nUniversity of Manitoba, Department of Biochemistry and Medical Genetics, Basic Medical Science Building, Room 341\n\n\n\nAs always, we welcome requests for other training topics and events. Please email suggestions to info at westgrid dot ca."
   },
   {
     "objectID": "calendar/winter-spring-2024.html",
@@ -354,7 +354,7 @@
     "href": "calendar/winter-spring-2024.html#webinars",
     "title": "Events for winter-spring 2024",
     "section": "Webinars",
-    "text": "Webinars\nBC DRI + Prairies DRI bi-weekly Research Computing webinars take place every second Tuesday at 11am Pacific / noon Mountain / 1pm Central.\n\n\n\n\n\n\nDATE\nTOPIC\nSPEAKER\n\n\n\n\nJan-09\nCommand-line image processing with ImageMagick\nAlex Razoumov (SFU)\n\n\nJan-23\nAI-powered coding with GitHub Copilot\nMarie-Hélène Burle (SFU)\n\n\nFeb-20\nPhotogrammetry on HPC clusters\nAlex Razoumov (SFU)\n\n\nMar-05\nModern Emacs: all those new tools that make Emacs better and faster\nMarie-Hélène Burle (SFU)\n\n\nMar-19\nThings researchers should know before using Generative AI\nJillian Anderson (SFU)\n\n\nApr-16\nJAX: a framework for high-performance array computing\nMarie-Hélène Burle (SFU)\n\n\nApr-23\nLossy data compression\nAlex Razoumov (SFU)\n\n\nApr-30\nJulia at full tilt: profiling and optimizations\nPaul Schrimpf (UBC)\n\n\nMay-14\nDataFrames on steroids with Polars\nMarie-Hélène Burle (SFU)"
+    "text": "Webinars\nBC DRI + Prairies DRI bi-weekly Research Computing webinars take place every second Tuesday at 11am Pacific / noon Mountain / 1pm Central.\n\n\n\n\n\n\nTOPIC\nDATE\nSPEAKER\n\n\n\n\nCommand-line image processing with ImageMagick\nJan-09\nAlex Razoumov (SFU)\n\n\nAI-powered coding with GitHub Copilot\nJan-23\nMarie-Hélène Burle (SFU)\n\n\nPhotogrammetry on HPC clusters\nFeb-20\nAlex Razoumov (SFU)\n\n\nModern Emacs: all those new tools that make Emacs better and faster\nMar-05\nMarie-Hélène Burle (SFU)\n\n\nThings researchers should know before using Generative AI\nMar-19\nJillian Anderson (SFU)\n\n\nJAX: a framework for high-performance array computing\nApr-16\nMarie-Hélène Burle (SFU)\n\n\nLossy data compression\nApr-23\nAlex Razoumov (SFU)\n\n\nJulia at full tilt: profiling and optimizations\nApr-30\nPaul Schrimpf (UBC)\n\n\nDataFrames on steroids with Polars\nMay-14\nMarie-Hélène Burle (SFU)"
   },
   {
     "objectID": "calendar/winter-spring-2024.html#online-courses",
@@ -375,7 +375,7 @@
     "href": "calendar/winter-spring-2024.html#bootcamps-and-workshops",
     "title": "Events for winter-spring 2024",
     "section": "Bootcamps and workshops",
-    "text": "Bootcamps and workshops\nWe will be adding workshops here as they are announced at other Western Canadian universities.\n\n\n\nDATE\nEVENT\nVENUE\n\n\n\n\nStarts Jan-19\nUniv. of Alberta Winter Bootcamp\nOnline\n\n\nFeb 12-16\nHSS Winter Series 2024\nOnline\n\n\nFeb 26-28\nIntroduction to programming with Python (follow-up to the 2024 HSS Winter Series)\nOnline\n\n\nFeb 26-28\nIntroduction to programming with R (follow-up to the 2024 HSS Winter Series)\nOnline\n\n\nStarts Apr-30\nUniv. of Alberta Spring Bootcamp\nOnline\n\n\nJul 8-11\nUBC ARC 2024 Summer School\nWest Mall Swing Space\n\n\n\n\n\n\n\n\n\n\n As always, we welcome requests for other training topics and events. Please email suggestions to training at westdri dot ca."
+    "text": "Bootcamps and workshops\nWe will be adding workshops here as they are announced at other Western Canadian universities.\n\n\n\nEVENT\nDATE\nVENUE\n\n\n\n\nUniv. of Alberta Winter Bootcamp\nStarts Jan-19\nOnline\n\n\nHSS Winter Series 2024\nFeb 12-16\nOnline\n\n\nIntroduction to programming with Python (follow-up to the 2024 HSS Winter Series)\nFeb 26-28\nOnline\n\n\nIntroduction to programming with R (follow-up to the 2024 HSS Winter Series)\nFeb 26-28\nOnline\n\n\nUniv. of Alberta Spring Bootcamp\nStarts Apr-30\nOnline\n\n\nUBC ARC 2024 Summer School\nJuly 8-11\nWest Mall Swing Space\n\n\n\n\n\n\n\n\n\n\n As always, we welcome requests for other training topics and events. Please email suggestions to training at westdri dot ca."
   },
   {
     "objectID": "molecular.html",
@@ -557,7 +557,7 @@
     "href": "calendar/fall-2025.html#webinars",
     "title": "Events for fall 2025",
     "section": "Webinars",
-    "text": "Webinars\n\n\nThe 2025 Fall Webinars, hosted by SFU’s Research Computing Group (RCG), take place every second Tuesday at 10:00am Pacific (Victoria, Vancouver), 11:00am Mountain (Edmonton, Calgary), and noon Central (Winnipeg). Webinar registration opens in early September.\nFor upcoming webinars, click the linked titles to view details or register. For past sessions, click the titles to access recordings and slides.\n\n\n\nDATE\nTOPIC\nSPEAKER\n\n\n\n\nSep-16\nIntroduction to the Fir cluster\nAlex Razoumov\n\n\nOct-07\nAI pair programming & LLMs chats in Emacs\nMarie-Hélène Burle\n\n\nOct-14\nGlobus-cli for file transfer\nAlex Razoumov\n\n\nOct-28\nThe next generation of Python notebooks\nMarie-Hélène Burle\n\n\nNov-18\nCreating interactive online visualizations with Trame\nAlex Razoumov\n\n\nNov-25\nDeep learning experiment tracking with MLflow\nMarie-Hélène Burle\n\n\nDec-09\nCommand-line OpenStack\nAlex Razoumov"
+    "text": "Webinars\n\n\nThe 2025 Fall Webinars, hosted by SFU’s Research Computing Group (RCG), take place every second Tuesday at 10:00am Pacific (Victoria, Vancouver), 11:00am Mountain (Edmonton, Calgary), and noon Central (Winnipeg). Webinar registration opens in early September.\nFor upcoming webinars, click the linked titles to view details or register. For past sessions, click the titles to access recordings and slides.\n\n\n\nTOPIC\nDATE\nSPEAKER\n\n\n\n\nIntroduction to the Fir cluster\nSep-16\nAlex Razoumov\n\n\nAI pair programming & LLMs chats in Emacs\nOct-07\nMarie-Hélène Burle\n\n\nGlobus-cli for file transfer\nOct-14\nAlex Razoumov\n\n\nThe next generation of Python notebooks\nOct-28\nMarie-Hélène Burle\n\n\nCreating interactive online visualizations with Trame\nNov-18\nAlex Razoumov\n\n\nDeep learning experiment tracking with MLflow\nNov-25\nMarie-Hélène Burle\n\n\nCommand-line OpenStack\nDec-09\nAlex Razoumov"
   },
   {
     "objectID": "calendar/fall-2025.html#online-courses",
@@ -571,7 +571,7 @@
     "href": "calendar/fall-2025.html#upcoming-bootcamps-and-workshops",
     "title": "Events for fall 2025",
     "section": "Upcoming bootcamps and workshops",
-    "text": "Upcoming bootcamps and workshops\nWorkshops from other Western Canadian universities will be added here as they are announced.\n\n\n\nDATE\nEVENT\nVENUE\n\n\n\n\nStarts Sep-19\nUniv. of Alberta Fall Research Computing Bootcamp\nOnline\n\n\n\n\nAs always, we welcome suggestions for additional training topics and events. Please email your ideas to training at westdri dot ca."
+    "text": "Upcoming bootcamps and workshops\nWorkshops from other Western Canadian universities will be added here as they are announced.\n\n\n\nEVENT\nDATE\nVENUE\n\n\n\n\nUniv. of Alberta Fall Research Computing Bootcamp\nStarts Sep-19\nOnline\n\n\n\n\nAs always, we welcome suggestions for additional training topics and events. Please email your ideas to training at westdri dot ca."
   },
   {
     "objectID": "calendar/winter-spring-2026.html",
@@ -599,7 +599,7 @@
     "href": "calendar/winter-spring-2026.html#webinars",
     "title": "Events for winter-spring 2026",
     "section": "Webinars",
-    "text": "Webinars\nTo accommodate the Winter Visualization Series, our webinar season will begin on April 7, 2026. The 2026 Spring Webinars, hosted by SFU’s Research Computing Group (RCG), will take place every second Tuesday at 10:00am Pacific (Victoria, Vancouver), 11:00am Mountain (Edmonton, Calgary), and 12:00pm Central (Winnipeg).\n\nFor upcoming webinars, click the linked titles to view details or register. For past sessions, click the titles to access recordings and slides.\n\n\n\nDATE\nTOPIC\nSPEAKER\n\n\n\n\nApr-07\nRIP pandas, welcome Polars\nMarie-Hélène Burle\n\n\nApr-21\nTypst: a new markup typesetting system\nMarie-Hélène Burle\n\n\nMay-05\nOpenStack command line in action: VMs in minutes\nAlex Razoumov\n\n\nMay-19\nTwo paths to Python dashboards: Shiny vs Dash\nMarie-Hélène Burle& Alex Razoumov"
+    "text": "Webinars\nTo accommodate the Winter Visualization Series, our webinar season will begin on April 7, 2026. The 2026 Spring Webinars, hosted by SFU’s Research Computing Group (RCG), will take place every second Tuesday at 10:00am Pacific (Victoria, Vancouver), 11:00am Mountain (Edmonton, Calgary), and 12:00pm Central (Winnipeg).\n\nFor upcoming webinars, click the linked titles to view details or register. For past sessions, click the titles to access recordings and slides.\n\n\n\nTOPIC\nDATE\nSPEAKER\n\n\n\n\nRIP pandas, welcome Polars\nApr-07\nMarie-Hélène Burle\n\n\nTypst: a new markup typesetting system\nApr-21\nMarie-Hélène Burle\n\n\nOpenStack command line in action: VMs in minutes\nMay-05\nAlex Razoumov\n\n\nTwo paths to Python dashboards: Shiny vs Dash\nMay-19\nMarie-Hélène Burle& Alex Razoumov"
   },
   {
     "objectID": "calendar/winter-spring-2026.html#online-courses",
@@ -613,7 +613,7 @@
     "href": "calendar/winter-spring-2026.html#bootcamps-and-workshops",
     "title": "Events for winter-spring 2026",
     "section": "Bootcamps and workshops",
-    "text": "Bootcamps and workshops\nWorkshops from other Western Canadian universities will be added here as they are announced.\n\n\n\nDATE\nEVENT\nVENUE\n\n\n\n\nJan-Feb\nUofA Winter Bootcamp\nOnline\n\n\nMay\nUofA Spring Bootcamp\nOnline\n\n\n\n\n As always, we welcome suggestions for additional training topics and events. Please email your ideas to training at westdri dot ca."
+    "text": "Bootcamps and workshops\nWorkshops from other Western Canadian universities will be added here as they are announced.\n\n\n\nEVENT\nDATE\nVENUE\n\n\n\n\nUofA Winter Bootcamp\nJan-Feb\nOnline\n\n\nUofA Spring Bootcamp\nMay\nOnline\n\n\n\n\n As always, we welcome suggestions for additional training topics and events. Please email your ideas to training at westdri dot ca."
   },
   {
     "objectID": "calendar/winter-spring-2025.html",
@@ -627,7 +627,7 @@
     "href": "calendar/winter-spring-2025.html#webinars",
     "title": "Events for winter-spring 2025",
     "section": "Webinars",
-    "text": "Webinars\n\n\nThe 2025 winter/spring webinars are jointly presented by SFU’s Research Computing Group (RCG) and UBC’s Advanced Research Computing (ARC). These webinars are held every second Tuesday at 10:00am Pacific (Victoria, Vancouver), 11:00am Mountain (Edmonton, Calgary), and noon Central (Saskatoon, Winnipeg).\n\n\n\n\n\n\n\n\n\n\nDATE\nTOPIC\nSPEAKER\n\n\n\n\nJan-21\nHigh-level parallel stencil computations on CPUs and GPUs in Julia\nAlex Razoumov\n\n\nJan-28\nModern shell utilities\nMarie-Hélène Burle\n\n\nFeb-11\nRunning parallel Ray workflows across multiple cluster nodes\nAlex Razoumov\n\n\nFeb-25\nBayesian inference in JAX\nMarie-Hélène Burle\n\n\nMar-25\nCompliance or chaos: a research assessment survival guide\nLuc Letarte & Jessica Galo\n\n\nApr-08\nIntroduction to Globus\nBen Lai & Michael Tang\n\n\nApr-22\nCybersecurity hygiene\nScott Baker\n\n\nMay-06\nManaging Python packages, versions, and projects with uv\nMarie-Hélène Burle\n\n\nMay-20\nWorkflow hacks for large datasets in HPC\nAlex Razoumov"
+    "text": "Webinars\n\n\nThe 2025 winter/spring webinars are jointly presented by SFU’s Research Computing Group (RCG) and UBC’s Advanced Research Computing (ARC). These webinars are held every second Tuesday at 10:00am Pacific (Victoria, Vancouver), 11:00am Mountain (Edmonton, Calgary), and noon Central (Saskatoon, Winnipeg).\n\n\n\n\n\n\n\n\n\n\nTOPIC\nDATE\nSPEAKER\n\n\n\n\nHigh-level parallel stencil computations on CPUs and GPUs in Julia\nJan-21\nAlex Razoumov\n\n\nModern shell utilities\nJan-28\nMarie-Hélène Burle\n\n\nRunning parallel Ray workflows across multiple cluster nodes\nFeb-11\nAlex Razoumov\n\n\nBayesian inference in JAX\nFeb-25\nMarie-Hélène Burle\n\n\nCompliance or chaos: a research assessment survival guide\nMar-25\nLuc Letarte & Jessica Galo\n\n\nIntroduction to Globus\nApr-08\nBen Lai & Michael Tang\n\n\nCybersecurity hygiene\nApr-22\nScott Baker\n\n\nManaging Python packages, versions, and projects with uv\nMay-06\nMarie-Hélène Burle\n\n\nWorkflow hacks for large datasets in HPC\nMay-20\nAlex Razoumov"
   },
   {
     "objectID": "calendar/winter-spring-2025.html#online-courses",
@@ -641,7 +641,7 @@
     "href": "calendar/winter-spring-2025.html#bootcamps-and-workshops",
     "title": "Events for winter-spring 2025",
     "section": "Bootcamps and workshops",
-    "text": "Bootcamps and workshops\nWe will be adding workshops here as they are announced at other Western Canadian universities.\n\n\n\nDATE\nEVENT\nVENUE\n\n\n\n\nStarts May-02\nUniv. of Alberta Spring Bootcamp\nOnline"
+    "text": "Bootcamps and workshops\nWe will be adding workshops here as they are announced at other Western Canadian universities.\n\n\n\nEVENT\nDATE\nVENUE\n\n\n\n\nUniv. of Alberta Spring Bootcamp\nStarts May-02\nOnline"
   },
   {
     "objectID": "calendar/winter-spring-2025.html#summer-school",
@@ -655,21 +655,21 @@
     "href": "calendar/winter-spring-2022.html",
     "title": "Events for winter-spring 2022",
     "section": "",
-    "text": "WestGrid’s bi-weekly training webinars take place every second Wednesday at 10am Pacific / 11am Mountain / 12pm Central. For upcoming sessions, click the linked title to see more details or to register. For past sessions, click on the title to view recordings and slides.\n\n\n\nDATE\nTOPIC\nSpeaker\n\n\n\n\nJan-26\nEverything you wanted to know (and more) about PyTorch tensors\nMarie-Hélène Burle\n\n\nFeb-02\nThreadsX.jl: easier multithreading in Julia\nAlex Razoumov\n\n\nMar-161\nA few of our favourite tools\nMarie-Hélène Burle and Alex Razoumov\n\n\nMar-30\nBest practices for securing your own OpenStack VM / Amazon instances / Containers\nKen Bigelow"
+    "text": "WestGrid’s bi-weekly training webinars take place every second Wednesday at 10am Pacific / 11am Mountain / 12pm Central. For upcoming sessions, click the linked title to see more details or to register. For past sessions, click on the title to view recordings and slides.\n\n\n\nTopic\nDate\nSpeaker\n\n\n\n\nEverything you wanted to know (and more) about PyTorch tensors\nJan-26\nMarie-Hélène Burle\n\n\nThreadsX.jl: easier multithreading in Julia\nFeb-02\nAlex Razoumov\n\n\nA few of our favourite tools\nMar-161\nMarie-Hélène Burle and Alex Razoumov\n\n\nBest practices for securing your own OpenStack VM / Amazon instances / Containers\nMar-30\nKen Bigelow"
   },
   {
     "objectID": "calendar/winter-spring-2022.html#webinars",
     "href": "calendar/winter-spring-2022.html#webinars",
     "title": "Events for winter-spring 2022",
     "section": "",
-    "text": "WestGrid’s bi-weekly training webinars take place every second Wednesday at 10am Pacific / 11am Mountain / 12pm Central. For upcoming sessions, click the linked title to see more details or to register. For past sessions, click on the title to view recordings and slides.\n\n\n\nDATE\nTOPIC\nSpeaker\n\n\n\n\nJan-26\nEverything you wanted to know (and more) about PyTorch tensors\nMarie-Hélène Burle\n\n\nFeb-02\nThreadsX.jl: easier multithreading in Julia\nAlex Razoumov\n\n\nMar-161\nA few of our favourite tools\nMarie-Hélène Burle and Alex Razoumov\n\n\nMar-30\nBest practices for securing your own OpenStack VM / Amazon instances / Containers\nKen Bigelow"
+    "text": "WestGrid’s bi-weekly training webinars take place every second Wednesday at 10am Pacific / 11am Mountain / 12pm Central. For upcoming sessions, click the linked title to see more details or to register. For past sessions, click on the title to view recordings and slides.\n\n\n\nTopic\nDate\nSpeaker\n\n\n\n\nEverything you wanted to know (and more) about PyTorch tensors\nJan-26\nMarie-Hélène Burle\n\n\nThreadsX.jl: easier multithreading in Julia\nFeb-02\nAlex Razoumov\n\n\nA few of our favourite tools\nMar-161\nMarie-Hélène Burle and Alex Razoumov\n\n\nBest practices for securing your own OpenStack VM / Amazon instances / Containers\nMar-30\nKen Bigelow"
   },
   {
     "objectID": "calendar/winter-spring-2022.html#other-workshops",
     "href": "calendar/winter-spring-2022.html#other-workshops",
     "title": "Events for winter-spring 2022",
     "section": "Other workshops",
-    "text": "Other workshops\n\n\n\nDATE\nEvent\nLocation\n\n\n\n\nJanuary\nUofA Winter Research Computing Bootcamp\nonline\n\n\nJan-27\nEverything you wanted to know (and more) about PyTorch tensors\nOnline for UBC Research Commons\n\n\nFeb-14,16,18\nParallel Julia\nNational training workshop\n\n\nFeb-17\nCollaborating through Git and GitHub\nOnline for UBC Research Commons\n\n\nMar-7,9,11\nParallel Chapel\nNational training workshop\n\n\nMar-24\nBash scripting for beginners\nOnline for UBC Research Commons"
+    "text": "Other workshops\n\n\n\nEvent\nDate\nLocation\n\n\n\n\nUofA Winter Research Computing Bootcamp\nJanuary\nonline\n\n\nEverything you wanted to know (and more) about PyTorch tensors\nJan-27\nOnline for UBC Research Commons\n\n\nParallel Julia\nFeb-14,16,18\nNational training workshop\n\n\nCollaborating through Git and GitHub\nFeb-17\nOnline for UBC Research Commons\n\n\nParallel Chapel\nMar-7,9,11\nNational training workshop\n\n\nBash scripting for beginners\nMar-24\nOnline for UBC Research Commons"
   },
   {
     "objectID": "calendar/winter-spring-2022.html#footnotes",
@@ -718,14 +718,14 @@
     "href": "calendar/spring-summer-2018.html#webinars",
     "title": "Events for April - July 2018",
     "section": "Webinars",
-    "text": "Webinars\n\nApr-11 - Bioinformatics Series: Designing and implementing a variant database\nApr-25 - Cloud Basics Walkthrough: Logging in and creating a first virtual machine\nMay-09 - A Brief Introduction to the Boost MPI Library\nJun-06 - Hands-on with the new features in ParaView 5.5"
+    "text": "Webinars\n\nBioinformatics Series: Designing and implementing a variant database (Apr-11)\nCloud Basics Walkthrough: Logging in and creating a first virtual machine (Apr-25)\nA Brief Introduction to the Boost MPI Library (May-09)\nHands-on with the new features in ParaView 5.5 (Jun-06)"
   },
   {
     "objectID": "calendar/spring-summer-2018.html#in-person-workshops",
     "href": "calendar/spring-summer-2018.html#in-person-workshops",
     "title": "Events for April - July 2018",
     "section": "In-person workshops",
-    "text": "In-person workshops\n\nApr-30 to May-01 - Software Carpentry at SFU\nMay-11 - Introduction to Cedar (Omics@SFU)\nMay-16 to May-18 - UNBC workshops in Prince George: 3D visualization, Introductory Python, Introduction to HPC, Parallel programming with Chapel\nMay-28 to May-30 - University of Alberta workshops: HPC Carpentry with Chapel, 3D visualization\nJun-10 - DHSI courses at UVic: 3D visualization for the humanities, Unleash Linux on MacOS\nJun-11 to Jun-14 - WestGrid summer school at UBC\nJun-25 to Jun-28 - WestGrid summer school at the University of Manitoba\nJul-03 - 3D visualization at the 9th Annual Faculty of Engineering Graduate Research Symposium, UofA\n\nAs always, we welcome requests for other training topics and events. Please email suggestions to info@westgrid.ca."
+    "text": "In-person workshops\n\nSoftware Carpentry at SFU (Apr-30 to May-01)\nIntroduction to Cedar (Omics@SFU, May-11)\nUNBC workshops in Prince George: 3D visualization, Introductory Python, Introduction to HPC, Parallel programming with Chapel (May-16 to May-18)\nUniversity of Alberta workshops: HPC Carpentry with Chapel, 3D visualization (May-28 to May-30)\nDHSI courses at UVic: 3D visualization for the humanities, Unleash Linux on MacOS (Jun-10)\nWestGrid summer school at UBC (Jun-11 to Jun-14)\nWestGrid summer school at the University of Manitoba (Jun-25 to Jun-28)\n3D visualization at the 9th Annual Faculty of Engineering Graduate Research Symposium, UofA (Jul-03)\n\nAs always, we welcome requests for other training topics and events. Please email suggestions to info@westgrid.ca."
   },
   {
     "objectID": "calendar/fall-2024.html",
@@ -739,7 +739,7 @@
     "href": "calendar/fall-2024.html#webinars",
     "title": "Events for fall 2024",
     "section": "Webinars",
-    "text": "Webinars\n\n\nThe 2024 fall webinars are jointly presented by SFU’s Research Computing Group (RCG) and UBC’s Advanced Research Computing (ARC). These webinars are held every second Tuesday at 10:00am Pacific (Victoria, Vancouver), 11:00am Mountain (Edmonton, Calgary, Saskatoon), and noon Central (Winnipeg).\n\n\n\nDATE\nTOPIC\nSPEAKER\n\n\n\n\nSep-17\nUnderstanding Emacs modes\nMarie-Hélène Burle (SFU)\n\n\nOct-01\nGPU computing with Chapel\nAlex Razoumov (SFU)\n\n\nOct-15\nBest practices in HPC/HTC environments\nRoman Baranowski (UBC)\n\n\nOct-29\nLazygit\nMarie-Hélène Burle (SFU)\n\n\nNov-12\nNextflow and Julia for scalable computation\nAlexandre Bouchard-Côtén (UBC)\n\n\nNov-26\nDistributed file storage with git-annex\nAlex Razoumov (SFU)\n\n\nDec-10\nIntro to the Alliance Cloud\nMichael Tang (UBC)"
+    "text": "Webinars\n\n\nThe 2024 fall webinars are jointly presented by SFU’s Research Computing Group (RCG) and UBC’s Advanced Research Computing (ARC). These webinars are held every second Tuesday at 10:00am Pacific (Victoria, Vancouver), 11:00am Mountain (Edmonton, Calgary, Saskatoon), and noon Central (Winnipeg).\n\n\n\nTOPIC\nDATE\nSPEAKER\n\n\n\n\nUnderstanding Emacs modes\nSep-17\nMarie-Hélène Burle (SFU)\n\n\nGPU computing with Chapel\nOct-01\nAlex Razoumov (SFU)\n\n\nBest practices in HPC/HTC environments\nOct-15\nRoman Baranowski (UBC)\n\n\nLazygit\nOct-29\nMarie-Hélène Burle (SFU)\n\n\nNextflow and Julia for scalable computation\nNov-12\nAlexandre Bouchard-Côtén (UBC)\n\n\nDistributed file storage with git-annex\nNov-26\nAlex Razoumov (SFU)\n\n\nIntro to the Alliance Cloud\nDec-10\nMichael Tang (UBC)"
   },
   {
     "objectID": "calendar/fall-2024.html#online-courses",
@@ -753,7 +753,7 @@
     "href": "calendar/fall-2024.html#bootcamps-and-workshops",
     "title": "Events for fall 2024",
     "section": "Bootcamps and workshops",
-    "text": "Bootcamps and workshops\nWe will be adding workshops here as they are announced at other Western Canadian universities.\n\n\n\nDATE\nEVENT\nVENUE\n\n\n\n\nStarts Sep-20\nUniv. of Alberta Fall Bootcamp\nOnline"
+    "text": "Bootcamps and workshops\nWe will be adding workshops here as they are announced at other Western Canadian universities.\n\n\n\nEVENT\nDATE\nVENUE\n\n\n\n\nUniv. of Alberta Fall Bootcamp\nStarts Sep-20\nOnline"
   },
   {
     "objectID": "calendar/fall-2024.html#in-person-schools",
@@ -767,21 +767,21 @@
     "href": "calendar/fall-2020.html",
     "title": "Events for fall 2020",
     "section": "",
-    "text": "WestGrid’s bi-weekly training webinars take place every second Wednesday at 10am Pacific / 11am Mountain / 12pm Central.\nTo view recordings and slides from past sessions, click on the linked title.\n\n\n\nDATE\nTOPIC\nSpeaker\n\n\n\n\nSep-30\nWorking with multidimensional datasets in xarray\nAlex Razoumov\n\n\nOct-28\nIntermediate VMD topics: trajectories, movies, scripting\nOlivier Fisette\n\n\nNov-131\nTips & tricks on getting programming help\nMarie-Hélène Burle\n\n\nNov-25\nThe Topology ToolKit\nAlex Razoumov\n\n\nDec-09\nBasics of GIS mapping in R\nMarie-Hélène Burle"
+    "text": "WestGrid’s bi-weekly training webinars take place every second Wednesday at 10am Pacific / 11am Mountain / 12pm Central.\nTo view recordings and slides from past sessions, click on the linked title.\n\n\n\nTOPIC\nDATE\nSpeaker\n\n\n\n\nWorking with multidimensional datasets in xarray\nSep-30\nAlex Razoumov\n\n\nIntermediate VMD topics: trajectories, movies, scripting\nOct-28\nOlivier Fisette\n\n\nTips & tricks on getting programming help\nNov-131\nMarie-Hélène Burle\n\n\nThe Topology ToolKit\nNov-25\nAlex Razoumov\n\n\nBasics of GIS mapping in R\nDec-09\nMarie-Hélène Burle"
   },
   {
     "objectID": "calendar/fall-2020.html#webinars",
     "href": "calendar/fall-2020.html#webinars",
     "title": "Events for fall 2020",
     "section": "",
-    "text": "WestGrid’s bi-weekly training webinars take place every second Wednesday at 10am Pacific / 11am Mountain / 12pm Central.\nTo view recordings and slides from past sessions, click on the linked title.\n\n\n\nDATE\nTOPIC\nSpeaker\n\n\n\n\nSep-30\nWorking with multidimensional datasets in xarray\nAlex Razoumov\n\n\nOct-28\nIntermediate VMD topics: trajectories, movies, scripting\nOlivier Fisette\n\n\nNov-131\nTips & tricks on getting programming help\nMarie-Hélène Burle\n\n\nNov-25\nThe Topology ToolKit\nAlex Razoumov\n\n\nDec-09\nBasics of GIS mapping in R\nMarie-Hélène Burle"
+    "text": "WestGrid’s bi-weekly training webinars take place every second Wednesday at 10am Pacific / 11am Mountain / 12pm Central.\nTo view recordings and slides from past sessions, click on the linked title.\n\n\n\nTOPIC\nDATE\nSpeaker\n\n\n\n\nWorking with multidimensional datasets in xarray\nSep-30\nAlex Razoumov\n\n\nIntermediate VMD topics: trajectories, movies, scripting\nOct-28\nOlivier Fisette\n\n\nTips & tricks on getting programming help\nNov-131\nMarie-Hélène Burle\n\n\nThe Topology ToolKit\nNov-25\nAlex Razoumov\n\n\nBasics of GIS mapping in R\nDec-09\nMarie-Hélène Burle"
   },
   {
     "objectID": "calendar/fall-2020.html#other-workshops",
     "href": "calendar/fall-2020.html#other-workshops",
     "title": "Events for fall 2020",
     "section": "Other workshops",
-    "text": "Other workshops\n\n\n\nDATE\nEvent\nLocation\n\n\n\n\nSep-22\nScientific Python\nonline for UBC Research Commons\n\n\nNov-19\n3D scientific visualization with Python scripting in ParaView\nonline for UBC Research Commons\n\n\nNov 2-3, 9-10, 16-17, 23-24\nWestGrid Autumn School\nonline\n\n\nNov-26\nCollaborating on GitHub\nonline for UBC Research Commons"
+    "text": "Other workshops\n\n\n\nEvent\nDATE\nLocation\n\n\n\n\nScientific Python\nSep-22\nonline for UBC Research Commons\n\n\n3D scientific visualization with Python scripting in ParaView\nNov-19\nonline for UBC Research Commons\n\n\nWestGrid Autumn School\nNov 2-3, 9-10, 16-17, 23-24\nonline\n\n\nCollaborating on GitHub\nNov-26\nonline for UBC Research Commons"
   },
   {
     "objectID": "calendar/fall-2020.html#footnotes",
@@ -795,28 +795,28 @@
     "href": "calendar/winter-spring-2021.html",
     "title": "Events for winter-spring 2021",
     "section": "",
-    "text": "WestGrid’s bi-weekly training webinars take place every second Wednesday at 10am Pacific / 11am Mountain / 12pm Central.\nTo view recordings and slides from past sessions, click on the linked title.\n\n\n\nDATE\nTOPIC\nSpeaker\n\n\n\n\nJan-20\nWorkflows with Programmable Filter / Source in ParaView\nAlex Razoumov\n\n\nFeb-03\nAdvanced GIS mapping in R\nMarie-Hélène Burle\n\n\nFeb-17\nAutomating your backups in Linux and MacOS\nAlex Razoumov\n\n\nMar-03\nLinking databases to code repositories with Throughput\nSimon Goring\n\n\nMar-17\nParallel Julia\nAlex Razoumov and Marie-Hélène Burle\n\n\nMar-31\nExploring the state of a Slurm cluster with Clusterstats\nKamil Marcinkowski\n\n\nApr-14\nIntroduction to deep learning with fastai\nMarie-Hélène Burle\n\n\nApr-28\nScientific visualization on NVIDIA GPUs\nNick Leaf (NVIDIA)\n\n\nMay-12\nExploration of tools and approaches for Humanists\nMegan Meredith-Lobay\n\n\nMay-26\nUsing Singularity containers in VMs and HPC\nVenkat Mahadevan"
+    "text": "WestGrid’s bi-weekly training webinars take place every second Wednesday at 10am Pacific / 11am Mountain / 12pm Central.\nTo view recordings and slides from past sessions, click on the linked title.\n\n\n\nTOPIC\nDATE\nSpeaker\n\n\n\n\nWorkflows with Programmable Filter / Source in ParaView\nJan-20\nAlex Razoumov\n\n\nAdvanced GIS mapping in R\nFeb-03\nMarie-Hélène Burle\n\n\nAutomating your backups in Linux and MacOS\nFeb-17\nAlex Razoumov\n\n\nLinking databases to code repositories with Throughput\nMar-03\nSimon Goring\n\n\nParallel Julia\nMar-17\nAlex Razoumov and Marie-Hélène Burle\n\n\nExploring the state of a Slurm cluster with Clusterstats\nMar-31\nKamil Marcinkowski\n\n\nIntroduction to deep learning with fastai\nApr-14\nMarie-Hélène Burle\n\n\nScientific visualization on NVIDIA GPUs\nApr-28\nNick Leaf (NVIDIA)\n\n\nExploration of tools and approaches for Humanists\nMay-12\nMegan Meredith-Lobay\n\n\nUsing Singularity containers in VMs and HPC\nMay-26\nVenkat Mahadevan"
   },
   {
     "objectID": "calendar/winter-spring-2021.html#webinars",
     "href": "calendar/winter-spring-2021.html#webinars",
     "title": "Events for winter-spring 2021",
     "section": "",
-    "text": "WestGrid’s bi-weekly training webinars take place every second Wednesday at 10am Pacific / 11am Mountain / 12pm Central.\nTo view recordings and slides from past sessions, click on the linked title.\n\n\n\nDATE\nTOPIC\nSpeaker\n\n\n\n\nJan-20\nWorkflows with Programmable Filter / Source in ParaView\nAlex Razoumov\n\n\nFeb-03\nAdvanced GIS mapping in R\nMarie-Hélène Burle\n\n\nFeb-17\nAutomating your backups in Linux and MacOS\nAlex Razoumov\n\n\nMar-03\nLinking databases to code repositories with Throughput\nSimon Goring\n\n\nMar-17\nParallel Julia\nAlex Razoumov and Marie-Hélène Burle\n\n\nMar-31\nExploring the state of a Slurm cluster with Clusterstats\nKamil Marcinkowski\n\n\nApr-14\nIntroduction to deep learning with fastai\nMarie-Hélène Burle\n\n\nApr-28\nScientific visualization on NVIDIA GPUs\nNick Leaf (NVIDIA)\n\n\nMay-12\nExploration of tools and approaches for Humanists\nMegan Meredith-Lobay\n\n\nMay-26\nUsing Singularity containers in VMs and HPC\nVenkat Mahadevan"
+    "text": "WestGrid’s bi-weekly training webinars take place every second Wednesday at 10am Pacific / 11am Mountain / 12pm Central.\nTo view recordings and slides from past sessions, click on the linked title.\n\n\n\nTOPIC\nDATE\nSpeaker\n\n\n\n\nWorkflows with Programmable Filter / Source in ParaView\nJan-20\nAlex Razoumov\n\n\nAdvanced GIS mapping in R\nFeb-03\nMarie-Hélène Burle\n\n\nAutomating your backups in Linux and MacOS\nFeb-17\nAlex Razoumov\n\n\nLinking databases to code repositories with Throughput\nMar-03\nSimon Goring\n\n\nParallel Julia\nMar-17\nAlex Razoumov and Marie-Hélène Burle\n\n\nExploring the state of a Slurm cluster with Clusterstats\nMar-31\nKamil Marcinkowski\n\n\nIntroduction to deep learning with fastai\nApr-14\nMarie-Hélène Burle\n\n\nScientific visualization on NVIDIA GPUs\nApr-28\nNick Leaf (NVIDIA)\n\n\nExploration of tools and approaches for Humanists\nMay-12\nMegan Meredith-Lobay\n\n\nUsing Singularity containers in VMs and HPC\nMay-26\nVenkat Mahadevan"
   },
   {
     "objectID": "calendar/winter-spring-2021.html#other-workshops",
     "href": "calendar/winter-spring-2021.html#other-workshops",
     "title": "Events for winter-spring 2021",
     "section": "Other workshops",
-    "text": "Other workshops\n\n\n\nDATE\nEvent\nLocation\n\n\n\n\nJan-14\nTips & tricks on getting programming help online\nOnline for UBC Research Commons\n\n\nFeb-11\nAutomating your backups in Linux and MacOS\nOnline for UBC Research Commons\n\n\nFeb-16 to Feb-19\nCompute Canada’s Humanities and Social Sciences series\nOnline\n\n\nFeb-22 to Mar-03\nNVIDIA GPU Hackathon @SFU\nOnline\n\n\nMar-29 to Mar-30\nWorkshops for the GIWS @USask\nOnline\n\n\nApr-08\nBasics of GIS mapping in R\nOnline for UBC Research Commons\n\n\nApr-26\nSpatial Analysis/GIS in R\nUBC\n\n\nMay-13\nParallel programming in Julia\nOnline for UBC Research Commons\n\n\nApr-27 to Jul-27\nWestGrid training modules 2021\nOnline"
+    "text": "Other workshops\n\n\n\nEvent\nDATE\nLocation\n\n\n\n\nTips & tricks on getting programming help online\nJan-14\nOnline for UBC Research Commons\n\n\nAutomating your backups in Linux and MacOS\nFeb-11\nOnline for UBC Research Commons\n\n\nCompute Canada’s Humanities and Social Sciences series\nFeb-16 to Feb-19\nOnline\n\n\nNVIDIA GPU Hackathon @SFU\nFeb-22 to Mar-03\nOnline\n\n\nWorkshops for the GIWS @USask\nMar-29 to Mar-30\nOnline\n\n\nBasics of GIS mapping in R\nApr-08\nOnline for UBC Research Commons\n\n\nSpatial Analysis/GIS in R\nApr-26\nUBC\n\n\nParallel programming in Julia\nMay-13\nOnline for UBC Research Commons\n\n\nWestGrid training modules 2021\nApr-27 to Jul-27\nOnline"
   },
   {
     "objectID": "calendar/winter-2018.html",
     "href": "calendar/winter-2018.html",
     "title": "Webinars for February - March 2018",
     "section": "",
-    "text": "WestGrid regularly hosts free online training webinars. We always have a session every second Wednesday and sometimes will hold additional sessions outside of that schedule to expand on particular topics.\nSome sessions are interactive and may require you to have a Compute Canada account. Others are information-sharing only and no Compute Canada is required.\nFor more information on each session, or to register and receive the webinar connection details, click on the links below.\n\nFeb-28 - Intro to using Chapel for parallel programming: Part 1\nMar-06 - WestGrid Office Hours: User migration to the national systems\nMar-07 - Intro to using Chapel for parallel programming: Part 2\nMar-14 - Intro to using Chapel for parallel programming: Part 3\nMar-28 - Scientific visualization with Plotly\n\nWe welcome requests for training topics. Please email suggestions to info@westgrid.ca."
+    "text": "WestGrid regularly hosts free online training webinars. We always have a session every second Wednesday and sometimes will hold additional sessions outside of that schedule to expand on particular topics.\nSome sessions are interactive and may require you to have a Compute Canada account. Others are information-sharing only and no Compute Canada is required.\nFor more information on each session, or to register and receive the webinar connection details, click on the links below.\n\nIntro to using Chapel for parallel programming: Part 1 (Feb-28)\nWestGrid Office Hours: User migration to the national systems (Mar-06)\nIntro to using Chapel for parallel programming: Part 2 (Mar-07)\nIntro to using Chapel for parallel programming: Part 3 (Mar-14)\nScientific visualization with Plotly (Mar-28)\n\nWe welcome requests for training topics. Please email suggestions to info@westgrid.ca."
   },
   {
     "objectID": "index.html",
