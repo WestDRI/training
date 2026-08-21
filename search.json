@@ -690,7 +690,7 @@
     "href": "calendar/fall-2026.html#webinars",
     "title": "Events for fall 2026",
     "section": "Webinars",
-    "text": "Webinars\nThe 2026 Fall Webinars, hosted by SFU’s Research Computing Group (RCG), will take place every second Tuesday at 10:00am Pacific Time (convert to your timezone).\n\nFor upcoming webinars, click the linked titles to view details or register. For past sessions, click the titles to access recordings and slides.\n\n\n\nTOPIC\nDATE\nSPEAKER\n\n\n\n\nTBA1\nSep-29\nAlex Razoumov\n\n\nHardening your system in the age of AI\nOct-13\nMarie-Hélène Burle\n\n\nConcepts of NLP\nOct-27\nMarie-Hélène Burle\n\n\nWhy would you use Rust for scientific computing?\nNov-10\nManuel Sebastian Drehwald (NVIDIA)\n\n\nScalable numerical methods\nNov-24\nSarah Huber (UVic)\n\n\nTBA2\nDec-08\nAlex Razoumov"
+    "text": "Webinars\nThe 2026 Fall Webinars, hosted by SFU’s Research Computing Group (RCG), will take place every second Tuesday at 10:00am Pacific Time (convert to your timezone).\n\nFor upcoming webinars, click the linked titles to view details or register. For past sessions, click the titles to access recordings and slides.\n\n\n\nTOPIC\nDATE\nSPEAKER\n\n\n\n\n3D data analysis and visualization with PyVista\nSep-29\nAlex Razoumov\n\n\nHardening your system in the age of AI\nOct-13\nMarie-Hélène Burle\n\n\nConcepts of NLP\nOct-27\nMarie-Hélène Burle\n\n\nWhy would you use Rust for scientific computing?\nNov-10\nManuel Sebastian Drehwald (NVIDIA)\n\n\nScalable numerical methods\nNov-24\nSarah Huber (UVic)\n\n\nProductivity meets performance: domain-decomposed stencils in MPI and Chapel\nDec-08\nAlex Razoumov"
   },
   {
     "objectID": "calendar/fall-2026.html#online-courses",
