@@ -41,12 +41,12 @@ titles to access recordings and slides.
 
 | TOPIC | DATE | SPEAKER |
 | ----------- | ---- | ------- |
-| TBA | Sep-29 | Alex Razoumov |
-| [Keeping your system safe](https://forms.gle/mNfAVjb8UUHVdfDh7) | Oct-13 | Marie-Hélène Burle |
+| [TBA1](https://forms.gle/ADAeeH38oxeRYkKj8) | Sep-29 | Alex Razoumov |
+| [Hardening your system in the age of AI](https://forms.gle/mNfAVjb8UUHVdfDh7) | Oct-13 | Marie-Hélène Burle |
 | [Concepts of NLP](https://forms.gle/LzzZnTie1beHC2Tr9) | Oct-27 | Marie-Hélène Burle |
 | [Why would you use Rust for scientific computing?](https://forms.gle/tYgFGUPdoPAuAbfd8) | Nov-10 | Manuel Sebastian Drehwald (NVIDIA) | <!-- Marie vacation Nov-09-13 -->
 | [Scalable numerical methods](https://forms.gle/kQpAYLdgkKAMknvXA) | Nov-24 | Sarah Huber (UVic) |
-| TBA | Dec-08 | Alex Razoumov |
+| [TBA2](https://forms.gle/u7XZYT3vzs8dh1Mw8) | Dec-08 | Alex Razoumov |
 
 ## [Online courses]{#courses}
 
