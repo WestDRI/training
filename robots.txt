@@ -1,1 +1,1 @@
-Sitemap: https://westdri.github.io/sitemap.xml
+Sitemap: https://training.researchcomputing.ca/sitemap.xml
