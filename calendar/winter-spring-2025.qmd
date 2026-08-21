@@ -49,17 +49,17 @@ Vancouver), 11:00am Mountain (Edmonton, Calgary), and noon Central (Saskatoon, W
 <!-- February 17-21 UBC midterm break -->
 <!-- May-27 DRI Connect -->
 
-| DATE | TOPIC | SPEAKER |
-| ------------- | --------------- | ----------------- |
-| Jan-21 | [<span style="color:blue">High-level parallel stencil computations on CPUs and GPUs in Julia</span>](/programming#julia) | Alex Razoumov | <!-- ParallelStencil.jl -->
-| Jan-28 | [<span style="color:blue">Modern shell utilities</span>](/getting-started#linux) | Marie-Hélène Burle |
-| Feb-11 | [<span style="color:blue">Running parallel Ray workflows across multiple cluster nodes</span>](/programming#python) | Alex Razoumov |
-| Feb-25 | [<span style="color:blue">Bayesian inference in JAX</span>](/tools/pp) | Marie-Hélène Burle |
-| Mar-25 | [<span style="color:blue">Compliance or chaos: a research assessment survival guide</span>](/tools/cyber) | Luc Letarte &<br> Jessica Galo |
-| Apr-08 | [<span style="color:blue">Introduction to Globus</span>](/tools/rdm) | Ben Lai &<br> Michael Tang |
-| Apr-22 | [<span style="color:blue">Cybersecurity hygiene</span>](/tools/cyber) | Scott Baker |
-| May-06 | [<span style="color:blue">Managing Python packages, versions, and projects with uv</span>](/programming#python) | Marie-Hélène Burle |
-| May-20 | [<span style="color:blue">Workflow hacks for large datasets in HPC</span>](/tools/rdm) | Alex Razoumov |
+| TOPIC | DATE | SPEAKER |
+| -------------- | -------------- | ----------------- |
+| [<span style="color:blue">High-level parallel stencil computations on CPUs and GPUs in Julia</span>](/programming#julia) | Jan-21 | Alex Razoumov | <!-- ParallelStencil.jl -->
+| [<span style="color:blue">Modern shell utilities</span>](/getting-started#linux) | Jan-28 | Marie-Hélène Burle |
+| [<span style="color:blue">Running parallel Ray workflows across multiple cluster nodes</span>](/programming#python) | Feb-11 | Alex Razoumov |
+| [<span style="color:blue">Bayesian inference in JAX</span>](/tools/pp) | Feb-25 | Marie-Hélène Burle |
+| [<span style="color:blue">Compliance or chaos: a research assessment survival guide</span>](/tools/cyber) | Mar-25 | Luc Letarte &<br> Jessica Galo |
+| [<span style="color:blue">Introduction to Globus</span>](/tools/rdm) | Apr-08 | Ben Lai &<br> Michael Tang |
+| [<span style="color:blue">Cybersecurity hygiene</span>](/tools/cyber) | Apr-22 | Scott Baker |
+| [<span style="color:blue">Managing Python packages, versions, and projects with uv</span>](/programming#python) | May-06 | Marie-Hélène Burle |
+| [<span style="color:blue">Workflow hacks for large datasets in HPC</span>](/tools/rdm) | May-20 | Alex Razoumov |
 
 ## [Online courses]{#courses}
 
@@ -85,9 +85,9 @@ we are planning to repeat the most popular / introductory sessions throughout th
 
 We will be adding workshops here as they are announced at other Western Canadian universities.
 
-| DATE | EVENT | VENUE |
-| ---- | ----- | ----- |
-| Starts May-02 | [Univ. of Alberta Spring Bootcamp](https://www.ualberta.ca/en/information-services-and-technology/research-computing/bootcamps.html){target="_blank"} | Online |
+| EVENT | DATE | VENUE |
+| ----- | ---- | ----- |
+| [Univ. of Alberta Spring Bootcamp](https://www.ualberta.ca/en/information-services-and-technology/research-computing/bootcamps.html){target="_blank"} | Starts May-02 | Online |
 
 ## [Summer school]{#schools}
 

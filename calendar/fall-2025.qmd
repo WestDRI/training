@@ -39,15 +39,15 @@ The 2025 Fall Webinars, hosted by SFU's Research Computing Group (RCG), take pla
 For *upcoming webinars*, click the linked titles to view details or register. For *past sessions*, click the
 titles to access recordings and slides.
 
-| DATE | TOPIC | SPEAKER |
-| ------------- | --------------- | ----------------- |
-| Sep-16 | [<span style="color:blue">Introduction to the Fir cluster</span>](/getting-started#high-performance-computing) | Alex Razoumov |
-| Oct-07 | [<span style="color:blue">AI pair programming & LLMs chats in Emacs</span>](/getting-started#emacs) | Marie-Hélène Burle |
-| Oct-14 | [<span style="color:blue">Globus-cli for file transfer</span>](/tools/rdm) | Alex Razoumov |
-| Oct-28 | [<span style="color:blue">The next generation of Python notebooks</span>](/programming#python) | Marie-Hélène Burle |
-| Nov-18 | [<span style="color:blue">Creating interactive online visualizations with Trame</span>](/tools/visualization) | Alex Razoumov | <!-- Nov-11 is a holiday -->
-| Nov-25 | [<span style="color:blue">Deep learning experiment tracking with MLflow</span>](/tools/ml) | Marie-Hélène Burle |
-| Dec-09 | [<span style="color:blue">Command-line OpenStack</span>](/tools/virtual) | Alex Razoumov |
+| TOPIC | DATE | SPEAKER |
+| --------------- | ------------- | ----------------- |
+| [<span style="color:blue">Introduction to the Fir cluster</span>](/getting-started#high-performance-computing) | Sep-16 | Alex Razoumov |
+| [<span style="color:blue">AI pair programming & LLMs chats in Emacs</span>](/getting-started#emacs) | Oct-07 | Marie-Hélène Burle |
+| [<span style="color:blue">Globus-cli for file transfer</span>](/tools/rdm) | Oct-14 | Alex Razoumov |
+| [<span style="color:blue">The next generation of Python notebooks</span>](/programming#python) | Oct-28 | Marie-Hélène Burle |
+| [<span style="color:blue">Creating interactive online visualizations with Trame</span>](/tools/visualization) | Nov-18 | Alex Razoumov | <!-- Nov-11 is a holiday -->
+| [<span style="color:blue">Deep learning experiment tracking with MLflow</span>](/tools/ml) | Nov-25 | Marie-Hélène Burle |
+| [<span style="color:blue">Command-line OpenStack</span>](/tools/virtual) | Dec-09 | Alex Razoumov |
 
 ## [Online courses]{#courses}
 
@@ -71,9 +71,9 @@ interaction. Popular and introductory sessions are repeated throughout the year.
 
 Workshops from other Western Canadian universities will be added here as they are announced.
 
-| DATE | EVENT | VENUE |
-| ---- | ----- | ----- |
-| Starts Sep-19 | [Univ. of Alberta Fall Research Computing Bootcamp](https://www.ualberta.ca/en/information-services-and-technology/research-computing/bootcamps.html){target="_blank"} | Online |
+| EVENT | DATE | VENUE |
+| ----- | ---- | ----- |
+| [Univ. of Alberta Fall Research Computing Bootcamp](https://www.ualberta.ca/en/information-services-and-technology/research-computing/bootcamps.html){target="_blank"} | Starts Sep-19 | Online |
 
 ---
 

@@ -25,13 +25,13 @@ WestGrid's bi-weekly training webinars take place every second Wednesday at 10am
 
 To view recordings and slides from past sessions, click on the linked title.
 
-| DATE | TOPIC | Speaker |
+| TOPIC | DATE | Speaker |
 | ------------- | --------------- | ----------------- |
-| Sep-30 | [<span style="color:blue">Working with multidimensional datasets in xarray</span>](/tools/rdm#xarray) | Alex Razoumov |
-| Oct-28 | [<span style="color:blue">Intermediate VMD topics: trajectories, movies, scripting</span>](/tools/visualization/#intermediate-vmd-topics-trajectories-movies-scripting) | Olivier Fisette |
-| Nov-13[^1] | [<span style="color:blue">Tips & tricks on getting programming help</span>](/getting-started) | Marie-Hélène Burle |
-| Nov-25 | [<span style="color:blue">The Topology ToolKit</span>](/tools/visualization/#the-topology-toolkit-ttk) | Alex Razoumov |
-| Dec-09 | [<span style="color:blue">Basics of GIS mapping in R</span>](/domains/geo/#gis-with-r) | Marie-Hélène Burle |
+| [<span style="color:blue">Working with multidimensional datasets in xarray</span>](/tools/rdm#xarray) | Sep-30 | Alex Razoumov |
+| [<span style="color:blue">Intermediate VMD topics: trajectories, movies, scripting</span>](/tools/visualization/#intermediate-vmd-topics-trajectories-movies-scripting) | Oct-28 | Olivier Fisette |
+| [<span style="color:blue">Tips & tricks on getting programming help</span>](/getting-started) | Nov-13[^1] | Marie-Hélène Burle |
+| [<span style="color:blue">The Topology ToolKit</span>](/tools/visualization/#the-topology-toolkit-ttk) | Nov-25 | Alex Razoumov |
+| [<span style="color:blue">Basics of GIS mapping in R</span>](/domains/geo/#gis-with-r) | Dec-09 | Marie-Hélène Burle |
 
 [^1]: Note the different day of the week (Friday).
 
@@ -39,12 +39,12 @@ To view recordings and slides from past sessions, click on the linked title.
 
 ## Other workshops
 
-| DATE | Event | Location |
+| Event | DATE | Location |
 | ------------- | --------------- | ----------------- |
-| Sep-22 | [Scientific Python ](https://libcal.library.ubc.ca/calendar/vancouver/westgrid-scientific-Python) | <span style="color:#049A80">online for UBC Research Commons</span> |
-| Nov-19 | [3D scientific visualization with Python scripting in ParaView](https://libcal.library.ubc.ca/event/3578757) | <span style="color:#049A80">online for UBC Research Commons</span> |
-| Nov 2-3, 9-10, 16-17, 23-24 | [<span style="color:#E26D00"><b>WestGrid Autumn School</b></span>](https://www.eventbrite.ca/e/westgrid-research-computing-autumn-school-2020-online-tickets-123963489133) | <span style="color:#E26D00">online</span> |
-| Nov-26 | [Collaborating on GitHub](https://libcal.library.ubc.ca/calendar/vancouver/collaborating-with-git) | <span style="color:#049A80">online for UBC Research Commons</span> |
+| [Scientific Python ](https://libcal.library.ubc.ca/calendar/vancouver/westgrid-scientific-Python) | Sep-22 | <span style="color:#049A80">online for UBC Research Commons</span> |
+| [3D scientific visualization with Python scripting in ParaView](https://libcal.library.ubc.ca/event/3578757) | Nov-19 | <span style="color:#049A80">online for UBC Research Commons</span> |
+| WestGrid Autumn School | Nov 2-3, 9-10, 16-17, 23-24 | <span style="color:#E26D00">online</span> |
+| [Collaborating on GitHub](https://libcal.library.ubc.ca/calendar/vancouver/collaborating-with-git) | Nov-26 | <span style="color:#049A80">online for UBC Research Commons</span> |
 
 <!-- November[^1] -->
 <!-- [^1]: Exact dates TBA. -->

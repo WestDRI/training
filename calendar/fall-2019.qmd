@@ -26,14 +26,14 @@ WestGrid's bi-weekly training webinars take place every second Wednesday at 10am
 
 To view recordings and slides from past sessions, click on the linked title.
 
-| DATE | TOPIC | Speaker |
-| ------------- | --------------- | ----------------- |
-| Sep-18 | [<span style="color:blue">Batch visualization on Compute Canada clusters</span>](/tools/visualization#batch-visualization-on-compute-canada-clusters) | Alex Razoumov |
-| Oct-16 | [<span style="color:blue">Working with Python DASK library</span>](/programming#parallel-libraries) | Chris Want |
-| Oct-30 | [<span style="color:blue">File access control approaches and best practices</span>](/tools/rdm#acl) | Sergiy Stepanenko |
-| Nov-13 | [<span style="color:blue">Building a bioinformatics QC pipeline</span>](/domains/bioinfo) | Brian McConeghy |
-| Nov-27 | [<span style="color:blue">Tips & tools for mining Twitter data for research</span>](/domains/dh#twitterapis) | John Simpson |
-| Dec-11 | [<span style="color:blue">Geospatial analysis with HPC</span>](/domains/geo#geospatial) | Ian Percel |
+| TOPIC | DATE | Speaker |
+| ------------- | --------- | ----------------- |
+| [<span style="color:blue">Batch visualization on Compute Canada clusters</span>](/tools/visualization#batch-visualization-on-compute-canada-clusters) | Sep-18 | Alex Razoumov |
+| [<span style="color:blue">Working with Python DASK library</span>](/programming#parallel-libraries) | Oct-16 | Chris Want |
+| [<span style="color:blue">File access control approaches and best practices</span>](/tools/rdm#acl) | Oct-30 | Sergiy Stepanenko |
+| [<span style="color:blue">Building a bioinformatics QC pipeline</span>](/domains/bioinfo) | Nov-13 | Brian McConeghy |
+| [<span style="color:blue">Tips & tools for mining Twitter data for research</span>](/domains/dh#twitterapis) | Nov-27 | John Simpson |
+| [<span style="color:blue">Geospatial analysis with HPC</span>](/domains/geo#geospatial) | Dec-11 | Ian Percel |
 
 <!-- | TBD | Introduction to Machine Learning tools on CC clusters || -->
 
@@ -47,10 +47,10 @@ To view recordings and slides from past sessions, click on the linked title.
 
 ## In-person workshops
 
-| DATE | Event | Location |
-| ------------- | --------------- | ----------------- |
-| Sep-23 to Oct-04 | [Research Computing Fall Bootcamp](https://ist.ualberta.ca/blog/news/get-ready-research-computing-fall-bootcamp) | University of Alberta |
-| Dec-10 to Dec-13 | [Research Computing Winter School](https://www.eventbrite.ca/e/westgrid-research-computing-winter-school-university-of-victoria-registration-72872185669) | University of Victoria |
+| Event | DATE | Location |
+| ------------- | -------- | ----------------- |
+| [Research Computing Fall Bootcamp](https://ist.ualberta.ca/blog/news/get-ready-research-computing-fall-bootcamp) | Sep-23 to Oct-04 | University of Alberta |
+| [Research Computing Winter School](https://www.eventbrite.ca/e/westgrid-research-computing-winter-school-university-of-victoria-registration-72872185669) | Dec-10 to Dec-13 | University of Victoria |
 
 <!-- ========================================================================================== -->
 

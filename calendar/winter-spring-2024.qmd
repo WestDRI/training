@@ -34,17 +34,17 @@ noon Mountain / 1pm Central.
 <!-- For *upcoming webinars*, click the linked title to see more details or to register. For *past -->
 <!-- sessions*, click on the title to view recordings and slides. -->
 
-| DATE | TOPIC | SPEAKER |
+| TOPIC | DATE | SPEAKER |
 | ------------- | --------------- | ----------------- |
-| Jan-09 | [<span style="color:blue">Command-line image processing with ImageMagick</span>](/tools/visualization#imagemagick) | Alex Razoumov (SFU) |
-| Jan-23 | [<span style="color:blue">AI-powered coding with GitHub Copilot</span>](/tools/ml#copilot) | Marie-Hélène Burle (SFU) |
-| Feb-20 | [<span style="color:blue">Photogrammetry on HPC clusters</span>](/domains/dh/#photogrammetry) | Alex Razoumov (SFU) | <!-- Marie away this week -->
-| Mar-05 | [<span style="color:blue">Modern Emacs: all those new tools that make Emacs better and faster</span>](/getting-started#emacs) | Marie-Hélène Burle (SFU) |
-| Mar-19 | [<span style="color:blue">Things researchers should know before using Generative AI</span>](/tools/ml#genai) | Jillian Anderson (SFU) |
-| Apr-16 | [<span style="color:blue">JAX: a framework for high-performance array computing</span>](/tools/ml#jax) | Marie-Hélène Burle (SFU) |
-| Apr-23 | [<span style="color:blue">Lossy data compression</span>](/tools/rdm#lossy) | Alex Razoumov (SFU) | <!-- topological or ML -->
-| Apr-30 | [<span style="color:blue">Julia at full tilt: profiling and optimizations</span>](/programming#julia) | Paul Schrimpf (UBC) |
-| May-14 | [<span style="color:blue">DataFrames on steroids with Polars</span>](/tools/rdm#polars) | Marie-Hélène Burle (SFU) |
+| [<span style="color:blue">Command-line image processing with ImageMagick</span>](/tools/visualization#imagemagick) | Jan-09 | Alex Razoumov (SFU) |
+| [<span style="color:blue">AI-powered coding with GitHub Copilot</span>](/tools/ml#copilot) | Jan-23 | Marie-Hélène Burle (SFU) |
+| [<span style="color:blue">Photogrammetry on HPC clusters</span>](/domains/dh/#photogrammetry) | Feb-20 | Alex Razoumov (SFU) | <!-- Marie away this week -->
+| [<span style="color:blue">Modern Emacs: all those new tools that make Emacs better and faster</span>](/getting-started#emacs) | Mar-05 | Marie-Hélène Burle (SFU) |
+| [<span style="color:blue">Things researchers should know before using Generative AI</span>](/tools/ml#genai) | Mar-19 | Jillian Anderson (SFU) |
+| [<span style="color:blue">JAX: a framework for high-performance array computing</span>](/tools/ml#jax) | Apr-16 | Marie-Hélène Burle (SFU) |
+| [<span style="color:blue">Lossy data compression</span>](/tools/rdm#lossy) | Apr-23 | Alex Razoumov (SFU) | <!-- topological or ML -->
+| [<span style="color:blue">Julia at full tilt: profiling and optimizations</span>](/programming#julia) | Apr-30 | Paul Schrimpf (UBC) |
+| [<span style="color:blue">DataFrames on steroids with Polars</span>](/tools/rdm#polars) | May-14 | Marie-Hélène Burle (SFU) |
 
 ## [Online courses]{#courses}
 
@@ -97,14 +97,14 @@ that will have some courses that we do not cover at SFU.
 
 We will be adding workshops here as they are announced at other Western Canadian universities.
 
-| DATE | EVENT | VENUE |
-| ---- | ----- | ----- |
-| Starts Jan-19 | <span style="color:gray">Univ. of Alberta Winter Bootcamp</span> | Online |
-| Feb 12-16 | <span style="color:gray">HSS Winter Series 2024</span> | Online |
-| Feb 26-28 | <span style="color:gray">Introduction to programming with Python (follow-up to the 2024 HSS Winter Series)</span> | Online |
-| Feb 26-28 | <span style="color:gray">Introduction to programming with R (follow-up to the 2024 HSS Winter Series)</span> | Online |
-| Starts Apr-30 | [Univ. of Alberta Spring Bootcamp](https://www.ualberta.ca/information-services-and-technology/news/2024/spring-research-computing-bootcamp-2024.html){target="_blank"} | Online |
-| Jul 8-11 | [UBC ARC 2024 Summer School](https://arc.ubc.ca/training-resources/training-events/arc-2024-summer-school-program-8-11-july-2024){target="_blank"} | West Mall Swing Space |
+| EVENT | DATE | VENUE |
+| ----- | ---- | ----- |
+| <span style="color:gray">Univ. of Alberta Winter Bootcamp</span> | Starts Jan-19 | Online |
+| <span style="color:gray">HSS Winter Series 2024</span> | Feb 12-16 | Online |
+| <span style="color:gray">Introduction to programming with Python (follow-up to the 2024 HSS Winter Series)</span> | Feb 26-28 | Online |
+| <span style="color:gray">Introduction to programming with R (follow-up to the 2024 HSS Winter Series)</span> | Feb 26-28 | Online |
+| [Univ. of Alberta Spring Bootcamp](https://www.ualberta.ca/information-services-and-technology/news/2024/spring-research-computing-bootcamp-2024.html){target="_blank"} | Starts Apr-30 | Online |
+| [UBC ARC 2024 Summer School](https://arc.ubc.ca/training-resources/training-events/arc-2024-summer-school-program-8-11-july-2024){target="_blank"} | July 8-11 | West Mall Swing Space |
 
 <!-- watch https://www.ualberta.ca/information-services-and-technology/research-computing -->
 

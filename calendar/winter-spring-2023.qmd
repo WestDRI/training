@@ -39,17 +39,17 @@ noon Mountain / 1pm Central.
 <!-- For *upcoming webinars*, click the linked title to see more details or to register. For *past -->
 <!-- sessions*, click on the title to view recordings and slides. -->
 
-| DATE | TOPIC | SPEAKER |
+| TOPIC | DATE | SPEAKER |
 | ------------- | --------------- | ----------------- |
-| Jan-17 | [<span style="color:blue">Hiding large numbers of files in container overlays</span>](/tools/virtual#manyFilesInOverlays) | Alex Razoumov (SFU) |
-| Jan-31 | [<span style="color:blue">Introduction to high-performance research computing in R</span>](/programming#introduction-to-high-performance-research-computing-in-r) | Marie-Hélène Burle (SFU) |
-| Feb-14 | [<span style="color:blue">Data management with DataLad</span>](/tools/rdm#datalad){target="_blank"} | Ian Percel (UofCalgary) |
-| Feb-28 | [<span style="color:blue">How to create and access MySQL and PostgreSQL databases on DRI systems</span>](/tools/rdm#sql) | Gemma Hoad (SFU) |
-| Mar-14 | [<span style="color:blue">Automating the GROMACS analysis tools on HPC systems</span>](/domains/md#automating-the-gromacs-analysis-tools-on-hpc-systems) | Olivier Fisette (USask) |
-| Mar-28 | [<span style="color:blue">Distributed datasets with DataLad</span>](/tools/rdm#distributed-datasets-with-datalad) | Alex Razoumov (SFU) |
-| Apr-11 | [<span style="color:blue">The new R Markdown: authoring dynamic scientific documents with Quarto</span>](/getting-started#quarto) | Marie-Hélène Burle (SFU) |
-| May-09 | [<span style="color:blue">Learning Regular Expressions with Smart Tools</span>](/domains/dh#regexpchatgpt) | John Simpson (UofA) |
-| May-23 | [<span style="color:blue">Managing large hierarchical datasets with PyTables</span>](/tools/rdm#pytables) | Alex Razoumov (SFU) |
+| [<span style="color:blue">Hiding large numbers of files in container overlays</span>](/tools/virtual#manyFilesInOverlays) | Jan-17 | Alex Razoumov (SFU) |
+| [<span style="color:blue">Introduction to high-performance research computing in R</span>](/programming#introduction-to-high-performance-research-computing-in-r) | Jan-31 | Marie-Hélène Burle (SFU) |
+| [<span style="color:blue">Data management with DataLad</span>](/tools/rdm#datalad){target="_blank"} | Feb-14 | Ian Percel (UofCalgary) |
+| [<span style="color:blue">How to create and access MySQL and PostgreSQL databases on DRI systems</span>](/tools/rdm#sql) | Feb-28 | Gemma Hoad (SFU) |
+| [<span style="color:blue">Automating the GROMACS analysis tools on HPC systems</span>](/domains/md#automating-the-gromacs-analysis-tools-on-hpc-systems) | Mar-14 | Olivier Fisette (USask) |
+| [<span style="color:blue">Distributed datasets with DataLad</span>](/tools/rdm#distributed-datasets-with-datalad) | Mar-28 | Alex Razoumov (SFU) |
+| [<span style="color:blue">The new R Markdown: authoring dynamic scientific documents with Quarto</span>](/getting-started#quarto) | Apr-11 | Marie-Hélène Burle (SFU) |
+| [<span style="color:blue">Learning Regular Expressions with Smart Tools</span>](/domains/dh#regexpchatgpt) | May-09 | John Simpson (UofA) |
+| [<span style="color:blue">Managing large hierarchical datasets with PyTables</span>](/tools/rdm#pytables) | May-23 | Alex Razoumov (SFU) |
 
 <!-- | Apr-25 | [The Beauty of the Bigdata Realm](https://docs.google.com/forms/d/e/1FAIpQLSdwXJ05GhpywfpiAwEIWjKvM8u5xKWmcqVaSzAXrLdBM6AeRQ/viewform){target="_blank"} | Belaid Moa (UVic) | -->
 
@@ -102,24 +102,24 @@ all welcome to attend.
 
 ## [Bootcamps and workshops]{#bootcamps}
 
-| DATE | EVENT | VENUE |
-| ---- | ----- | ----- |
-| Jan-20 to Feb-09 | [UofA Winter Bootcamp](https://www.ualberta.ca/information-services-and-technology/news/2022/winter-research-computing-bootcamp-starts-january-20.html){target="_blank"} |
-| May-04 to Jun-21 | [UofA Spring Bootcamp](https://www.ualberta.ca/information-services-and-technology/news/2023/spring-research-computing-bootcamp.html){target="_blank"} |
+| EVENT | DATE | VENUE |
+| ----- | ---- | ---- |
+| [UofA Winter Bootcamp](https://www.ualberta.ca/information-services-and-technology/news/2022/winter-research-computing-bootcamp-starts-january-20.html){target="_blank"} | Jan-20 to Feb-09 ||
+| [UofA Spring Bootcamp](https://www.ualberta.ca/information-services-and-technology/news/2023/spring-research-computing-bootcamp.html){target="_blank"} | May-04 to Jun-21 ||
 
 ## [Humanities and social sciences training]{#dh}
 
-| DATE | EVENT | VENUE |
-| ---- | ----- | ----- |
-| Feb-14 to Feb-17 | [HSS Winter Series](https://hss23.netlify.app){target="_blank"} | online |
-| June 5-9 and 12-16 | [DHSI](https://dhsi.org){target="_blank"} <br> (Digital Humanities Summer Institute) | TBC |
+| EVENT | DATE | VENUE |
+| ----- | ---- | ---- |
+| [HSS Winter Series](https://hss23.netlify.app){target="_blank"} | Feb-14 to Feb-17 | online |
+| [DHSI](https://dhsi.org){target="_blank"} <br> (Digital Humanities Summer Institute) | June 5-9 and 12-16 | TBC |
 
 ## [In-person schools]{#schools}
 
-| DATE | COURSE | LOCATION |
-| ---- | ------ | -------- |
-| May 1-5 <br> (5 days) | [UVic spring school](https://2023uvic.netlify.app){target="_blank"} | UVic |
-| June 19-23 <br> (5 days) | [SFU summer school](https://2023sfu.netlify.app){target="_blank"} | SFU's Big Data Hub |
+| COURSE | DATE | LOCATION |
+| ------ | ----- | -------- |
+| [UVic spring school](https://2023uvic.netlify.app){target="_blank"} | May 1-5 <br> (5 days) | UVic |
+| [SFU summer school](https://2023sfu.netlify.app){target="_blank"} | June 19-23 <br> (5 days) | SFU's Big Data Hub |
 
 As always, we welcome requests for other training topics and events. Please email suggestions to `training at
 westdri dot ca`.

@@ -54,12 +54,12 @@ Spring Webinars, hosted by SFU's Research Computing Group (RCG), will take place
 For *upcoming webinars*, click the linked titles to view details or register. For *past sessions*, click the
 titles to access recordings and slides.
 
-| DATE | TOPIC | SPEAKER |
-| ---- | ----- | ------- |
-| Apr-07 | [<span style="color:blue">RIP pandas, welcome Polars</span>](/tools/rdm) | Marie-Hélène Burle |
-| Apr-21 | [<span style="color:blue">Typst: a new markup typesetting system</span>](/getting-started#author) | Marie-Hélène Burle |
-| May-05 | [<span style="color:blue">OpenStack command line in action: VMs in minutes</span>](/tools/virtual) | Alex Razoumov |
-| May-19 | [<span style="color:blue">Two paths to Python dashboards: Shiny vs Dash</span>](/tools/visualization) | Marie-Hélène Burle<br>& Alex Razoumov |
+| TOPIC | DATE | SPEAKER |
+| ----- | ---- | ------- |
+| [<span style="color:blue">RIP pandas, welcome Polars</span>](/tools/rdm) | Apr-07 | Marie-Hélène Burle |
+| [<span style="color:blue">Typst: a new markup typesetting system</span>](/getting-started#author) | Apr-21 | Marie-Hélène Burle |
+| [<span style="color:blue">OpenStack command line in action: VMs in minutes</span>](/tools/virtual) | May-05 | Alex Razoumov |
+| [<span style="color:blue">Two paths to Python dashboards: Shiny vs Dash</span>](/tools/visualization) | May-19 | Marie-Hélène Burle<br>& Alex Razoumov |
 
 ## [Online courses]{#courses}
 
@@ -119,10 +119,10 @@ interaction. Popular and introductory sessions are repeated throughout the year.
 
 Workshops from other Western Canadian universities will be added here as they are announced.
 
-| DATE | EVENT | VENUE |
-| ---- | ----- | ----- |
-| Jan-Feb | [UofA Winter Bootcamp](https://www.ualberta.ca/en/information-services-and-technology/research-computing/bootcamps.html){target="_blank"} | Online |
-| May | [UofA Spring Bootcamp](https://ualbertauw.qualtrics.com/jfe/form/SV_9mGhgrxohgzJc1w){target="_blank"} | Online |
+| EVENT | DATE | VENUE |
+| ----- | ---- | ----- |
+| [UofA Winter Bootcamp](https://www.ualberta.ca/en/information-services-and-technology/research-computing/bootcamps.html){target="_blank"} | Jan-Feb | Online |
+| [UofA Spring Bootcamp](https://ualbertauw.qualtrics.com/jfe/form/SV_9mGhgrxohgzJc1w){target="_blank"} | May | Online |
 
 ---
 

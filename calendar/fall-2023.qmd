@@ -36,15 +36,15 @@ To receive future news and emails about the BC DRI Group and the Prairies DRI Gr
 BC DRI + Prairies DRI bi-weekly Research Computing webinars take place every second Tuesday at 11am Pacific /
 noon Mountain / 1pm Central.
 
-| DATE | TOPIC | SPEAKER |
+| TOPIC | DATE | SPEAKER |
 | ------------- | --------------- | ----------------- |
-| Sep-19 | [<span style="color:blue">Launching 2023 *Visualize This* contest</span>](/tools/visualization#launching-2023-visualize-this-contest) | Alex Razoumov (SFU) |
-| Oct-03 | [<span style="color:blue">A map of current machine learning frameworks</span>](/tools/ml#current-ml-frameworks) | Marie-Hélène Burle (SFU) |
-| Oct-17 | [<span style="color:blue">Image-based approach to large-scale visualization</span>](/tools/visualization#cinema) | Alex Razoumov (SFU) |
-| Oct-31 | [<span style="color:blue">Essentials of High-Performance Computing for new users: A practical example using hydrological models</span>](/domains/geo#hydrological) | Marcos Cunha-Cordeiro and Befekadu Woldegiorgis (Univ. of Manitoba) |
-| Nov-14 | [<span style="color:blue">Emacs as a programming IDE for Python, R, and Julia</span>](/getting-started#emacs) | Marie-Hélène Burle (SFU) |
-| Nov-28 | [<span style="color:blue">Text analysis in 3D</span>](/domains/dh/#text-analysis-in-3d) | Alex Razoumov (SFU) |
-| Dec-12 | [<span style="color:blue">Version control for data science and machine learning with DVC</span>](/tools/rdm/#dvc) | Marie-Hélène Burle (SFU) |
+| [<span style="color:blue">Launching 2023 *Visualize This* contest</span>](/tools/visualization#launching-2023-visualize-this-contest) | Sep-19 | Alex Razoumov (SFU) |
+| [<span style="color:blue">A map of current machine learning frameworks</span>](/tools/ml#current-ml-frameworks) | Oct-03 | Marie-Hélène Burle (SFU) |
+| [<span style="color:blue">Image-based approach to large-scale visualization</span>](/tools/visualization#cinema) | Oct-17 | Alex Razoumov (SFU) |
+| [<span style="color:blue">Essentials of High-Performance Computing for new users: A practical example using hydrological models</span>](/domains/geo#hydrological) | Oct-31 | Marcos Cunha-Cordeiro and Befekadu Woldegiorgis (Univ. of Manitoba) |
+| [<span style="color:blue">Emacs as a programming IDE for Python, R, and Julia</span>](/getting-started#emacs) | Nov-14 | Marie-Hélène Burle (SFU) |
+| [<span style="color:blue">Text analysis in 3D</span>](/domains/dh/#text-analysis-in-3d) | Nov-28 | Alex Razoumov (SFU) |
+| [<span style="color:blue">Version control for data science and machine learning with DVC</span>](/tools/rdm/#dvc) | Dec-12 | Marie-Hélène Burle (SFU) |
 
 ## [Online courses]{#courses}
 
@@ -80,9 +80,9 @@ register, click on an event in the 3rd or 4th column. Students, staff and facult
 
 We will be adding workshops here as they are announced at other Western Canadian universities.
 
-| DATE | EVENT | VENUE |
-| ---- | ----- | ----- |
-| Starts Sep-22 | [Univ. of Alberta Fall Bootcamp](https://www.ualberta.ca/information-services-and-technology/news/2023/fall-research-computing-bootcamp.html){target="_blank"} | Online |
+| EVENT | DATE | VENUE |
+| ------ | ---- | ---- |
+| [Univ. of Alberta Fall Bootcamp](https://www.ualberta.ca/information-services-and-technology/news/2023/fall-research-computing-bootcamp.html){target="_blank"} | Starts Sep-22 | Online |
 
 <!-- watch https://www.ualberta.ca/information-services-and-technology/research-computing -->
 

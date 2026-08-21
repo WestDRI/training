@@ -34,15 +34,15 @@ The 2024 fall webinars are jointly presented by SFU's Research Computing Group (
 Research Computing (ARC). These webinars are held every second Tuesday at 10:00am Pacific (Victoria,
 Vancouver), 11:00am Mountain (Edmonton, Calgary, Saskatoon), and noon Central (Winnipeg).
 
-| DATE | TOPIC | SPEAKER |
+| TOPIC | DATE | SPEAKER |
 | ------------- | --------------- | ----------------- |
-| Sep-17 | [<span style="color:blue">Understanding Emacs modes</span>](/getting-started#emacs) | Marie-Hélène Burle (SFU) |
-| Oct-01 | [<span style="color:blue">GPU computing with Chapel</span>](/programming#chapel) | Alex Razoumov (SFU) |
-| Oct-15 | [<span style="color:blue">Best practices in HPC/HTC environments</span>](/getting-started#hpc) | Roman Baranowski (UBC) |
-| Oct-29 | [<span style="color:blue">Lazygit</span>](/getting-started#git) | Marie-Hélène Burle (SFU) |
-| Nov-12 | [<span style="color:blue">Nextflow and Julia for scalable computation</span>](/programming#nextflow) | Alexandre Bouchard-Côtén (UBC) | <!-- Nextflow/Julia from Alex Bouchard's group (https://www.stat.ubc.ca/~bouchard) -->
-| Nov-26 | [<span style="color:blue">Distributed file storage with git-annex</span>](/tools/rdm#annex) | Alex Razoumov (SFU) |
-| Dec-10 | [<span style="color:blue">Intro to the Alliance Cloud</span>](/tools/virtual#alliancecloud) | Michael Tang (UBC) |
+| [<span style="color:blue">Understanding Emacs modes</span>](/getting-started#emacs) | Sep-17 | Marie-Hélène Burle (SFU) |
+| [<span style="color:blue">GPU computing with Chapel</span>](/programming#chapel) | Oct-01 | Alex Razoumov (SFU) |
+| [<span style="color:blue">Best practices in HPC/HTC environments</span>](/getting-started#hpc) | Oct-15 | Roman Baranowski (UBC) |
+| [<span style="color:blue">Lazygit</span>](/getting-started#git) | Oct-29 | Marie-Hélène Burle (SFU) |
+| [<span style="color:blue">Nextflow and Julia for scalable computation</span>](/programming#nextflow) | Nov-12 | Alexandre Bouchard-Côtén (UBC) | <!-- Nextflow/Julia from Alex Bouchard's group (https://www.stat.ubc.ca/~bouchard) -->
+| [<span style="color:blue">Distributed file storage with git-annex</span>](/tools/rdm#annex) | Nov-26 | Alex Razoumov (SFU) |
+| [<span style="color:blue">Intro to the Alliance Cloud</span>](/tools/virtual#alliancecloud) | Dec-10 | Michael Tang (UBC) |
 
 ## [Online courses]{#courses}
 
@@ -70,9 +70,9 @@ we are planning to repeat the most popular / introductory sessions throughout th
 
 We will be adding workshops here as they are announced at other Western Canadian universities.
 
-| DATE | EVENT | VENUE |
-| ---- | ----- | ----- |
-| Starts Sep-20 | [Univ. of Alberta Fall Bootcamp](https://www.ualberta.ca/en/information-services-and-technology/news/2024/fall-research-computing-bootcamp-2024.html){target="_blank"} | Online |
+| EVENT | DATE | VENUE |
+| ----- | ---- | ----- |
+| [Univ. of Alberta Fall Bootcamp](https://www.ualberta.ca/en/information-services-and-technology/news/2024/fall-research-computing-bootcamp-2024.html){target="_blank"} | Starts Sep-20 | Online |
 
 ## [In-person schools]{#schools}
 
