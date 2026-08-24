@@ -1,0 +1,16 @@
+<br>
+<br>
+<br>
+<br>
+
+<div style="font-size: 2.4rem; text-align: center">
+Oh no 😭
+
+This page doesn't exist 😢
+</div>
+
+<div style="font-size: 1.5rem; text-align: center">
+<br>
+Maybe go back to the [main page](/)<br>
+or use your browser back button?
+</div>
