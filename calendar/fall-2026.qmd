@@ -83,8 +83,12 @@ interaction. Popular introductory topics are repeated throughout the year.
 
 Workshops offered by other Western Canadian universities will be added here as they are announced.
 
-<!-- | DATE | EVENT | VENUE | -->
-<!-- | ---- | ----- | ----- | -->
+| DATE | EVENT | VENUE |
+| ---- | ---------- | ---------- |
+| Sep-18 | Research Computing for CS Grads | Computer Science, Burnaby campus|
+| Oct-21 | Modern visualization tools | Sustainable Energy Engineering, Surrey campus |
+
+
 <!-- | Jan-Feb | [UofA Winter Bootcamp](https://www.ualberta.ca/en/information-services-and-technology/research-computing/bootcamps.html){target="_blank"} | Online | -->
 <!-- | May | [UofA Spring Bootcamp](https://ualbertauw.qualtrics.com/jfe/form/SV_9mGhgrxohgzJc1w){target="_blank"} | Online | -->
 
