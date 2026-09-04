@@ -88,9 +88,8 @@ Workshops offered by other Western Canadian universities will be added here as t
 | Sep-18 | Research Computing for CS Grads | Computer Science, Burnaby campus|
 | Oct-21 | Modern visualization tools | Sustainable Energy Engineering, Surrey campus |
 | Sep-Mar | [2026-27 Humanities and Social Sciences Training Series](https://explora.alliancecan.ca/collections/2026-27-humanities-and-social-sciences-hss-training-series){target="_blank"} | Online |
+| Sep | [UofA Fall Bootcamp](https://www.ualberta.ca/en/information-services-and-technology/research-computing/training.html){target="_blank"} | Online |
 
-<!-- | Jan-Feb | [UofA Winter Bootcamp](https://www.ualberta.ca/en/information-services-and-technology/research-computing/bootcamps.html){target="_blank"} | Online | -->
-<!-- | May | [UofA Spring Bootcamp](https://ualbertauw.qualtrics.com/jfe/form/SV_9mGhgrxohgzJc1w){target="_blank"} | Online | -->
 
 <br>
 As always, we welcome suggestions for additional training topics and events. Please email your ideas to
