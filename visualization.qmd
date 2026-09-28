@@ -45,7 +45,36 @@ target="_blank">Visualization section</a> in Alliance&#8217;s technical wiki.
 
 Click on each webinar for its recording and materials.
 
+
+
 <div style="display: flex; flex-direction: column; gap: 6px;">
+<!-- ========================================================================================== -->
+<!-- ========================================================================================== -->
+<!-- ========================================================================================== -->
+<!-- ========================================================================================== -->
+<!-- ========================================================================================== -->
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">3D data processing and visualization with PyVista</span> (2026-Sep-29)
+</summary>
+<br>
+<p>
+PyVista is an open-source Python library that simplifies 3D visualization, spatial data analysis, and mesh
+processing for scientific and engineering applications. Originally released in 2017 as vtki before rebranding
+to PyVista in 2019, this NumFOCUS-affiliated project serves as an accessible, high-level interface to the
+Visualization Toolkit (VTK) library. It bridges the gap between powerful C++ visualization pipelines and
+idiomatic Python, offering seamless integration with NumPy, SciPy, and the broader PyData ecosystem. This
+webinar is ideal for researchers, engineers, and data scientists looking to add fast, Pythonic 3D visual
+analysis to their scientific workflows.
+</p>
+<ul>
+	<li>Speaker: Alex Razoumov</li>
+	<!-- <li><a href="" target="_blank">PDF slides</a></li> -->
+</ul>
+<!-- <div class="video-container" data-url="https://www.youtube.com/embed/videoIDstring"></div> -->
+<br>
+</details>
 <!-- ========================================================================================== -->
 <details style="margin: 0; padding: 0;">
 <summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
