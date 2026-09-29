@@ -85,10 +85,12 @@ Workshops offered by other Western Canadian universities will be added here as t
 
 | DATE | EVENT | VENUE |
 | ---- | ---------- | ---------- |
+| Sep | [UofA Fall Bootcamp](https://www.ualberta.ca/en/information-services-and-technology/research-computing/training.html){target="_blank"} | Online |
 | Sep-18 | Research Computing for CS Grads | Computer Science, Burnaby campus|
+| Oct-21 | [Analyse de données avec UseGalaxy](https://www.eventbrite.com/e/inscription-analyse-de-donnees-avec-usegalaxy-en-ligne-gal101-1999513738417) | Online |
 | Oct-21 | Modern visualization tools | Sustainable Energy Engineering, Surrey campus |
 | Sep-Mar | [2026-27 Humanities and Social Sciences Training Series](https://explora.alliancecan.ca/collections/2026-27-humanities-and-social-sciences-hss-training-series){target="_blank"} | Online |
-| Sep | [UofA Fall Bootcamp](https://www.ualberta.ca/en/information-services-and-technology/research-computing/training.html){target="_blank"} | Online |
+
 
 
 <br>
