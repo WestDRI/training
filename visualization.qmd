@@ -10,11 +10,11 @@ target="_blank">Visualization section</a> in Alliance&#8217;s technical wiki.
 
 ## Workshops
 
-* ParaView full-day workshop slides (last updated October 2025):
+* ParaView full-day workshop slides (last updated September 2026):
   - <a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/paraviewWorkshop1.pdf"
-     target="_blank">Part 1</a> (62 pages)
+     target="_blank">Part 1</a> (65 pages)
   - <a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/paraviewWorkshop2.pdf"
-     target="_blank">Part 2</a> (59 pages)
+     target="_blank">Part 2</a> (67 pages)
 * <a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/visitWorkshop.pdf"
   target="_blank">VisIt full-day workshop slides</a> (129 pages, last updated May 2017)
 * <a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/dhsi.pdf"
@@ -70,7 +70,7 @@ analysis to their scientific workflows.
 </p>
 <ul>
 	<li>Speaker: Alex Razoumov</li>
-	<!-- <li><a href="" target="_blank">PDF slides</a></li> -->
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/pyvista202609.pdf" target="_blank">PDF slides</a></li>
 </ul>
 <!-- <div class="video-container" data-url="https://www.youtube.com/embed/videoIDstring"></div> -->
 <br>
