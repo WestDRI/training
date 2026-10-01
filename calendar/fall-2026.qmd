@@ -62,7 +62,7 @@ interaction. Popular introductory topics are repeated throughout the year.
 | TOPIC | DATES | INSTRUCTOR |
 | ------------ | ----- | ---------- |
 | Bash for beginners | Sep-17 | Marie-Hélène Burle |
-| [HPC for beginners](https://forms.gle/c5vb26hxoKaoPWpE9) | Sep-24,<br>Oct-01 | Alex Razoumov |
+| HPC for beginners | Sep-24,<br>Oct-01 | Alex Razoumov |
 | [Containers for HPC](https://forms.gle/FsBihszQehZx2vuG7) | Oct-08 | Alex Razoumov | <!-- Working with Apptainer containers -->
 | [Getting started with Git](https://forms.gle/einS6fRfNFzu8Tzn9) | Oct-15,<br>Oct-22 | Marie-Hélène Burle |
 | [Collaboration via GitHub](https://forms.gle/6PVS7yCVQ24dsHTG9) | Oct-29 | Marie-Hélène Burle |
