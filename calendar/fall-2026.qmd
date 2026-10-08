@@ -63,7 +63,7 @@ interaction. Popular introductory topics are repeated throughout the year.
 | ------------ | ----- | ---------- |
 | Bash for beginners | Sep-17 | Marie-Hélène Burle |
 | HPC for beginners | Sep-24,<br>Oct-01 | Alex Razoumov |
-| [Containers for HPC](https://forms.gle/FsBihszQehZx2vuG7) | Oct-08 | Alex Razoumov | <!-- Working with Apptainer containers -->
+| Containers for HPC | Oct-08 | Alex Razoumov | <!-- Working with Apptainer containers -->
 | [Getting started with Git](https://forms.gle/einS6fRfNFzu8Tzn9) | Oct-15,<br>Oct-22 | Marie-Hélène Burle |
 | [Collaboration via GitHub](https://forms.gle/6PVS7yCVQ24dsHTG9) | Oct-29 | Marie-Hélène Burle |
 | [HPC Python](https://forms.gle/Bsmn6fsjmR9ZobxH8) | Nov-05,<br>Nov-12 | Alex Razoumov | <!-- Marie vacation Nov-09-13, Calgary training summit Nov-04-06 -->
@@ -71,6 +71,8 @@ interaction. Popular introductory topics are repeated throughout the year.
 | [Intro DL with PyTorch](https://forms.gle/aojynRpvB7k8jCYG8) | Nov-26,<br>Dec-03 | Marie-Hélène Burle |
 | [Gen-AI with PyTorch for simulation data](https://forms.gle/SXkaJZtdDLxD4rbX9) | Dec-10 | Alex Razoumov |
 | [Bring your questions & problems](https://forms.gle/3exrfA37XjVx7ZDx6) | Dec-17 | Marie-Hélène Burle<br>& Alex Razoumov |
+
+<!-- winter/spring 2027 courses: certainly repeat bash, HPC, add Julia and Chapel -->
 
 <!-- 1. break into smaller courses, with dependencies/requirements -->
 <!-- 1. be explicit about pre-requisites, e.g. for this Python course some were not familiar with HPC and bash, no -->
