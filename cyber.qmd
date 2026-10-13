@@ -34,7 +34,7 @@ Click on each webinar for its recording and materials.
 <!-- ========================================================================================== -->
 <details style="margin: 0; padding: 0;">
 <summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
-<span style="font-size: 1.2em;">Hardening your system in the age of AI</span> (2026-Oct-13)
+<span style="font-size: 1.2em;">Hardening your system in the age of agents</span> (2026-Oct-13)
 </summary>
 <br>
 <p>
