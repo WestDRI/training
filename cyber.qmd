@@ -49,7 +49,7 @@ short demo of data encryption, and finally discuss and demo various approaches t
 	<li>Speaker: Marie-Hélène Burle</li>
 	<li><a href="https://mint.westdri.ca/tools/wb_security_slides#/title-slide" target="_blank">Online slides</a></li>
 </ul>
-<!-- <div class="video-container" data-url="https://www.youtube.com/embed/videoIDstring"></div> -->
+<div class="video-container" data-url="https://www.youtube.com/embed/ZmArbTMT_a8"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
