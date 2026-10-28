@@ -48,6 +48,9 @@ titles to access recordings and slides.
 | [Scalable numerical methods](https://forms.gle/kQpAYLdgkKAMknvXA) | Nov-24 | Sarah Huber (UVic) |
 | [Productivity meets performance: domain-decomposed stencils in MPI and Chapel](https://forms.gle/u7XZYT3vzs8dh1Mw8) | Dec-08 | Alex Razoumov |
 
+<!-- winter/spring 2027 webinars: -->
+<!-- Jiarui (Jerry) or Charles will do a useGalaxy webinar in March => give the dates to Jerry -->
+
 ## [Online courses]{#courses}
 
 SFU Research Computing hosts weekly online sessions on advanced computational topics every Thursday from
