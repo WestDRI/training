@@ -35,6 +35,7 @@ Table of Contents:
 • [R](#r-language)
 • [Julia](#julia)
 • [Chapel](#chapel)
+• [Rust](#rust)
 • [MPI](#mpi)
 • [OpenMP](#openmp)
 • [Debugging and profiling](#debugging)
@@ -445,6 +446,62 @@ write efficient large-scale numerical codes.
 </details>
 <!-- ========================================================================================== -->
 </div>
+
+## [Rust]{#rust}
+
+Click on each webinar for its recording and materials.
+
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Why would you use Rust for scientific computing?</span> (2026-Nov-10)
+</summary>
+<br>
+<p>
+
+This talk introduces Rust to scientists who use languages like Python, Fortran, or C++. No prior Rust
+knowledge is required.
+</p><p>
+Languages like C++, Fortran, and Rust can all achieve the same peak performance, but safe Rust makes it easier
+to get there by having more performant defaults and reducing time wasted on debugging. We will look at how
+Rust prevents data races and other bugs at compile time for both parallel CPU and GPU code, where the type
+system helps scientific code, and why Rust can match state-of-the-art performance in automatic
+differentiation, HPC, and ML benchmarks.
+</p><p>
+Runtime performance is one reason why more than a third of new Python packages with native code nowadays use
+Rust. However, most of these developers name Rust's tooling and not the performance as their favourite
+feature. In the second half of the talk we will focus on the tooling Rust offers for scientists. We will see
+how Rust handles dependencies, what we can do to expose existing Rust libraries in Python and C++, and how to
+publish our own packages to make it trivial for users to access our code.
+</p>
+<ul>
+	<li>Speaker: Manuel Drehwald (UofT, NVIDIA)</li>
+	<!-- <li><a href="" target="_blank">PDF slides</a></li> -->
+</ul>
+The slides and the recording will be posted shortly.
+<!-- <div class="video-container" data-url="https://www.youtube.com/embed/videoIDstring"></div> -->
+<br>
+</details>
+<!-- ========================================================================================== -->
+<!-- ========================================================================================== -->
+<!-- ========================================================================================== -->
+<!-- ========================================================================================== -->
+<!-- ========================================================================================== -->
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## [HPC Carpentry Course]{#hpc-carpentry}
 
