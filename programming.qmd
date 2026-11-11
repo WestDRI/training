@@ -459,7 +459,6 @@ Click on each webinar for its recording and materials.
 </summary>
 <br>
 <p>
-
 This talk introduces Rust to scientists who use languages like Python, Fortran, or C++. No prior Rust
 knowledge is required.
 </p><p>
@@ -477,10 +476,9 @@ publish our own packages to make it trivial for users to access our code.
 </p>
 <ul>
 	<li>Speaker: Manuel Drehwald (UofT, NVIDIA)</li>
-	<!-- <li><a href="" target="_blank">PDF slides</a></li> -->
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/rust20261110.pdf" target="_blank">PDF slides</a></li>
 </ul>
-The slides and the recording will be posted shortly.
-<!-- <div class="video-container" data-url="https://www.youtube.com/embed/videoIDstring"></div> -->
+<div class="video-container" data-url="https://www.youtube.com/embed/v7Iep7dRU-k"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
@@ -489,19 +487,6 @@ The slides and the recording will be posted shortly.
 <!-- ========================================================================================== -->
 <!-- ========================================================================================== -->
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## [HPC Carpentry Course]{#hpc-carpentry}
 
