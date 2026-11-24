@@ -45,7 +45,7 @@ titles to access recordings and slides.
 | [<span style="color:blue">Hardening your system in the age of agents</span>](/tools/cyber) | Oct-13 | Marie-Hélène Burle |
 | [<span style="color:blue">NLP in the LLM era<span>](/domains/dh) | Oct-27 | Marie-Hélène Burle |
 | [<span style="color:blue">Why would you use Rust for scientific computing?</span>](/programming.html#rust) | Nov-10 | Manuel Sebastian Drehwald (UofT, NVIDIA) | <!-- Marie vacation Nov-09-13 -->
-| [Scalable numerical methods](https://forms.gle/kQpAYLdgkKAMknvXA) | Nov-24 | Sarah Huber (UVic) |
+| [<span style="color:blue">Scalable numerical methods</span>](/domains/numerical) | Nov-24 | Sarah Huber (UVic) |
 | [Productivity meets performance: benchmarking domain-decomposed stencils](https://forms.gle/u7XZYT3vzs8dh1Mw8) | Dec-08 | Alex Razoumov |
 
 <!-- winter/spring 2027 webinars: -->

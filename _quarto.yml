@@ -22,6 +22,8 @@ website:
             href: domains/dh
           - text: Molecular dynamics
             href: domains/md
+          - text: Numerical methods
+            href: domains/numerical
           - text: Astrophysics
             href: domains/astro
           - text: Earth sciences and GIS

@@ -1,0 +1,84 @@
+---
+title: "Numerical methods"
+aliases:
+  - /domains/numerical
+toc: false
+---
+
+## Webinars
+
+<!-- <details style="margin: 0; padding: 0;"> -->
+<!-- <summary style="line-height: 1.2; margin: 0; padding: 2px 0;"> -->
+<!-- <span style="font-size: 1.2em;">title</span> (date) -->
+<!-- </summary> -->
+<!-- <br> -->
+<!-- <p> -->
+<!-- paragraph 1 -->
+<!-- </p><p> -->
+<!-- paragraph 2 -->
+<!-- </p> -->
+<!-- <ul> -->
+<!-- 	<li>Speaker: </li> -->
+<!-- 	<li><a href="" target="_blank">PDF slides</a></li> -->
+<!-- </ul> -->
+<!-- <div class="video-container" data-url="https://www.youtube.com/embed/videoIDstring"></div> -->
+<!-- <br> -->
+<!-- </details> -->
+
+Click on each webinar for its recording and materials.
+
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<!-- ========================================================================================== -->
+<details style="margin: 0; padding: 0;">
+<summary style="line-height: 1.2; margin: 0; padding: 2px 0;">
+<span style="font-size: 1.2em;">Scalable numerical methods</span> (2026-Nov-24)
+</summary>
+<br>
+<p>
+This session discusses several fundamental mathematical problems that underpin many high-performance computing
+(HPC) workflows and the numerical methods that may be used used to solve them at scale. We begin by
+identifying where matrix-vector products, dense and sparse linear systems, and eigenvalue problems may appear
+and consume the overwhelming majority of computational effort in various applications. We consider several
+distinguishing problem characteristics and introduce corresponding numerical methods for their solution, as
+well as a range of software libraries that implement these.
+</p>
+<ul>
+	<li>Speaker: Sarah Huber (UVic)</li>
+	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/20261124_Webinar_NumericalMethods.pdf" target="_blank">PDF slides</a></li>
+</ul>
+The recording will be spoted shortly.
+<!-- <div class="video-container" data-url="https://www.youtube.com/embed/hLgCmVFK9vM"></div> -->
+<br>
+</details>
+<!-- ========================================================================================== -->
+</div>
+
+<br>
+```{=html}
+{{< video https://www.youtube.com/watch?v=videoIDstring width="100%" height="500px" >}}
+<div class="d-flex justify-content-end my-4">
+  <button class="btn btn-outline-secondary btn-sm" onclick="collapseAllDetails()">
+    <i class="bi bi-arrows-collapse"></i> Collapse All Sections
+  </button>
+</div>
+<!-- button to collapse all sections in this page -->
+<script>
+function collapseAllDetails() {
+  document.querySelectorAll('details').forEach(d => d.open = false);
+}
+</script>
+<!-- embed a video forcing a high-resolution thumbnail preview -->
+<script>
+document.querySelectorAll('details').forEach(details => {
+  details.addEventListener('toggle', () => {
+    if (details.open) {
+      const container = details.querySelector('.video-container');
+      if (container && !container.querySelector('iframe')) {
+        const url = container.getAttribute('data-url');
+        container.innerHTML = `<iframe src="${url}" width="100%" height="500px" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+      }
+    }
+  });
+});
+</script>
+```
