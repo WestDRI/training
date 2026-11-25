@@ -46,8 +46,7 @@ well as a range of software libraries that implement these.
 	<li>Speaker: Sarah Huber (UVic)</li>
 	<li><a href="https://raw.githubusercontent.com/WestGrid/trainingMaterials/gh-pages/materials/20261124_Webinar_NumericalMethods.pdf" target="_blank">PDF slides</a></li>
 </ul>
-The recording will be spoted shortly.
-<!-- <div class="video-container" data-url="https://www.youtube.com/embed/hLgCmVFK9vM"></div> -->
+<div class="video-container" data-url="https://www.youtube.com/embed/QoPvhRwQLvQ"></div>
 <br>
 </details>
 <!-- ========================================================================================== -->
